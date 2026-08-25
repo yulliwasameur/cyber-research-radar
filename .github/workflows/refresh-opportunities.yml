@@ -29,7 +29,9 @@ jobs:
         run: python -m pip install --disable-pip-version-check -r requirements.txt
 
       - name: Verify official sources and discover new calls
-        run: python scripts/refresh_opportunities.py
+        run: |
+          python scripts/refresh_opportunities.py
+          python scripts/refresh_journals.py
 
       - name: Commit the Monday refresh
         run: |

@@ -23,6 +23,22 @@ Rankings are displayed as separate evidence, never combined into a universal sco
 
 A workshop, demo track, short-paper track or companion event never inherits the rank of its parent conference. A rank is displayed only when the series match and edition have been checked against the reference source.
 
+## Journal targeting records
+
+The journal directory is designed to support a targeting decision, not to name a universally “best” journal. Each record keeps the following dimensions separate:
+
+- current scientific scope and explicit exclusions from the publisher or journal;
+- publisher, scholarly society, ISSN, article types, peer-review model and publication frequency;
+- access model, optional or mandatory APC, currency, taxes/conditions, waivers, submission fees and other stated charges;
+- publisher-reported first-decision, post-review, acceptance and online-publication timing, when available;
+- indexing claims, JCR/JIF, Scopus/CiteScore, SJR quartiles and CCF recommendations, each with its own edition and source;
+- data, code, reproducibility and publication-ethics policies;
+- a caution status for discontinued, delisted or otherwise high-risk titles.
+
+Publisher timeline statistics can include desk rejections and are not promises for an individual manuscript. The interface labels a response value as a reported median, an editorial target or a scheduled review cycle so these signals are not presented as equivalent. Prices can change by submission date, article type, tax status and institutional agreement. Missing values are shown as “not published”; they are never estimated.
+
+The journal CCF signals use the seventh edition of the CCF recommended international conference and journal directory, formally released on 31 March 2026. CCF ranks remain separate from JCR and SJR quartiles.
+
 ## Monday refresh contract
 
 The scheduled watcher runs every Monday at 06:00 UTC.
@@ -34,6 +50,7 @@ The scheduled watcher runs every Monday at 06:00 UTC.
 5. New discoveries enter a review queue; they do not receive an inferred rank or an invented deadline.
 6. A previously reviewed record is not silently downgraded after one parser miss or bot block; it is flagged in the machine-readable review count.
 7. The watch report records source health, content fingerprints and candidate dates, and the job alerts when most discovery registries fail.
+8. Journal evidence pages are fingerprinted separately; price, timing, metric or policy changes enter a review queue instead of being silently copied into public records.
 
 The runtime is deterministic and requires no private API key. This keeps the public refresh auditable and inexpensive. Human review remains the approval gate for new public records, ranking changes and ambiguous deadline updates.
 

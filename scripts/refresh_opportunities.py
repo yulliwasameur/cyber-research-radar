@@ -29,7 +29,8 @@ DATA_DIR = ROOT / "data"
 OPPORTUNITIES_PATH = DATA_DIR / "opportunities.json"
 CRYPTO_OPPORTUNITIES_PATH = DATA_DIR / "crypto_opportunities.json"
 CYBER_OPPORTUNITIES_PATH = DATA_DIR / "cyber_opportunities.json"
-RECORD_PATHS = (OPPORTUNITIES_PATH, CRYPTO_OPPORTUNITIES_PATH, CYBER_OPPORTUNITIES_PATH)
+CATALOGUE_EVENTS_PATH = DATA_DIR / "catalogue_events.json"
+RECORD_PATHS = (OPPORTUNITIES_PATH, CRYPTO_OPPORTUNITIES_PATH, CYBER_OPPORTUNITIES_PATH, CATALOGUE_EVENTS_PATH)
 REGISTRY_PATH = DATA_DIR / "source_registry.json"
 REPORT_PATH = DATA_DIR / "watch_report.json"
 DISCOVERED_PATH = DATA_DIR / "discovered_links.json"
@@ -257,7 +258,7 @@ def validate_records(records: list[dict[str, Any]]) -> None:
     allowed_types = {"conference", "workshop", "book-chapter", "special-issue", "school", "grant", "doctoral-position"}
     allowed_statuses = {"verified", "watchlist", "needs-review", "closed"}
     allowed_continents = {"Africa", "Asia", "Europe", "North America", "South America", "Oceania", "Global"}
-    allowed_modes = {"onsite", "hybrid", "online", "multiple"}
+    allowed_modes = {"onsite", "hybrid", "online", "multiple", "unspecified"}
     allowed_frameworks = {"ICORE", "CCF", "SJR", "JCR"}
     allowed_ranks = {"A*", "A", "B", "C", "Q1", "Q2", "Q3", "Q4"}
     ids: set[str] = set()
@@ -304,9 +305,14 @@ def refresh(offline: bool) -> int:
     datasets: dict[Path, list[dict[str, Any]]] = {
         path: load_json(path, []) for path in RECORD_PATHS if path.exists()
     }
-    records = [record for dataset in datasets.values() for record in dataset]
+    for dataset in datasets.values():
+        validate_records(dataset)
+    records_by_id: dict[str, dict[str, Any]] = {}
+    for dataset in datasets.values():
+        for record in dataset:
+            records_by_id[record["id"]] = record
+    records = list(records_by_id.values())
     registry: list[dict[str, Any]] = load_json(REGISTRY_PATH, [])
-    validate_records(records)
 
     run_at = datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
     today = datetime.now(timezone.utc).date()
@@ -331,6 +337,10 @@ def refresh(offline: bool) -> int:
             record["status"] = "closed"
         url = record.get("evidenceUrl") or record["officialUrl"]
         source_report: dict[str, Any] = {"recordId": record["id"], "url": url}
+        if not record.get("deadline") or record.get("status") == "closed":
+            source_report["skipped"] = "no active firm deadline"
+            report["sources"].append(source_report)
+            continue
         try:
             raw_html, final_url, status_code, media_type = fetch_page(url)
             parser = parse_page(raw_html)

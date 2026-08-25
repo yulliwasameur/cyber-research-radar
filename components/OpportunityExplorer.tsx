@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useMemo, useRef, useState } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import type { LayerGroup, Map as LeafletMap } from 'leaflet';
 import type { Opportunity, OpportunityType } from '../lib/types';
 import { normalizeOpportunities } from '../lib/opportunityValidation';
@@ -25,9 +25,17 @@ const TYPE_SHORT: Record<OpportunityType, string> = {
   'doctoral-position': 'PHD',
 };
 
+const MODE_LABELS: Record<Opportunity['mode'], string> = {
+  onsite: 'In person',
+  online: 'Remote',
+  hybrid: 'Hybrid',
+  multiple: 'Multiple locations',
+  unspecified: 'Not specified',
+};
+
 const CONTINENTS = ['Africa', 'Asia', 'Europe', 'North America', 'South America', 'Oceania', 'Global'];
 const REMOTE_DATA_ROOT = 'https://raw.githubusercontent.com/yulliwasameur/cyber-research-radar/main/data';
-const REMOTE_DATA_FILES = ['opportunities.json', 'crypto_opportunities.json', 'cyber_opportunities.json'];
+const REMOTE_DATA_FILES = ['opportunities.json', 'crypto_opportunities.json', 'cyber_opportunities.json', 'catalogue_events.json'];
 const EVENT_TYPES: OpportunityType[] = ['conference', 'workshop'];
 
 function dateValue(value?: string | null) {
@@ -69,6 +77,17 @@ function coordinateKey(item: Opportunity) {
   return `${item.latitude?.toFixed(5)},${item.longitude?.toFixed(5)}`;
 }
 
+function isCatalogueFallback(item: Opportunity) {
+  try {
+    const hostname = new URL(item.officialUrl).hostname;
+    return hostname === 'portal.core.edu.au'
+      || hostname === 'sec-deadlines.github.io'
+      || hostname === 'github.com';
+  } catch {
+    return true;
+  }
+}
+
 function buildMapTooltip(items: Opportunity[]) {
   const card = document.createElement('div');
   card.className = 'radar-tooltip-card';
@@ -88,7 +107,7 @@ function buildMapTooltip(items: Opportunity[]) {
 
     const metadata = document.createElement('span');
     const rank = item.rankings[0]?.rank ? ` · ${item.rankings[0].rank}` : '';
-    metadata.textContent = `${TYPE_LABELS[item.type]}${rank}`;
+    metadata.textContent = `${TYPE_LABELS[item.type]} · ${MODE_LABELS[item.mode]}${rank}`;
     event.appendChild(metadata);
 
     const deadline = document.createElement('time');
@@ -126,7 +145,8 @@ function buildMapPopup(items: Opportunity[], onSelect: (item: Opportunity) => vo
     title.textContent = item.acronym || item.title;
     const deadline = document.createElement('span');
     deadline.textContent = `Deadline: ${mapDeadlineLabel(item)}`;
-    button.append(title, deadline);
+    button.appendChild(title);
+    button.appendChild(deadline);
     button.addEventListener('click', () => {
       onSelect(item);
       closePopup();
@@ -285,13 +305,14 @@ export default function OpportunityExplorer({ opportunities }: { opportunities: 
   const [query, setQuery] = useState('');
   const [scope, setScope] = useState<'events' | 'all'>('events');
   const [type, setType] = useState<'all' | OpportunityType>('all');
+  const [mode, setMode] = useState<'all' | 'onsite' | 'online' | 'hybrid' | 'unspecified'>('all');
   const [rank, setRank] = useState<'all' | 'A*' | 'A' | 'B' | 'C' | 'unranked'>('all');
   const [continent, setContinent] = useState('all');
   const [country, setCountry] = useState('all');
   const [city, setCity] = useState('all');
   const [deadlineWindow, setDeadlineWindow] = useState<'all' | '14' | '30' | '90' | 'tba'>('all');
   const [sortBy, setSortBy] = useState<'deadline' | 'event' | 'country' | 'city' | 'title'>('deadline');
-  const [verifiedOnly, setVerifiedOnly] = useState(true);
+  const [verifiedOnly, setVerifiedOnly] = useState(false);
   const [selected, setSelected] = useState<Opportunity | undefined>();
   const mapPanelRef = useRef<HTMLElement>(null);
 
@@ -329,32 +350,40 @@ export default function OpportunityExplorer({ opportunities }: { opportunities: 
     return () => controller.abort();
   }, [opportunities]);
 
-  const countries = useMemo(() => [...new Set(records.filter((item) => continent === 'all' || item.continent === continent).map((item) => item.country))].sort(), [continent, records]);
-  const cities = useMemo(() => [...new Set(records.filter((item) => item.city && (continent === 'all' || item.continent === continent) && (country === 'all' || item.country === country)).map((item) => item.city as string))].sort(), [continent, country, records]);
+  const matchesNonLocationFilters = useCallback((item: Opportunity) => {
+    const needle = query.trim().toLocaleLowerCase();
+    const haystack = [item.title, item.acronym, item.summary, item.city, item.country, item.continent, ...item.topics].filter(Boolean).join(' ').toLocaleLowerCase();
+    if (needle && !haystack.includes(needle)) return false;
+    if (scope === 'events' && !EVENT_TYPES.includes(item.type)) return false;
+    if (type !== 'all' && item.type !== type) return false;
+    if (mode !== 'all' && (mode === 'unspecified' ? !['unspecified', 'multiple'].includes(item.mode) : item.mode !== mode)) return false;
+    if (verifiedOnly && item.status !== 'verified') return false;
+    if (rank !== 'all') {
+      if (rank === 'unranked' && item.rankings.length) return false;
+      if (rank !== 'unranked' && !item.rankings.some((entry) => entry.rank === rank)) return false;
+    }
+    if (deadlineWindow === 'tba' && item.deadline) return false;
+    if (deadlineWindow !== 'all' && deadlineWindow !== 'tba') {
+      if (!item.deadline) return false;
+      const now = new Date();
+      const todayUtc = Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate());
+      const diff = dateValue(item.deadline) - todayUtc;
+      if (diff < 0 || diff > Number(deadlineWindow) * 86_400_000) return false;
+    }
+    return true;
+  }, [deadlineWindow, mode, query, rank, scope, type, verifiedOnly]);
+
+  const countries = useMemo(() => [...new Set(records.filter((item) => item.countryCode && matchesNonLocationFilters(item) && (continent === 'all' || item.continent === continent)).map((item) => item.country))].sort(), [continent, matchesNonLocationFilters, records]);
+  const resolvedCountry = country === 'all' || countries.includes(country) ? country : 'all';
+  const cities = useMemo(() => [...new Set(records.filter((item) => item.city && matchesNonLocationFilters(item) && (continent === 'all' || item.continent === continent) && (resolvedCountry === 'all' || item.country === resolvedCountry)).map((item) => item.city as string))].sort(), [continent, matchesNonLocationFilters, records, resolvedCountry]);
+  const resolvedCity = city === 'all' || cities.includes(city) ? city : 'all';
 
   const visible = useMemo(() => {
-    const needle = query.trim().toLocaleLowerCase();
-    const now = new Date();
-    const todayUtc = Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate());
     const filtered = records.filter((item) => {
-      const haystack = [item.title, item.acronym, item.summary, item.city, item.country, item.continent, ...item.topics].filter(Boolean).join(' ').toLocaleLowerCase();
-      if (needle && !haystack.includes(needle)) return false;
-      if (scope === 'events' && !EVENT_TYPES.includes(item.type)) return false;
-      if (type !== 'all' && item.type !== type) return false;
+      if (!matchesNonLocationFilters(item)) return false;
       if (continent !== 'all' && item.continent !== continent) return false;
-      if (country !== 'all' && item.country !== country) return false;
-      if (city !== 'all' && item.city !== city) return false;
-      if (verifiedOnly && item.status !== 'verified') return false;
-      if (rank !== 'all') {
-        if (rank === 'unranked' && item.rankings.length) return false;
-        if (rank !== 'unranked' && !item.rankings.some((entry) => entry.rank === rank)) return false;
-      }
-      if (deadlineWindow === 'tba' && item.deadline) return false;
-      if (deadlineWindow !== 'all' && deadlineWindow !== 'tba') {
-        if (!item.deadline) return false;
-        const diff = dateValue(item.deadline) - todayUtc;
-        if (diff < 0 || diff > Number(deadlineWindow) * 86_400_000) return false;
-      }
+      if (resolvedCountry !== 'all' && item.country !== resolvedCountry) return false;
+      if (resolvedCity !== 'all' && item.city !== resolvedCity) return false;
       return true;
     });
     return filtered.sort((a, b) => {
@@ -364,14 +393,14 @@ export default function OpportunityExplorer({ opportunities }: { opportunities: 
       if (sortBy === 'city') return (a.city || '').localeCompare(b.city || '');
       return a.title.localeCompare(b.title);
     });
-  }, [city, continent, country, deadlineWindow, query, rank, records, scope, sortBy, type, verifiedOnly]);
+  }, [continent, matchesNonLocationFilters, records, resolvedCity, resolvedCountry, sortBy]);
 
   const mappedItems = useMemo(() => visible.filter((item) => item.latitude != null && item.longitude != null), [visible]);
   const activeSelection = selected && visible.some((item) => item.id === selected.id) ? selected : visible[0];
   const mappedCount = mappedItems.length;
   const mappedLocationCount = useMemo(() => new Set(mappedItems.map(coordinateKey)).size, [mappedItems]);
   const resetFilters = () => {
-    setQuery(''); setScope('events'); setType('all'); setRank('all'); setContinent('all'); setCountry('all'); setCity('all'); setDeadlineWindow('all'); setVerifiedOnly(true); setSelected(undefined);
+    setQuery(''); setScope('events'); setType('all'); setMode('all'); setRank('all'); setContinent('all'); setCountry('all'); setCity('all'); setDeadlineWindow('all'); setVerifiedOnly(false); setSelected(undefined);
   };
   const selectAndReveal = (item: Opportunity) => {
     setSelected(item);
@@ -391,17 +420,18 @@ export default function OpportunityExplorer({ opportunities }: { opportunities: 
         <label className="wide-filter"><span>Keywords, city or country</span><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="e.g. post-quantum, PPML, Paris" /></label>
         <label><span>Research scope</span><select value={scope} onChange={(event) => { const nextScope = event.target.value as typeof scope; setScope(nextScope); if (nextScope === 'events' && type !== 'all' && !EVENT_TYPES.includes(type)) setType('all'); }}><option value="events">Cyber & crypto events</option><option value="all">All research calls</option></select></label>
         <label><span>Call type</span><select value={type} onChange={(event) => setType(event.target.value as 'all' | OpportunityType)}><option value="all">All {scope === 'events' ? 'event types' : 'call types'}</option>{Object.entries(TYPE_LABELS).filter(([value]) => scope === 'all' || EVENT_TYPES.includes(value as OpportunityType)).map(([value, label]) => <option value={value} key={value}>{label}</option>)}</select></label>
+        <label><span>Attendance format</span><select value={mode} onChange={(event) => setMode(event.target.value as typeof mode)}><option value="all">All formats</option><option value="hybrid">Hybrid</option><option value="online">Remote</option><option value="onsite">In person</option><option value="unspecified">Not specified / variable</option></select></label>
         <label><span>Venue rank</span><select value={rank} onChange={(event) => setRank(event.target.value as typeof rank)}><option value="all">All ranks</option><option value="A*">A*</option><option value="A">A</option><option value="B">B</option><option value="C">C</option><option value="unranked">Unranked</option></select></label>
         <label><span>Continent</span><select value={continent} onChange={(event) => { setContinent(event.target.value); setCountry('all'); setCity('all'); }}><option value="all">All continents</option>{CONTINENTS.map((value) => <option value={value} key={value}>{value}</option>)}</select></label>
-        <label><span>Country</span><select value={country} onChange={(event) => { setCountry(event.target.value); setCity('all'); }}><option value="all">All countries</option>{countries.map((value) => <option value={value} key={value}>{value}</option>)}</select></label>
-        <label><span>City</span><select value={city} onChange={(event) => setCity(event.target.value)}><option value="all">All cities</option>{cities.map((value) => <option value={value} key={value}>{value}</option>)}</select></label>
+        <label><span>Country</span><select value={resolvedCountry} onChange={(event) => { setCountry(event.target.value); setCity('all'); }}><option value="all">All countries</option>{countries.map((value) => <option value={value} key={value}>{value}</option>)}</select></label>
+        <label><span>City</span><select value={resolvedCity} onChange={(event) => setCity(event.target.value)}><option value="all">All cities</option>{cities.map((value) => <option value={value} key={value}>{value}</option>)}</select></label>
         <label><span>Deadline</span><select value={deadlineWindow} onChange={(event) => setDeadlineWindow(event.target.value as typeof deadlineWindow)}><option value="all">Any deadline</option><option value="14">Next 14 days</option><option value="30">Next 30 days</option><option value="90">Next 90 days</option><option value="tba">To be announced</option></select></label>
         <label><span>Sort</span><select value={sortBy} onChange={(event) => setSortBy(event.target.value as typeof sortBy)}><option value="deadline">Closest deadline</option><option value="event">Event date</option><option value="country">Country</option><option value="city">City</option><option value="title">Title</option></select></label>
         <label className="check-filter"><input type="checkbox" checked={verifiedOnly} onChange={(event) => setVerifiedOnly(event.target.checked)} /><span>Verified only</span></label>
       </div>
 
       <div className="result-bar">
-        <p><strong>{visible.length}</strong> opportunities · <span>{mappedCount} mapped</span> · <span className="sync-label"><i />{syncLabel}</span></p>
+        <p><strong>{visible.length}</strong> opportunities · <span>{mappedCount} mapped</span> · <span>{visible.length - mappedCount} list only</span> · <span className="sync-label"><i />{syncLabel}</span></p>
         <button type="button" onClick={resetFilters}>Reset filters</button>
       </div>
 
@@ -419,34 +449,34 @@ export default function OpportunityExplorer({ opportunities }: { opportunities: 
                   <span className={`status-label status-${item.status}`}>{statusCopy}</span>
                 </div>
                 <div className="card-title-row">
-                  <div><h3>{item.title}</h3>{item.acronym && <p>{item.acronym} · {locationLabel(item)}</p>}</div>
+                  <div><h3>{item.title}</h3><p>{[item.acronym, locationLabel(item), MODE_LABELS[item.mode]].filter(Boolean).join(' · ')}</p></div>
                   {primaryRank ? <a className={`rank-badge rank-${primaryRank.rank.replace('*', 'star').toLowerCase()}`} href={primaryRank.sourceUrl} target="_blank" rel="noreferrer" title={`Open ${primaryRank.framework} ${primaryRank.edition} evidence`}>{primaryRank.rank}<small>{primaryRank.framework}</small></a> : <span className="rank-badge rank-none">N/R<small>unranked</small></span>}
                 </div>
                 <p className="card-summary">{item.summary}</p>
                 <div className="topic-row">{item.topics.slice(0, 4).map((topic) => <span key={topic}>{topic}</span>)}</div>
-                <div className="card-bottom"><Deadline opportunity={item} /><div className="card-actions"><button type="button" onClick={() => selectAndReveal(item)}>View details</button><a href={item.cfpUrl || item.officialUrl} target="_blank" rel="noreferrer">Official call ↗</a></div></div>
+                <div className="card-bottom"><Deadline opportunity={item} /><div className="card-actions"><button type="button" onClick={() => selectAndReveal(item)}>View details</button><a href={item.cfpUrl || item.officialUrl} target="_blank" rel="noreferrer">{isCatalogueFallback(item) ? 'Catalogue source ↗' : 'Official call ↗'}</a></div></div>
               </article>
             );
           })}
-          {!visible.length && <div className="empty-state"><strong>No exact match yet.</strong><p>Broaden a filter or include records awaiting verification.</p><button type="button" onClick={resetFilters}>Show all verified calls</button></div>}
+          {!visible.length && <div className="empty-state"><strong>No exact match yet.</strong><p>Broaden a filter or include records awaiting verification.</p><button type="button" onClick={resetFilters}>Reset and show all calls</button></div>}
         </div>
 
         <aside className="map-column" aria-label="Map and selected opportunity" ref={mapPanelRef}>
           <div className="map-toolbar">
-            <div><span>Global research map</span><small>Drag, zoom and hover over a marker</small></div>
-            <p aria-live="polite"><strong>{mappedCount}</strong> filtered events · {mappedLocationCount} locations</p>
+            <div><span>Global research map</span><small>Drag, zoom and hover · records without verified coordinates stay in the list</small></div>
+            <p aria-live="polite"><strong>{mappedCount}</strong> filtered {scope === 'events' ? 'events' : 'calls'} · {mappedLocationCount} locations</p>
           </div>
           <p className="sr-only" id="research-map-help">The map updates immediately when a filter changes. Hover or focus a marker to read submission deadlines. Numbered markers contain several events at the same location.</p>
           <ResearchMap items={mappedItems} selectedId={activeSelection?.id} onSelect={setSelected} />
           {activeSelection && (
             <div className="map-detail">
               <div className="map-detail-heading"><span>{TYPE_LABELS[activeSelection.type]}</span><strong>{activeSelection.acronym || activeSelection.title}</strong></div>
-              <p>{locationLabel(activeSelection)} · {activeSelection.mode}</p>
+              <p>{locationLabel(activeSelection)} · {MODE_LABELS[activeSelection.mode]}</p>
               <p className="map-detail-summary">{activeSelection.summary}</p>
               <div className="map-detail-topics">{activeSelection.topics.slice(0, 3).map((topic) => <span key={topic}>{topic}</span>)}</div>
               <p className="map-deadline"><strong>Deadline:</strong> {formatDate(activeSelection.deadline)}{activeSelection.deadlineTimezone ? ` · ${activeSelection.deadlineTimezone}` : ''}</p>
               {activeSelection.eventStart && <p className="event-period">Event: {formatDate(activeSelection.eventStart)}{activeSelection.eventEnd ? ` — ${formatDate(activeSelection.eventEnd)}` : ''}</p>}
-              <div className="detail-links"><a href={activeSelection.officialUrl} target="_blank" rel="noreferrer">Event website ↗</a><a href={activeSelection.evidenceUrl} target="_blank" rel="noreferrer">Deadline evidence ↗</a>{calendarHref(activeSelection) && <a href={calendarHref(activeSelection)} download={`${activeSelection.id}-deadline.ics`}>Add deadline to calendar ↓</a>}</div>
+              <div className="detail-links"><a href={activeSelection.officialUrl} target="_blank" rel="noreferrer">{isCatalogueFallback(activeSelection) ? 'Catalogue source ↗' : 'Event website ↗'}</a><a href={activeSelection.evidenceUrl} target="_blank" rel="noreferrer">{activeSelection.deadline ? 'Deadline evidence ↗' : 'Record evidence ↗'}</a>{calendarHref(activeSelection) && <a href={calendarHref(activeSelection)} download={`${activeSelection.id}-deadline.ics`}>Add deadline to calendar ↓</a>}</div>
             </div>
           )}
         </aside>

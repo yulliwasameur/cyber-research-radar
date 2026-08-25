@@ -15,6 +15,7 @@ Maintain a current, internationally useful and evidence-backed registry of cyber
 ## Outputs
 
 - validated opportunity JSON consumed by the public portal;
+- validated journal-targeting JSON and a journal-source change report;
 - a source-health and candidate-deadline watch report;
 - a queue of newly discovered links requiring editorial review;
 - an auditable Git history of Monday updates.
@@ -31,6 +32,7 @@ State is stored in versioned JSON. Every public record has a stable ID, verifica
 - PDF text extraction for official CFP documents;
 - deadline-candidate extraction near explicit submission keywords;
 - schema validation, duplicate detection and past-deadline closure.
+- journal homepage, author-guide, APC, timeline, metric, ranking, ethics and reproducibility evidence fingerprinting.
 
 ## Approval gates
 
@@ -40,8 +42,9 @@ The watcher must not automatically:
 - assign a venue rank without an exact series match and source;
 - promote an automatically discovered link to verified public content;
 - claim prospective Scopus, Web of Science or publisher indexation as confirmed;
+- rewrite a journal price, metric, ranking or editorial timeline solely because a page changed;
 - publish credentials, personal data or material unrelated to the research scope.
 
 ## Local proof
 
-`python scripts/refresh_opportunities.py --offline` validates all local records without network access. The normal Monday workflow runs the same path with official-source retrieval enabled.
+`python scripts/refresh_opportunities.py --offline` validates all local event records and `python scripts/refresh_journals.py --offline` validates journal records without network access. The normal Monday workflow runs both paths with official-source retrieval enabled.

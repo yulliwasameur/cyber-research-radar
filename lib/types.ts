@@ -8,6 +8,7 @@ export type OpportunityType =
   | 'doctoral-position';
 
 export type VerificationStatus = 'verified' | 'watchlist' | 'needs-review' | 'closed';
+export type OpportunityMode = 'onsite' | 'hybrid' | 'online' | 'multiple' | 'unspecified';
 
 export interface VenueRanking {
   framework: 'ICORE' | 'CCF' | 'SJR' | 'JCR';
@@ -35,7 +36,7 @@ export interface Opportunity {
   continent: 'Africa' | 'Asia' | 'Europe' | 'North America' | 'South America' | 'Oceania' | 'Global';
   latitude?: number | null;
   longitude?: number | null;
-  mode: 'onsite' | 'hybrid' | 'online' | 'multiple';
+  mode: OpportunityMode;
   officialUrl: string;
   cfpUrl?: string | null;
   evidenceUrl: string;

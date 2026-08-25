@@ -3,7 +3,7 @@ import type { Opportunity, OpportunityType, VenueRanking, VerificationStatus } f
 const TYPES = new Set<OpportunityType>(['conference', 'workshop', 'book-chapter', 'special-issue', 'school', 'grant', 'doctoral-position']);
 const STATUSES = new Set<VerificationStatus>(['verified', 'watchlist', 'needs-review', 'closed']);
 const CONTINENTS = new Set(['Africa', 'Asia', 'Europe', 'North America', 'South America', 'Oceania', 'Global']);
-const MODES = new Set(['onsite', 'hybrid', 'online', 'multiple']);
+const MODES = new Set(['onsite', 'hybrid', 'online', 'multiple', 'unspecified']);
 const FRAMEWORKS = new Set(['ICORE', 'CCF', 'SJR', 'JCR']);
 const RANKS = new Set(['A*', 'A', 'B', 'C', 'Q1', 'Q2', 'Q3', 'Q4']);
 

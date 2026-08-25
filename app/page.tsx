@@ -1,17 +1,23 @@
-import OpportunityExplorer from '../components/OpportunityExplorer';
+import ResearchHub from '../components/ResearchHub';
 import opportunityData from '../data/opportunities.json';
 import cryptoOpportunityData from '../data/crypto_opportunities.json';
 import cyberOpportunityData from '../data/cyber_opportunities.json';
+import catalogueEventData from '../data/catalogue_events.json';
+import journalData from '../data/journals.json';
 import type { Opportunity } from '../lib/types';
+import type { Journal } from '../lib/journalTypes';
 import { normalizeOpportunities } from '../lib/opportunityValidation';
+import { normalizeJournals } from '../lib/journalValidation';
 
 const REMOTE_DATA_ROOT = 'https://raw.githubusercontent.com/yulliwasameur/cyber-research-radar/main/data';
-const REMOTE_DATA_FILES = ['opportunities.json', 'crypto_opportunities.json', 'cyber_opportunities.json'];
+const REMOTE_DATA_FILES = ['opportunities.json', 'crypto_opportunities.json', 'cyber_opportunities.json', 'catalogue_events.json'];
 const deploymentOpportunities = normalizeOpportunities([
   ...(opportunityData as unknown as Opportunity[]),
   ...(cryptoOpportunityData as unknown as Opportunity[]),
   ...(cyberOpportunityData as unknown as Opportunity[]),
+  ...(catalogueEventData as unknown as Opportunity[]),
 ]);
+const deploymentJournals = normalizeJournals(journalData as unknown as Journal[]);
 
 export const dynamic = 'force-dynamic';
 
@@ -27,6 +33,17 @@ async function loadOpportunities() {
   }
 }
 
+async function loadJournals() {
+  try {
+    const response = await fetch(`${REMOTE_DATA_ROOT}/journals.json`, { cache: 'no-store' });
+    if (!response.ok) return deploymentJournals;
+    const live = normalizeJournals(await response.json());
+    return live.length >= Math.max(5, deploymentJournals.length * 0.75) ? live : deploymentJournals;
+  } catch {
+    return deploymentJournals;
+  }
+}
+
 function shortDate(value?: string | null) {
   if (!value) return 'TBA';
   return new Intl.DateTimeFormat('en-GB', { day: '2-digit', month: 'short', timeZone: 'UTC' })
@@ -34,7 +51,7 @@ function shortDate(value?: string | null) {
 }
 
 export default async function Home() {
-  const opportunities = await loadOpportunities();
+  const [opportunities, journals] = await Promise.all([loadOpportunities(), loadJournals()]);
   const eventOpportunities = opportunities.filter((item) => item.type === 'conference' || item.type === 'workshop');
   const upcoming = eventOpportunities
     .filter((item) => item.status === 'verified' && item.deadline)
@@ -58,17 +75,37 @@ export default async function Home() {
       },
     })),
   };
+  const journalStructuredData = {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: 'Cybersecurity and cryptography journal targeting directory',
+    description: 'Source-linked cybersecurity and cryptography journals with scope, publisher, access model, publication fees, editorial timing and dated ranking signals.',
+    numberOfItems: journals.length,
+    itemListElement: journals.map((journal, index) => ({
+      '@type': 'ListItem',
+      position: index + 1,
+      item: {
+        '@type': 'Periodical',
+        name: journal.title,
+        url: journal.officialUrl,
+        issn: journal.issn,
+        publisher: { '@type': 'Organization', name: journal.publisher },
+      },
+    })),
+  };
 
   return (
     <main>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData).replaceAll('<', '\\u003c') }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(journalStructuredData).replaceAll('<', '\\u003c') }} />
       <header className="topbar">
         <a className="brand" href="#top" aria-label="CyberResearch Radar home">
           <span className="brand-mark">CR</span>
           <span><strong>CyberResearch Radar</strong><small>Global cyber event intelligence</small></span>
         </a>
         <nav aria-label="Primary navigation">
-          <a href="#opportunities">Opportunities</a>
+          <a href="#opportunities">Events</a>
+          <a href="#journals">Journals</a>
           <a href="#methodology">Method</a>
           <a href="#expertise">Scope</a>
           <a href="https://github.com/yulliwasameur/cyber-research-radar" target="_blank" rel="noreferrer">Contribute ↗</a>
@@ -86,6 +123,7 @@ export default async function Home() {
           </p>
           <div className="hero-actions">
             <a className="primary-action" href="#opportunities">Explore the live radar</a>
+            <a className="secondary-action" href="#journals">Choose a journal</a>
             <a className="secondary-action" href="#methodology">Read the methodology</a>
           </div>
           <div className="quick-filters" aria-label="Core research scope">
@@ -112,11 +150,11 @@ export default async function Home() {
       <section className="pulse" aria-label="Current portal coverage">
         <div><strong>{eventOpportunities.length}</strong><span>curated cyber & crypto events</span></div>
         <div><strong>{countries || 'Global'}</strong><span>countries represented</span></div>
-        <div><strong>7</strong><span>research call formats available</span></div>
+        <div><strong>{journals.length}</strong><span>journal targeting records</span></div>
         <div><strong>A* → C</strong><span>traceable ICORE 2026 signals</span></div>
       </section>
 
-      <OpportunityExplorer opportunities={opportunities} />
+      <ResearchHub opportunities={opportunities} journals={journals} />
 
       <section className="method-section" id="methodology">
         <div className="method-intro">

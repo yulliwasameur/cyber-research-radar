@@ -1,0 +1,1353 @@
+{
+  "runAt": "2026-08-25T23:28:59Z",
+  "mode": "network-monitor",
+  "journals": 23,
+  "sourcesChecked": 102,
+  "sourceErrors": 0,
+  "sourceBlocks": 31,
+  "sourcesChanged": 17,
+  "reviewRequired": [
+    {
+      "journalId": "journal-cic",
+      "role": "apc",
+      "url": "https://cic.iacr.org/page/faq",
+      "httpStatus": 200,
+      "finalUrl": "https://cic.iacr.org/page/faq",
+      "contentType": "text/html",
+      "contentSha256": "3df1b7a21914168c1f79bd440d79de1d5e9b05839d30833e836c38871231586c",
+      "bytesRead": 36533,
+      "contentChanged": true
+    },
+    {
+      "journalId": "journal-clsr",
+      "role": "apc",
+      "url": "https://www.sciencedirect.com/journal/computer-law-and-security-review/about/insights",
+      "blocked": "HTTP 403: automated retrieval restricted by publisher"
+    },
+    {
+      "journalId": "journal-clsr",
+      "role": "author-guidelines",
+      "url": "https://www.sciencedirect.com/journal/computer-law-and-security-review/publish/guide-for-authors",
+      "blocked": "HTTP 403: automated retrieval restricted by publisher"
+    },
+    {
+      "journalId": "journal-clsr",
+      "role": "homepage",
+      "url": "https://www.sciencedirect.com/journal/computer-law-and-security-review",
+      "blocked": "HTTP 403: automated retrieval restricted by publisher"
+    },
+    {
+      "journalId": "journal-cose",
+      "role": "homepage",
+      "url": "https://www.sciencedirect.com/journal/computers-and-security",
+      "blocked": "HTTP 403: automated retrieval restricted by publisher"
+    },
+    {
+      "journalId": "journal-cose",
+      "role": "ranking:SJR",
+      "url": "https://www.scimagojr.com/journalsearch.php?q=28898&tip=sid",
+      "blocked": "HTTP 403: automated retrieval restricted by publisher"
+    },
+    {
+      "journalId": "journal-cybersecurity",
+      "role": "apc",
+      "url": "https://link.springer.com/journal/42400/how-to-publish-with-us",
+      "httpStatus": 200,
+      "finalUrl": "https://link.springer.com/journal/42400/how-to-publish-with-us?error=cookies_not_supported&code=f472b47d-1edf-47d8-ad8e-5470d77c0b9d",
+      "contentType": "text/html",
+      "contentSha256": "bbe31336c8abb2a40501b60dd420fd449e9b48f73b536427e3656aeca5c830b8",
+      "bytesRead": 186874,
+      "contentChanged": true
+    },
+    {
+      "journalId": "journal-cybersecurity",
+      "role": "author-guidelines",
+      "url": "https://link.springer.com/journal/42400/submission-guidelines",
+      "httpStatus": 200,
+      "finalUrl": "https://link.springer.com/journal/42400/submission-guidelines?error=cookies_not_supported&code=4f0a050a-da60-48df-9447-51c3a139d6da",
+      "contentType": "text/html",
+      "contentSha256": "d6c11d3315901856b7f32cb64157a852be2996853de27155baad48f0ea585f80",
+      "bytesRead": 210201,
+      "contentChanged": true
+    },
+    {
+      "journalId": "journal-cybersecurity",
+      "role": "homepage",
+      "url": "https://link.springer.com/journal/42400",
+      "httpStatus": 200,
+      "finalUrl": "https://link.springer.com/journal/42400?error=cookies_not_supported&code=e499c095-f661-4791-9618-3bddff2e63c8",
+      "contentType": "text/html",
+      "contentSha256": "2926d3253cf40c96a7da7f90801aaae4e49abfe9c91d957f06784dabfdb13228",
+      "bytesRead": 221970,
+      "contentChanged": true
+    },
+    {
+      "journalId": "journal-dcc",
+      "role": "apc",
+      "url": "https://link.springer.com/journal/10623/how-to-publish-with-us",
+      "httpStatus": 200,
+      "finalUrl": "https://link.springer.com/journal/10623/how-to-publish-with-us?error=cookies_not_supported&code=e7aa4821-c7c3-4d80-a42e-5387c910ad36",
+      "contentType": "text/html",
+      "contentSha256": "74092f955e628a8e1062b842451702f28c2a54f62aca7a3dfa5309fa91edd04d",
+      "bytesRead": 186344,
+      "contentChanged": true
+    },
+    {
+      "journalId": "journal-dcc",
+      "role": "author-guidelines",
+      "url": "https://link.springer.com/journal/10623/submission-guidelines",
+      "httpStatus": 200,
+      "finalUrl": "https://link.springer.com/journal/10623/submission-guidelines?error=cookies_not_supported&code=f9283382-2ce8-42f6-8eef-73e8b7d55f45",
+      "contentType": "text/html",
+      "contentSha256": "3571e337464a5b9bfa0018c5fe3c71fbfc30d1fad2344e5f35ce75770d2d7b9d",
+      "bytesRead": 303441,
+      "contentChanged": true
+    },
+    {
+      "journalId": "journal-dcc",
+      "role": "homepage",
+      "url": "https://link.springer.com/journal/10623",
+      "httpStatus": 200,
+      "finalUrl": "https://link.springer.com/journal/10623?error=cookies_not_supported&code=7c8af33e-c10f-4fcb-b8a6-9443d0e24e3b",
+      "contentType": "text/html",
+      "contentSha256": "353e5663cab21d42dc08f7fca45bfeffa33f2beed44a78a002a87fce1c4aa6dd",
+      "bytesRead": 210667,
+      "contentChanged": true
+    },
+    {
+      "journalId": "journal-dtrap",
+      "role": "apc",
+      "url": "https://prod-authors.acm.bloomreach.cloud/open-access/acm-open-for-authors-home",
+      "blocked": "HTTP 403: automated retrieval restricted by publisher"
+    },
+    {
+      "journalId": "journal-dtrap",
+      "role": "author-guidelines",
+      "url": "https://dl.acm.org/journal/dtrap/author-guidelines",
+      "blocked": "HTTP 403: automated retrieval restricted by publisher"
+    },
+    {
+      "journalId": "journal-dtrap",
+      "role": "homepage",
+      "url": "https://dl.acm.org/journal/dtrap",
+      "blocked": "HTTP 403: automated retrieval restricted by publisher"
+    },
+    {
+      "journalId": "journal-fsidi",
+      "role": "author-guidelines",
+      "url": "https://www.sciencedirect.com/journal/forensic-science-international-digital-investigation/publish/guide-for-authors",
+      "blocked": "HTTP 403: automated retrieval restricted by publisher"
+    },
+    {
+      "journalId": "journal-fsidi",
+      "role": "homepage",
+      "url": "https://www.sciencedirect.com/journal/forensic-science-international-digital-investigation",
+      "blocked": "HTTP 403: automated retrieval restricted by publisher"
+    },
+    {
+      "journalId": "journal-iet-is",
+      "role": "apc",
+      "url": "https://ietresearch.onlinelibrary.wiley.com/page/journal/ietis/homepage/open-access",
+      "blocked": "HTTP 403: automated retrieval restricted by publisher"
+    },
+    {
+      "journalId": "journal-iet-is",
+      "role": "author-guidelines",
+      "url": "https://ietresearch.onlinelibrary.wiley.com/page/journal/ietis/homepage/author-guidelines",
+      "blocked": "HTTP 403: automated retrieval restricted by publisher"
+    },
+    {
+      "journalId": "journal-iet-is",
+      "role": "homepage",
+      "url": "https://ietresearch.onlinelibrary.wiley.com/journal/ietis",
+      "blocked": "HTTP 403: automated retrieval restricted by publisher"
+    },
+    {
+      "journalId": "journal-iet-is",
+      "role": "timeline",
+      "url": "https://ietresearch.onlinelibrary.wiley.com/page/journal/ietis/homepage/productinformation.html",
+      "blocked": "HTTP 403: automated retrieval restricted by publisher"
+    },
+    {
+      "journalId": "journal-ijcip",
+      "role": "author-guidelines",
+      "url": "https://www.sciencedirect.com/journal/international-journal-of-critical-infrastructure-protection/publish/guide-for-authors",
+      "blocked": "HTTP 403: automated retrieval restricted by publisher"
+    },
+    {
+      "journalId": "journal-ijcip",
+      "role": "homepage",
+      "url": "https://www.sciencedirect.com/journal/international-journal-of-critical-infrastructure-protection",
+      "blocked": "HTTP 403: automated retrieval restricted by publisher"
+    },
+    {
+      "journalId": "journal-ijis",
+      "role": "apc",
+      "url": "https://link.springer.com/journal/10207/how-to-publish-with-us",
+      "httpStatus": 200,
+      "finalUrl": "https://link.springer.com/journal/10207/how-to-publish-with-us?error=cookies_not_supported&code=99ba5b04-4190-4064-9e53-dd6392aa4700",
+      "contentType": "text/html",
+      "contentSha256": "1fa6163f04d02285096b68173b29fd60c483ef5fc98684a094d462dac2706b8c",
+      "bytesRead": 185991,
+      "contentChanged": true
+    },
+    {
+      "journalId": "journal-ijis",
+      "role": "author-guidelines",
+      "url": "https://link.springer.com/journal/10207/submission-guidelines",
+      "httpStatus": 200,
+      "finalUrl": "https://link.springer.com/journal/10207/submission-guidelines?error=cookies_not_supported&code=1cefcacd-87a5-4d74-9aea-5e93f6a223d0",
+      "contentType": "text/html",
+      "contentSha256": "413cf544e791d88cf3bb27afacdc587bf81649706031d9f0e7931b0fca7a2177",
+      "bytesRead": 297490,
+      "contentChanged": true
+    },
+    {
+      "journalId": "journal-ijis",
+      "role": "homepage",
+      "url": "https://link.springer.com/journal/10207",
+      "httpStatus": 200,
+      "finalUrl": "https://link.springer.com/journal/10207?error=cookies_not_supported&code=870e0774-b196-4dd4-ac06-d5ce5d5b0bda",
+      "contentType": "text/html",
+      "contentSha256": "533a946644e2cb3b7fae16363ae6bdc71795ccc26c58c874d3b0a2d23866da02",
+      "bytesRead": 225169,
+      "contentChanged": true
+    },
+    {
+      "journalId": "journal-jcs",
+      "role": "author-guidelines",
+      "url": "https://journals.sagepub.com/author-instructions/JCU",
+      "blocked": "HTTP 403: automated retrieval restricted by publisher"
+    },
+    {
+      "journalId": "journal-jcs",
+      "role": "homepage",
+      "url": "https://journals.sagepub.com/home/jcu",
+      "blocked": "HTTP 403: automated retrieval restricted by publisher"
+    },
+    {
+      "journalId": "journal-jins",
+      "role": "apc",
+      "url": "https://link.springer.com/journal/13635/how-to-publish-with-us",
+      "httpStatus": 200,
+      "finalUrl": "https://link.springer.com/journal/13635/how-to-publish-with-us?error=cookies_not_supported&code=a7a78547-8379-4175-945e-9f9fead29031",
+      "contentType": "text/html",
+      "contentSha256": "ad6c15268769e831218a68c8e0d1f3e92484f14fbcf39d1e75ee3feda940f2a7",
+      "bytesRead": 188237,
+      "contentChanged": true
+    },
+    {
+      "journalId": "journal-jins",
+      "role": "author-guidelines",
+      "url": "https://link.springer.com/journal/13635/submission-guidelines",
+      "httpStatus": 200,
+      "finalUrl": "https://link.springer.com/journal/13635/submission-guidelines?error=cookies_not_supported&code=57feefbf-b14c-42fa-bae2-48a0966f9a8b",
+      "contentType": "text/html",
+      "contentSha256": "10fbee52a57075ed5353fcbbe02e266288191d0c52298303b5688908472a0e55",
+      "bytesRead": 213235,
+      "contentChanged": true
+    },
+    {
+      "journalId": "journal-jins",
+      "role": "homepage",
+      "url": "https://link.springer.com/journal/13635",
+      "httpStatus": 200,
+      "finalUrl": "https://link.springer.com/journal/13635?error=cookies_not_supported&code=a5a3cf3a-e692-462f-86a3-84818145667e",
+      "contentType": "text/html",
+      "contentSha256": "6c06ec0272e46e9cd6c2a642c50cf01bcf3c219bef231552ba88de7106edbbce",
+      "bytesRead": 223566,
+      "contentChanged": true
+    },
+    {
+      "journalId": "journal-jins",
+      "role": "ranking:SJR",
+      "url": "https://www.scimagojr.com/journalsearch.php?q=21100812851&tip=sid",
+      "blocked": "HTTP 403: automated retrieval restricted by publisher"
+    },
+    {
+      "journalId": "journal-jisa",
+      "role": "author-guidelines",
+      "url": "https://www.sciencedirect.com/journal/journal-of-information-security-and-applications/publish/guide-for-authors",
+      "blocked": "HTTP 403: automated retrieval restricted by publisher"
+    },
+    {
+      "journalId": "journal-jisa",
+      "role": "homepage",
+      "url": "https://www.sciencedirect.com/journal/journal-of-information-security-and-applications",
+      "blocked": "HTTP 403: automated retrieval restricted by publisher"
+    },
+    {
+      "journalId": "journal-joc",
+      "role": "apc",
+      "url": "https://link.springer.com/journal/145/how-to-publish-with-us",
+      "httpStatus": 200,
+      "finalUrl": "https://link.springer.com/journal/145/how-to-publish-with-us?error=cookies_not_supported&code=4be2a129-d2fc-47d3-a083-3ada4c0667e7",
+      "contentType": "text/html",
+      "contentSha256": "30e7de2e7b5c5202b1e8a7a8082a3c9c6e4dc4aa277b039f48f09e1b57361137",
+      "bytesRead": 185079,
+      "contentChanged": true
+    },
+    {
+      "journalId": "journal-joc",
+      "role": "author-guidelines",
+      "url": "https://link.springer.com/journal/145/submission-guidelines",
+      "httpStatus": 200,
+      "finalUrl": "https://link.springer.com/journal/145/submission-guidelines?error=cookies_not_supported&code=3b7a0d83-b469-463e-84a9-b497e9aea828",
+      "contentType": "text/html",
+      "contentSha256": "9d931cef725a09ec2a1358c46f663f3343b09609ec06035b5bf14438de1f6679",
+      "bytesRead": 192824,
+      "contentChanged": true
+    },
+    {
+      "journalId": "journal-joc",
+      "role": "homepage",
+      "url": "https://link.springer.com/journal/145",
+      "httpStatus": 200,
+      "finalUrl": "https://link.springer.com/journal/145?error=cookies_not_supported&code=378d245f-7eda-4a53-a77e-a7a89788e834",
+      "contentType": "text/html",
+      "contentSha256": "c1879d0137c3e6b4d9ac617df2af1620b0cf1d9917fc21119d9cd1cb2c2e799a",
+      "bytesRead": 210464,
+      "contentChanged": true
+    },
+    {
+      "journalId": "journal-jocyb",
+      "role": "apc",
+      "url": "https://academic.oup.com/cybersecurity/pages/publish-with-us",
+      "blocked": "HTTP 403: automated retrieval restricted by publisher"
+    },
+    {
+      "journalId": "journal-jocyb",
+      "role": "author-guidelines",
+      "url": "https://academic.oup.com/cybersecurity/pages/General_Instructions",
+      "blocked": "HTTP 403: automated retrieval restricted by publisher"
+    },
+    {
+      "journalId": "journal-jocyb",
+      "role": "homepage",
+      "url": "https://academic.oup.com/cybersecurity",
+      "blocked": "HTTP 403: automated retrieval restricted by publisher"
+    },
+    {
+      "journalId": "journal-jocyb",
+      "role": "metric:Journal Impact Factor",
+      "url": "https://academic.oup.com/cybersecurity/pages/About?login=false",
+      "blocked": "HTTP 403: automated retrieval restricted by publisher"
+    },
+    {
+      "journalId": "journal-scn",
+      "role": "apc",
+      "url": "https://onlinelibrary.wiley.com/page/journal/2037/homepage/open-access",
+      "blocked": "HTTP 403: automated retrieval restricted by publisher"
+    },
+    {
+      "journalId": "journal-scn",
+      "role": "homepage",
+      "url": "https://onlinelibrary.wiley.com/journal/2037",
+      "blocked": "HTTP 403: automated retrieval restricted by publisher"
+    },
+    {
+      "journalId": "journal-tches",
+      "role": "timeline",
+      "url": "https://ches.iacr.org/2026/callforpapers.php",
+      "httpStatus": 200,
+      "finalUrl": "https://ches.iacr.org/2026/callforpapers.php",
+      "contentType": "text/html",
+      "contentSha256": "1d926bbe9c9654d42c0cec279443f19d1031dd44d026d6a4fc4fe959b7a6d2d3",
+      "bytesRead": 25719,
+      "contentChanged": true
+    },
+    {
+      "journalId": "journal-tops",
+      "role": "apc",
+      "url": "https://prod-authors.acm.bloomreach.cloud/open-access/acm-open-for-authors-home",
+      "blocked": "HTTP 403: automated retrieval restricted by publisher"
+    },
+    {
+      "journalId": "journal-tops",
+      "role": "author-guidelines",
+      "url": "https://dl.acm.org/journal/tops/author-guidelines",
+      "blocked": "HTTP 403: automated retrieval restricted by publisher"
+    },
+    {
+      "journalId": "journal-tops",
+      "role": "data-code",
+      "url": "https://www.acm.org/publications/policies/artifact-review-and-badging-current",
+      "blocked": "HTTP 403: automated retrieval restricted by publisher"
+    },
+    {
+      "journalId": "journal-tops",
+      "role": "homepage",
+      "url": "https://dl.acm.org/journal/tops",
+      "blocked": "HTTP 403: automated retrieval restricted by publisher"
+    }
+  ],
+  "sources": [
+    {
+      "journalId": "journal-cic",
+      "role": "apc",
+      "url": "https://cic.iacr.org/page/faq",
+      "httpStatus": 200,
+      "finalUrl": "https://cic.iacr.org/page/faq",
+      "contentType": "text/html",
+      "contentSha256": "3df1b7a21914168c1f79bd440d79de1d5e9b05839d30833e836c38871231586c",
+      "bytesRead": 36533,
+      "contentChanged": true
+    },
+    {
+      "journalId": "journal-cic",
+      "role": "author-guidelines",
+      "url": "https://cic.iacr.org/page/callforpapers",
+      "httpStatus": 200,
+      "finalUrl": "https://cic.iacr.org/page/callforpapers",
+      "contentType": "text/html",
+      "contentSha256": "db5aad403a0314023866956883c91942be8c75af0f60168814f3ea57fcaa07c7",
+      "bytesRead": 18738,
+      "contentChanged": false
+    },
+    {
+      "journalId": "journal-cic",
+      "role": "ethics",
+      "url": "https://cic.iacr.org/page/ethics",
+      "httpStatus": 200,
+      "finalUrl": "https://cic.iacr.org/page/ethics",
+      "contentType": "text/html",
+      "contentSha256": "6d5892b4084218f836449526f8d8397e68c683597170471a5f77756eb4c2da25",
+      "bytesRead": 16965,
+      "contentChanged": false
+    },
+    {
+      "journalId": "journal-cic",
+      "role": "homepage",
+      "url": "https://cic.iacr.org/",
+      "httpStatus": 200,
+      "finalUrl": "https://cic.iacr.org/",
+      "contentType": "text/html",
+      "contentSha256": "2d530cba3a81ed567f5e3097ae15821333f29e5e6a1ceb06cb3e2d3069ec8d2f",
+      "bytesRead": 14044,
+      "contentChanged": false
+    },
+    {
+      "journalId": "journal-clsr",
+      "role": "apc",
+      "url": "https://www.sciencedirect.com/journal/computer-law-and-security-review/about/insights",
+      "blocked": "HTTP 403: automated retrieval restricted by publisher"
+    },
+    {
+      "journalId": "journal-clsr",
+      "role": "author-guidelines",
+      "url": "https://www.sciencedirect.com/journal/computer-law-and-security-review/publish/guide-for-authors",
+      "blocked": "HTTP 403: automated retrieval restricted by publisher"
+    },
+    {
+      "journalId": "journal-clsr",
+      "role": "homepage",
+      "url": "https://www.sciencedirect.com/journal/computer-law-and-security-review",
+      "blocked": "HTTP 403: automated retrieval restricted by publisher"
+    },
+    {
+      "journalId": "journal-clsr",
+      "role": "ranking:CCF",
+      "url": "https://www.ccf.org.cn/Academic_Evaluation/NIS/",
+      "httpStatus": 200,
+      "finalUrl": "https://www.ccf.org.cn/Academic_Evaluation/NIS/",
+      "contentType": "text/html",
+      "contentSha256": "bfcfd5213a3219f0c3704b2cd41f76f3828dc3038d01c0a6001d324c6f4eb114",
+      "bytesRead": 15999,
+      "contentChanged": false
+    },
+    {
+      "journalId": "journal-cose",
+      "role": "homepage",
+      "url": "https://www.sciencedirect.com/journal/computers-and-security",
+      "blocked": "HTTP 403: automated retrieval restricted by publisher"
+    },
+    {
+      "journalId": "journal-cose",
+      "role": "ranking:CCF",
+      "url": "https://www.ccf.org.cn/Academic_Evaluation/NIS/",
+      "httpStatus": 200,
+      "finalUrl": "https://www.ccf.org.cn/Academic_Evaluation/NIS/",
+      "contentType": "text/html",
+      "contentSha256": "8c1fe70fdeb8cc499c17b23cbd3c9eb22b33c9a5ac438eff463d7a3ff3a053cf",
+      "bytesRead": 15999,
+      "contentChanged": false
+    },
+    {
+      "journalId": "journal-cose",
+      "role": "ranking:SJR",
+      "url": "https://www.scimagojr.com/journalsearch.php?q=28898&tip=sid",
+      "blocked": "HTTP 403: automated retrieval restricted by publisher"
+    },
+    {
+      "journalId": "journal-cybersecurity",
+      "role": "apc",
+      "url": "https://link.springer.com/journal/42400/how-to-publish-with-us",
+      "httpStatus": 200,
+      "finalUrl": "https://link.springer.com/journal/42400/how-to-publish-with-us?error=cookies_not_supported&code=f472b47d-1edf-47d8-ad8e-5470d77c0b9d",
+      "contentType": "text/html",
+      "contentSha256": "bbe31336c8abb2a40501b60dd420fd449e9b48f73b536427e3656aeca5c830b8",
+      "bytesRead": 186874,
+      "contentChanged": true
+    },
+    {
+      "journalId": "journal-cybersecurity",
+      "role": "author-guidelines",
+      "url": "https://link.springer.com/journal/42400/submission-guidelines",
+      "httpStatus": 200,
+      "finalUrl": "https://link.springer.com/journal/42400/submission-guidelines?error=cookies_not_supported&code=4f0a050a-da60-48df-9447-51c3a139d6da",
+      "contentType": "text/html",
+      "contentSha256": "d6c11d3315901856b7f32cb64157a852be2996853de27155baad48f0ea585f80",
+      "bytesRead": 210201,
+      "contentChanged": true
+    },
+    {
+      "journalId": "journal-cybersecurity",
+      "role": "homepage",
+      "url": "https://link.springer.com/journal/42400",
+      "httpStatus": 200,
+      "finalUrl": "https://link.springer.com/journal/42400?error=cookies_not_supported&code=e499c095-f661-4791-9618-3bddff2e63c8",
+      "contentType": "text/html",
+      "contentSha256": "2926d3253cf40c96a7da7f90801aaae4e49abfe9c91d957f06784dabfdb13228",
+      "bytesRead": 221970,
+      "contentChanged": true
+    },
+    {
+      "journalId": "journal-cybersecurity",
+      "role": "ranking:CCF",
+      "url": "https://www.ccf.org.cn/Academic_Evaluation/NIS/",
+      "httpStatus": 200,
+      "finalUrl": "https://www.ccf.org.cn/Academic_Evaluation/NIS/",
+      "contentType": "text/html",
+      "contentSha256": "9b19035580196f068ffd54cd59f61483ff5b4becd79703009c4795b6719619ab",
+      "bytesRead": 15999,
+      "contentChanged": false
+    },
+    {
+      "journalId": "journal-dcc",
+      "role": "apc",
+      "url": "https://link.springer.com/journal/10623/how-to-publish-with-us",
+      "httpStatus": 200,
+      "finalUrl": "https://link.springer.com/journal/10623/how-to-publish-with-us?error=cookies_not_supported&code=e7aa4821-c7c3-4d80-a42e-5387c910ad36",
+      "contentType": "text/html",
+      "contentSha256": "74092f955e628a8e1062b842451702f28c2a54f62aca7a3dfa5309fa91edd04d",
+      "bytesRead": 186344,
+      "contentChanged": true
+    },
+    {
+      "journalId": "journal-dcc",
+      "role": "author-guidelines",
+      "url": "https://link.springer.com/journal/10623/submission-guidelines",
+      "httpStatus": 200,
+      "finalUrl": "https://link.springer.com/journal/10623/submission-guidelines?error=cookies_not_supported&code=f9283382-2ce8-42f6-8eef-73e8b7d55f45",
+      "contentType": "text/html",
+      "contentSha256": "3571e337464a5b9bfa0018c5fe3c71fbfc30d1fad2344e5f35ce75770d2d7b9d",
+      "bytesRead": 303441,
+      "contentChanged": true
+    },
+    {
+      "journalId": "journal-dcc",
+      "role": "homepage",
+      "url": "https://link.springer.com/journal/10623",
+      "httpStatus": 200,
+      "finalUrl": "https://link.springer.com/journal/10623?error=cookies_not_supported&code=7c8af33e-c10f-4fcb-b8a6-9443d0e24e3b",
+      "contentType": "text/html",
+      "contentSha256": "353e5663cab21d42dc08f7fca45bfeffa33f2beed44a78a002a87fce1c4aa6dd",
+      "bytesRead": 210667,
+      "contentChanged": true
+    },
+    {
+      "journalId": "journal-dcc",
+      "role": "ranking:CCF",
+      "url": "https://www.ccf.org.cn/Academic_Evaluation/NIS/",
+      "httpStatus": 200,
+      "finalUrl": "https://www.ccf.org.cn/Academic_Evaluation/NIS/",
+      "contentType": "text/html",
+      "contentSha256": "7a36e37cc19867587c43296e318e6d657576de666d5cc5a5dc418e093337beca",
+      "bytesRead": 15999,
+      "contentChanged": false
+    },
+    {
+      "journalId": "journal-dtrap",
+      "role": "apc",
+      "url": "https://prod-authors.acm.bloomreach.cloud/open-access/acm-open-for-authors-home",
+      "blocked": "HTTP 403: automated retrieval restricted by publisher"
+    },
+    {
+      "journalId": "journal-dtrap",
+      "role": "author-guidelines",
+      "url": "https://dl.acm.org/journal/dtrap/author-guidelines",
+      "blocked": "HTTP 403: automated retrieval restricted by publisher"
+    },
+    {
+      "journalId": "journal-dtrap",
+      "role": "data-code",
+      "url": "https://dtrap-blog.acm.org/2022/05/27/extended-call-for-papers/",
+      "httpStatus": 200,
+      "finalUrl": "https://dtrap-blog.acm.org/2022/05/27/extended-call-for-papers/",
+      "contentType": "text/html",
+      "contentSha256": "e83f8ababf9901583d00bfd3b9ff82323bd069f36b7921b3585f562d18ad66c1",
+      "bytesRead": 68817,
+      "contentChanged": false
+    },
+    {
+      "journalId": "journal-dtrap",
+      "role": "ethics",
+      "url": "https://www.acm.org/publications/policies/",
+      "httpStatus": 200,
+      "finalUrl": "https://www.acm.org/publications/policies/",
+      "contentType": "text/html",
+      "contentSha256": "992d062581e655bd935138061a1e64de6625c6446666679d0737e44da632389b",
+      "bytesRead": 79337,
+      "contentChanged": false
+    },
+    {
+      "journalId": "journal-dtrap",
+      "role": "homepage",
+      "url": "https://dl.acm.org/journal/dtrap",
+      "blocked": "HTTP 403: automated retrieval restricted by publisher"
+    },
+    {
+      "journalId": "journal-dtrap",
+      "role": "metric:CiteScore",
+      "url": "https://library.wur.nl/WebQuery/utbrowser/81553",
+      "httpStatus": 200,
+      "finalUrl": "https://library.wur.nl/WebQuery/utbrowser/81553",
+      "contentType": "text/html",
+      "contentSha256": "66b83408ca94c98609aacc26d7965e940797543cb12230013dcf935183994134",
+      "bytesRead": 27730,
+      "contentChanged": false
+    },
+    {
+      "journalId": "journal-fsidi",
+      "role": "author-guidelines",
+      "url": "https://www.sciencedirect.com/journal/forensic-science-international-digital-investigation/publish/guide-for-authors",
+      "blocked": "HTTP 403: automated retrieval restricted by publisher"
+    },
+    {
+      "journalId": "journal-fsidi",
+      "role": "homepage",
+      "url": "https://www.sciencedirect.com/journal/forensic-science-international-digital-investigation",
+      "blocked": "HTTP 403: automated retrieval restricted by publisher"
+    },
+    {
+      "journalId": "journal-fsidi",
+      "role": "ranking:Scopus",
+      "url": "https://library.wur.nl/WebQuery/utbrowser/79751",
+      "httpStatus": 200,
+      "finalUrl": "https://library.wur.nl/WebQuery/utbrowser/79751",
+      "contentType": "text/html",
+      "contentSha256": "88fe1b0dbf29b9137598c7106bf200e586e1cdc40cea850d8184d595890e6fd2",
+      "bytesRead": 27122,
+      "contentChanged": false
+    },
+    {
+      "journalId": "journal-ieee-s-p-magazine",
+      "role": "apc",
+      "url": "https://magazines.ieeeauthorcenter.ieee.org/wp-content/uploads/sites/10/IEEE-Article-Processing-Charges-List.pdf",
+      "httpStatus": 200,
+      "finalUrl": "https://magazines.ieeeauthorcenter.ieee.org/wp-content/uploads/sites/10/IEEE-Article-Processing-Charges-List.pdf",
+      "contentType": "application/pdf",
+      "contentSha256": "364883fc5740d24b022d56c5e48f64000d73b5507843a8b277974dc2f6c98dc4",
+      "bytesRead": 894856,
+      "contentChanged": false
+    },
+    {
+      "journalId": "journal-ieee-s-p-magazine",
+      "role": "author-guidelines",
+      "url": "https://www.computer.org/csdl/magazine/sp/write-for-us",
+      "httpStatus": 200,
+      "finalUrl": "https://www.computer.org/csdl/magazine/sp/write-for-us",
+      "contentType": "text/html",
+      "contentSha256": "e1401e61fdcc58178f056f0cc7dea7d405cfa6659e83c38fe23ea90b0665338f",
+      "bytesRead": 8211,
+      "contentChanged": false
+    },
+    {
+      "journalId": "journal-ieee-s-p-magazine",
+      "role": "homepage",
+      "url": "https://www.computer.org/csdl/magazine/sp",
+      "httpStatus": 200,
+      "finalUrl": "https://www.computer.org/csdl/magazine/sp",
+      "contentType": "text/html",
+      "contentSha256": "e1401e61fdcc58178f056f0cc7dea7d405cfa6659e83c38fe23ea90b0665338f",
+      "bytesRead": 8211,
+      "contentChanged": false
+    },
+    {
+      "journalId": "journal-ieee-s-p-magazine",
+      "role": "metric:Journal Impact Factor",
+      "url": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-January-2026.pdf",
+      "httpStatus": 200,
+      "finalUrl": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-January-2026.pdf",
+      "contentType": "application/pdf",
+      "contentSha256": "91c9b3668526cf491018fd4b8171a053f5f55a270988e9c1ec97ebaee2d20496",
+      "bytesRead": 412061,
+      "contentChanged": false
+    },
+    {
+      "journalId": "journal-iet-is",
+      "role": "apc",
+      "url": "https://ietresearch.onlinelibrary.wiley.com/page/journal/ietis/homepage/open-access",
+      "blocked": "HTTP 403: automated retrieval restricted by publisher"
+    },
+    {
+      "journalId": "journal-iet-is",
+      "role": "author-guidelines",
+      "url": "https://ietresearch.onlinelibrary.wiley.com/page/journal/ietis/homepage/author-guidelines",
+      "blocked": "HTTP 403: automated retrieval restricted by publisher"
+    },
+    {
+      "journalId": "journal-iet-is",
+      "role": "homepage",
+      "url": "https://ietresearch.onlinelibrary.wiley.com/journal/ietis",
+      "blocked": "HTTP 403: automated retrieval restricted by publisher"
+    },
+    {
+      "journalId": "journal-iet-is",
+      "role": "ranking:CCF",
+      "url": "https://www.ccf.org.cn/Academic_Evaluation/NIS/",
+      "httpStatus": 200,
+      "finalUrl": "https://www.ccf.org.cn/Academic_Evaluation/NIS/",
+      "contentType": "text/html",
+      "contentSha256": "c5bda85875ba1ec480071bee927db5392a61408a8ee54e7d2348a07a91367f0b",
+      "bytesRead": 15999,
+      "contentChanged": false
+    },
+    {
+      "journalId": "journal-iet-is",
+      "role": "timeline",
+      "url": "https://ietresearch.onlinelibrary.wiley.com/page/journal/ietis/homepage/productinformation.html",
+      "blocked": "HTTP 403: automated retrieval restricted by publisher"
+    },
+    {
+      "journalId": "journal-ijcip",
+      "role": "author-guidelines",
+      "url": "https://www.sciencedirect.com/journal/international-journal-of-critical-infrastructure-protection/publish/guide-for-authors",
+      "blocked": "HTTP 403: automated retrieval restricted by publisher"
+    },
+    {
+      "journalId": "journal-ijcip",
+      "role": "homepage",
+      "url": "https://www.sciencedirect.com/journal/international-journal-of-critical-infrastructure-protection",
+      "blocked": "HTTP 403: automated retrieval restricted by publisher"
+    },
+    {
+      "journalId": "journal-ijis",
+      "role": "apc",
+      "url": "https://link.springer.com/journal/10207/how-to-publish-with-us",
+      "httpStatus": 200,
+      "finalUrl": "https://link.springer.com/journal/10207/how-to-publish-with-us?error=cookies_not_supported&code=99ba5b04-4190-4064-9e53-dd6392aa4700",
+      "contentType": "text/html",
+      "contentSha256": "1fa6163f04d02285096b68173b29fd60c483ef5fc98684a094d462dac2706b8c",
+      "bytesRead": 185991,
+      "contentChanged": true
+    },
+    {
+      "journalId": "journal-ijis",
+      "role": "author-guidelines",
+      "url": "https://link.springer.com/journal/10207/submission-guidelines",
+      "httpStatus": 200,
+      "finalUrl": "https://link.springer.com/journal/10207/submission-guidelines?error=cookies_not_supported&code=1cefcacd-87a5-4d74-9aea-5e93f6a223d0",
+      "contentType": "text/html",
+      "contentSha256": "413cf544e791d88cf3bb27afacdc587bf81649706031d9f0e7931b0fca7a2177",
+      "bytesRead": 297490,
+      "contentChanged": true
+    },
+    {
+      "journalId": "journal-ijis",
+      "role": "homepage",
+      "url": "https://link.springer.com/journal/10207",
+      "httpStatus": 200,
+      "finalUrl": "https://link.springer.com/journal/10207?error=cookies_not_supported&code=870e0774-b196-4dd4-ac06-d5ce5d5b0bda",
+      "contentType": "text/html",
+      "contentSha256": "533a946644e2cb3b7fae16363ae6bdc71795ccc26c58c874d3b0a2d23866da02",
+      "bytesRead": 225169,
+      "contentChanged": true
+    },
+    {
+      "journalId": "journal-jcs",
+      "role": "author-guidelines",
+      "url": "https://journals.sagepub.com/author-instructions/JCU",
+      "blocked": "HTTP 403: automated retrieval restricted by publisher"
+    },
+    {
+      "journalId": "journal-jcs",
+      "role": "homepage",
+      "url": "https://journals.sagepub.com/home/jcu",
+      "blocked": "HTTP 403: automated retrieval restricted by publisher"
+    },
+    {
+      "journalId": "journal-jcs",
+      "role": "ranking:CCF",
+      "url": "https://www.ccf.org.cn/Academic_Evaluation/NIS/",
+      "httpStatus": 200,
+      "finalUrl": "https://www.ccf.org.cn/Academic_Evaluation/NIS/",
+      "contentType": "text/html",
+      "contentSha256": "a528fa9e399c84a47fda8c6389d9d3e0586adb4dc895d9590bde5194dd96ef49",
+      "bytesRead": 15999,
+      "contentChanged": false
+    },
+    {
+      "journalId": "journal-jins",
+      "role": "apc",
+      "url": "https://link.springer.com/journal/13635/how-to-publish-with-us",
+      "httpStatus": 200,
+      "finalUrl": "https://link.springer.com/journal/13635/how-to-publish-with-us?error=cookies_not_supported&code=a7a78547-8379-4175-945e-9f9fead29031",
+      "contentType": "text/html",
+      "contentSha256": "ad6c15268769e831218a68c8e0d1f3e92484f14fbcf39d1e75ee3feda940f2a7",
+      "bytesRead": 188237,
+      "contentChanged": true
+    },
+    {
+      "journalId": "journal-jins",
+      "role": "author-guidelines",
+      "url": "https://link.springer.com/journal/13635/submission-guidelines",
+      "httpStatus": 200,
+      "finalUrl": "https://link.springer.com/journal/13635/submission-guidelines?error=cookies_not_supported&code=57feefbf-b14c-42fa-bae2-48a0966f9a8b",
+      "contentType": "text/html",
+      "contentSha256": "10fbee52a57075ed5353fcbbe02e266288191d0c52298303b5688908472a0e55",
+      "bytesRead": 213235,
+      "contentChanged": true
+    },
+    {
+      "journalId": "journal-jins",
+      "role": "homepage",
+      "url": "https://link.springer.com/journal/13635",
+      "httpStatus": 200,
+      "finalUrl": "https://link.springer.com/journal/13635?error=cookies_not_supported&code=a5a3cf3a-e692-462f-86a3-84818145667e",
+      "contentType": "text/html",
+      "contentSha256": "6c06ec0272e46e9cd6c2a642c50cf01bcf3c219bef231552ba88de7106edbbce",
+      "bytesRead": 223566,
+      "contentChanged": true
+    },
+    {
+      "journalId": "journal-jins",
+      "role": "ranking:CCF",
+      "url": "https://www.ccf.org.cn/Academic_Evaluation/NIS/",
+      "httpStatus": 200,
+      "finalUrl": "https://www.ccf.org.cn/Academic_Evaluation/NIS/",
+      "contentType": "text/html",
+      "contentSha256": "2213d558b98ff0a8375d42664c9ba80f5c8994660c947d1bdbeae6695ec15071",
+      "bytesRead": 15999,
+      "contentChanged": false
+    },
+    {
+      "journalId": "journal-jins",
+      "role": "ranking:SJR",
+      "url": "https://www.scimagojr.com/journalsearch.php?q=21100812851&tip=sid",
+      "blocked": "HTTP 403: automated retrieval restricted by publisher"
+    },
+    {
+      "journalId": "journal-jisa",
+      "role": "author-guidelines",
+      "url": "https://www.sciencedirect.com/journal/journal-of-information-security-and-applications/publish/guide-for-authors",
+      "blocked": "HTTP 403: automated retrieval restricted by publisher"
+    },
+    {
+      "journalId": "journal-jisa",
+      "role": "homepage",
+      "url": "https://www.sciencedirect.com/journal/journal-of-information-security-and-applications",
+      "blocked": "HTTP 403: automated retrieval restricted by publisher"
+    },
+    {
+      "journalId": "journal-jisa",
+      "role": "ranking:CCF",
+      "url": "https://www.ccf.org.cn/Academic_Evaluation/NIS/",
+      "httpStatus": 200,
+      "finalUrl": "https://www.ccf.org.cn/Academic_Evaluation/NIS/",
+      "contentType": "text/html",
+      "contentSha256": "7b3b1f76e6a5799f3c1c9e1ba7dc2992fd66abf2a09d2d10da905a2fbd10f576",
+      "bytesRead": 15999,
+      "contentChanged": false
+    },
+    {
+      "journalId": "journal-jisa",
+      "role": "ranking:Scopus",
+      "url": "https://library.wur.nl/WebQuery/utbrowser/38477",
+      "httpStatus": 200,
+      "finalUrl": "https://library.wur.nl/WebQuery/utbrowser/38477",
+      "contentType": "text/html",
+      "contentSha256": "81e5902b78883b7f0207ff6465206c4204bab3b47d716ccc04d4ed316feb0d2a",
+      "bytesRead": 25734,
+      "contentChanged": false
+    },
+    {
+      "journalId": "journal-joc",
+      "role": "apc",
+      "url": "https://link.springer.com/journal/145/how-to-publish-with-us",
+      "httpStatus": 200,
+      "finalUrl": "https://link.springer.com/journal/145/how-to-publish-with-us?error=cookies_not_supported&code=4be2a129-d2fc-47d3-a083-3ada4c0667e7",
+      "contentType": "text/html",
+      "contentSha256": "30e7de2e7b5c5202b1e8a7a8082a3c9c6e4dc4aa277b039f48f09e1b57361137",
+      "bytesRead": 185079,
+      "contentChanged": true
+    },
+    {
+      "journalId": "journal-joc",
+      "role": "author-guidelines",
+      "url": "https://link.springer.com/journal/145/submission-guidelines",
+      "httpStatus": 200,
+      "finalUrl": "https://link.springer.com/journal/145/submission-guidelines?error=cookies_not_supported&code=3b7a0d83-b469-463e-84a9-b497e9aea828",
+      "contentType": "text/html",
+      "contentSha256": "9d931cef725a09ec2a1358c46f663f3343b09609ec06035b5bf14438de1f6679",
+      "bytesRead": 192824,
+      "contentChanged": true
+    },
+    {
+      "journalId": "journal-joc",
+      "role": "ethics",
+      "url": "https://link.springer.com/journal/145/ethics-and-disclosures",
+      "httpStatus": 200,
+      "finalUrl": "https://link.springer.com/journal/145/ethics-and-disclosures?error=cookies_not_supported&code=153e9cf5-a7a9-43e1-b9e6-cf01ab63e6f8",
+      "contentType": "text/html",
+      "contentSha256": "fa93b176071a5dc94c5e6a194971ed6b4600c990abf5f2c85ca67e96fc34f7a6",
+      "bytesRead": 175188,
+      "contentChanged": false
+    },
+    {
+      "journalId": "journal-joc",
+      "role": "homepage",
+      "url": "https://link.springer.com/journal/145",
+      "httpStatus": 200,
+      "finalUrl": "https://link.springer.com/journal/145?error=cookies_not_supported&code=378d245f-7eda-4a53-a77e-a7a89788e834",
+      "contentType": "text/html",
+      "contentSha256": "c1879d0137c3e6b4d9ac617df2af1620b0cf1d9917fc21119d9cd1cb2c2e799a",
+      "bytesRead": 210464,
+      "contentChanged": true
+    },
+    {
+      "journalId": "journal-joc",
+      "role": "metric:CiteScore",
+      "url": "https://library.wur.nl/WebQuery/utbrowser/2483",
+      "httpStatus": 200,
+      "finalUrl": "https://library.wur.nl/WebQuery/utbrowser/2483",
+      "contentType": "text/html",
+      "contentSha256": "411b1ab575eb9c6795bcc8508832569d31e6e6a78d9d836c9deb3a8997be7334",
+      "bytesRead": 25763,
+      "contentChanged": false
+    },
+    {
+      "journalId": "journal-joc",
+      "role": "ranking:CCF",
+      "url": "https://www.ccf.org.cn/Academic_Evaluation/NIS/",
+      "httpStatus": 200,
+      "finalUrl": "https://www.ccf.org.cn/Academic_Evaluation/NIS/",
+      "contentType": "text/html",
+      "contentSha256": "cae9e1351a189951d6f08c15cff6f63a9df3e7f095835f1d94ba6c0ebc17650c",
+      "bytesRead": 15999,
+      "contentChanged": false
+    },
+    {
+      "journalId": "journal-jocyb",
+      "role": "apc",
+      "url": "https://academic.oup.com/cybersecurity/pages/publish-with-us",
+      "blocked": "HTTP 403: automated retrieval restricted by publisher"
+    },
+    {
+      "journalId": "journal-jocyb",
+      "role": "author-guidelines",
+      "url": "https://academic.oup.com/cybersecurity/pages/General_Instructions",
+      "blocked": "HTTP 403: automated retrieval restricted by publisher"
+    },
+    {
+      "journalId": "journal-jocyb",
+      "role": "homepage",
+      "url": "https://academic.oup.com/cybersecurity",
+      "blocked": "HTTP 403: automated retrieval restricted by publisher"
+    },
+    {
+      "journalId": "journal-jocyb",
+      "role": "metric:Journal Impact Factor",
+      "url": "https://academic.oup.com/cybersecurity/pages/About?login=false",
+      "blocked": "HTTP 403: automated retrieval restricted by publisher"
+    },
+    {
+      "journalId": "journal-popets",
+      "role": "apc",
+      "url": "https://www.petsymposium.org/faq.php",
+      "httpStatus": 200,
+      "finalUrl": "https://www.petsymposium.org/faq.php",
+      "contentType": "text/html",
+      "contentSha256": "93464691898fdd64ba354e54f4e4521b1b03d0e8c0c02b8cc931f4cdf497752a",
+      "bytesRead": 14012,
+      "contentChanged": false
+    },
+    {
+      "journalId": "journal-popets",
+      "role": "author-guidelines",
+      "url": "https://www.petsymposium.org/authors-2026.php",
+      "httpStatus": 200,
+      "finalUrl": "https://www.petsymposium.org/authors-2026.php",
+      "contentType": "text/html",
+      "contentSha256": "02dc8180a13f047fe2ebe9176cba8e3bbbca248e6f8c0ea3769afef7bf9c0a47",
+      "bytesRead": 36927,
+      "contentChanged": false
+    },
+    {
+      "journalId": "journal-popets",
+      "role": "homepage",
+      "url": "https://www.petsymposium.org/",
+      "httpStatus": 200,
+      "finalUrl": "https://www.petsymposium.org/",
+      "contentType": "text/html",
+      "contentSha256": "108368692768eadc10e1ebbb77ae6f26b34c17af4397ca50143f6b44d85adecb",
+      "bytesRead": 8406,
+      "contentChanged": false
+    },
+    {
+      "journalId": "journal-popets",
+      "role": "timeline",
+      "url": "https://www.petsymposium.org/reviews-2026.php",
+      "httpStatus": 200,
+      "finalUrl": "https://www.petsymposium.org/reviews-2026.php",
+      "contentType": "text/html",
+      "contentSha256": "4157d3de42582c17c12305353f4e15a4bd17be091b59356345ed86b402090236",
+      "bytesRead": 26675,
+      "contentChanged": false
+    },
+    {
+      "journalId": "journal-scn",
+      "role": "apc",
+      "url": "https://onlinelibrary.wiley.com/page/journal/2037/homepage/open-access",
+      "blocked": "HTTP 403: automated retrieval restricted by publisher"
+    },
+    {
+      "journalId": "journal-scn",
+      "role": "homepage",
+      "url": "https://onlinelibrary.wiley.com/journal/2037",
+      "blocked": "HTTP 403: automated retrieval restricted by publisher"
+    },
+    {
+      "journalId": "journal-scn",
+      "role": "ranking:CCF",
+      "url": "https://www.ccf.org.cn/Academic_Evaluation/NIS/",
+      "httpStatus": 200,
+      "finalUrl": "https://www.ccf.org.cn/Academic_Evaluation/NIS/",
+      "contentType": "text/html",
+      "contentSha256": "2706fd77b7ead1c11d3f92468eeb1f682bfa2a49e36594ad4b77735f6b7c9369",
+      "bytesRead": 15999,
+      "contentChanged": false
+    },
+    {
+      "journalId": "journal-tches",
+      "role": "author-guidelines",
+      "url": "https://tches.iacr.org/index.php/TCHES/Submission",
+      "httpStatus": 200,
+      "finalUrl": "https://tches.iacr.org/index.php/TCHES/Submission",
+      "contentType": "text/html",
+      "contentSha256": "2965fe882d54cd476fc35637bcd21fb8eeb260143b2c7ec0ff706cc8cc9902c9",
+      "bytesRead": 10555,
+      "contentChanged": false
+    },
+    {
+      "journalId": "journal-tches",
+      "role": "ethics",
+      "url": "https://tches.iacr.org/index.php/TCHES/ethics",
+      "httpStatus": 200,
+      "finalUrl": "https://tches.iacr.org/index.php/TCHES/ethics",
+      "contentType": "text/html",
+      "contentSha256": "587bf1513d8907a9bba631b0614e18eda6a1cb1017c2dadd17970c8e267a46fe",
+      "bytesRead": 18534,
+      "contentChanged": false
+    },
+    {
+      "journalId": "journal-tches",
+      "role": "homepage",
+      "url": "https://tches.iacr.org/index.php/TCHES/index",
+      "httpStatus": 200,
+      "finalUrl": "https://tches.iacr.org/index.php/TCHES/index",
+      "contentType": "text/html",
+      "contentSha256": "cada5c198953061fb439e2c65d6419619b31e3be3779695d5cb93ae9e33ff0d3",
+      "bytesRead": 51607,
+      "contentChanged": false
+    },
+    {
+      "journalId": "journal-tches",
+      "role": "timeline",
+      "url": "https://ches.iacr.org/2026/callforpapers.php",
+      "httpStatus": 200,
+      "finalUrl": "https://ches.iacr.org/2026/callforpapers.php",
+      "contentType": "text/html",
+      "contentSha256": "1d926bbe9c9654d42c0cec279443f19d1031dd44d026d6a4fc4fe959b7a6d2d3",
+      "bytesRead": 25719,
+      "contentChanged": true
+    },
+    {
+      "journalId": "journal-tdsc",
+      "role": "apc",
+      "url": "https://magazines.ieeeauthorcenter.ieee.org/wp-content/uploads/sites/10/IEEE-Article-Processing-Charges-List.pdf",
+      "httpStatus": 200,
+      "finalUrl": "https://magazines.ieeeauthorcenter.ieee.org/wp-content/uploads/sites/10/IEEE-Article-Processing-Charges-List.pdf",
+      "contentType": "application/pdf",
+      "contentSha256": "364883fc5740d24b022d56c5e48f64000d73b5507843a8b277974dc2f6c98dc4",
+      "bytesRead": 894856,
+      "contentChanged": false
+    },
+    {
+      "journalId": "journal-tdsc",
+      "role": "author-guidelines",
+      "url": "https://www.computer.org/csdl/journal/tq/write-for-us",
+      "httpStatus": 200,
+      "finalUrl": "https://www.computer.org/csdl/journal/tq/write-for-us",
+      "contentType": "text/html",
+      "contentSha256": "e1401e61fdcc58178f056f0cc7dea7d405cfa6659e83c38fe23ea90b0665338f",
+      "bytesRead": 8211,
+      "contentChanged": false
+    },
+    {
+      "journalId": "journal-tdsc",
+      "role": "data-code",
+      "url": "https://www.computer.org/publications/author-resources",
+      "httpStatus": 200,
+      "finalUrl": "https://www.computer.org/publications/author-resources",
+      "contentType": "text/html",
+      "contentSha256": "1d52c47a5c163f4566874571c5d08d0f96ea96379ed4304c3ff845ce55ef366b",
+      "bytesRead": 527183,
+      "contentChanged": false
+    },
+    {
+      "journalId": "journal-tdsc",
+      "role": "ethics",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/become-an-ieee-journal-author/publishing-ethics/",
+      "httpStatus": 200,
+      "finalUrl": "https://journals.ieeeauthorcenter.ieee.org/become-an-ieee-journal-author/publishing-ethics/",
+      "contentType": "text/html",
+      "contentSha256": "551650acdc059302640eded778be84d1207f58e7bcd55d32660fa093e2e71d7a",
+      "bytesRead": 64474,
+      "contentChanged": false
+    },
+    {
+      "journalId": "journal-tdsc",
+      "role": "homepage",
+      "url": "https://www.computer.org/csdl/journal/tq",
+      "httpStatus": 200,
+      "finalUrl": "https://www.computer.org/csdl/journal/tq",
+      "contentType": "text/html",
+      "contentSha256": "e1401e61fdcc58178f056f0cc7dea7d405cfa6659e83c38fe23ea90b0665338f",
+      "bytesRead": 8211,
+      "contentChanged": false
+    },
+    {
+      "journalId": "journal-tdsc",
+      "role": "metric:Journal Impact Factor",
+      "url": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-January-2026.pdf",
+      "httpStatus": 200,
+      "finalUrl": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-January-2026.pdf",
+      "contentType": "application/pdf",
+      "contentSha256": "91c9b3668526cf491018fd4b8171a053f5f55a270988e9c1ec97ebaee2d20496",
+      "bytesRead": 412061,
+      "contentChanged": false
+    },
+    {
+      "journalId": "journal-tdsc",
+      "role": "ranking:CCF",
+      "url": "https://www.ccf.org.cn/Academic_Evaluation/NIS/",
+      "httpStatus": 200,
+      "finalUrl": "https://www.ccf.org.cn/Academic_Evaluation/NIS/",
+      "contentType": "text/html",
+      "contentSha256": "64a0ceaba60b5b7c88b45162330eb664cb8f072b2b654340e809a56c15403d2c",
+      "bytesRead": 15999,
+      "contentChanged": false
+    },
+    {
+      "journalId": "journal-tifs",
+      "role": "apc",
+      "url": "https://magazines.ieeeauthorcenter.ieee.org/wp-content/uploads/sites/10/IEEE-Article-Processing-Charges-List.pdf",
+      "httpStatus": 200,
+      "finalUrl": "https://magazines.ieeeauthorcenter.ieee.org/wp-content/uploads/sites/10/IEEE-Article-Processing-Charges-List.pdf",
+      "contentType": "application/pdf",
+      "contentSha256": "364883fc5740d24b022d56c5e48f64000d73b5507843a8b277974dc2f6c98dc4",
+      "bytesRead": 894856,
+      "contentChanged": false
+    },
+    {
+      "journalId": "journal-tifs",
+      "role": "author-guidelines",
+      "url": "https://signalprocessingsociety.org/publications-resources/information-authors",
+      "httpStatus": 200,
+      "finalUrl": "https://signalprocessingsociety.org/publications-resources/information-authors",
+      "contentType": "text/html",
+      "contentSha256": "372011dcaf848185fdcb1467fd7877732b193354587845261256c31af83712d5",
+      "bytesRead": 153935,
+      "contentChanged": false
+    },
+    {
+      "journalId": "journal-tifs",
+      "role": "data-code",
+      "url": "https://signalprocessingsociety.org/publications-resources/publications-faq",
+      "httpStatus": 200,
+      "finalUrl": "https://signalprocessingsociety.org/publications-resources/publications-faq",
+      "contentType": "text/html",
+      "contentSha256": "4860e3c168b4cf728c99ce154c12c16940203b6c8e63c003e6e6036302c3b620",
+      "bytesRead": 151244,
+      "contentChanged": false
+    },
+    {
+      "journalId": "journal-tifs",
+      "role": "ethics",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/become-an-ieee-journal-author/publishing-ethics/",
+      "httpStatus": 200,
+      "finalUrl": "https://journals.ieeeauthorcenter.ieee.org/become-an-ieee-journal-author/publishing-ethics/",
+      "contentType": "text/html",
+      "contentSha256": "384db89ccbfe35310114e9f755606fc483438b1eb474fa108e5e85aefa29791c",
+      "bytesRead": 64474,
+      "contentChanged": false
+    },
+    {
+      "journalId": "journal-tifs",
+      "role": "homepage",
+      "url": "https://signalprocessingsociety.org/publications-resources/ieee-transactions-information-forensics-and-security/about-transactions",
+      "httpStatus": 200,
+      "finalUrl": "https://signalprocessingsociety.org/publications-resources/ieee-transactions-information-forensics-and-security/about-transactions",
+      "contentType": "text/html",
+      "contentSha256": "c4b4374bb7242e81dcd4a48ed29cda76eed4219bd30ced2bf6eb5ca45f16aeb0",
+      "bytesRead": 132449,
+      "contentChanged": false
+    },
+    {
+      "journalId": "journal-tifs",
+      "role": "metric:Journal Impact Factor",
+      "url": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-January-2026.pdf",
+      "httpStatus": 200,
+      "finalUrl": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-January-2026.pdf",
+      "contentType": "application/pdf",
+      "contentSha256": "91c9b3668526cf491018fd4b8171a053f5f55a270988e9c1ec97ebaee2d20496",
+      "bytesRead": 412061,
+      "contentChanged": false
+    },
+    {
+      "journalId": "journal-tifs",
+      "role": "ranking:CCF",
+      "url": "https://www.ccf.org.cn/Academic_Evaluation/NIS/",
+      "httpStatus": 200,
+      "finalUrl": "https://www.ccf.org.cn/Academic_Evaluation/NIS/",
+      "contentType": "text/html",
+      "contentSha256": "e20434e8c21268c81ee1b130d3c3561db005ee25a56cd84e6f9cda610b94b605",
+      "bytesRead": 15999,
+      "contentChanged": false
+    },
+    {
+      "journalId": "journal-tops",
+      "role": "apc",
+      "url": "https://prod-authors.acm.bloomreach.cloud/open-access/acm-open-for-authors-home",
+      "blocked": "HTTP 403: automated retrieval restricted by publisher"
+    },
+    {
+      "journalId": "journal-tops",
+      "role": "author-guidelines",
+      "url": "https://dl.acm.org/journal/tops/author-guidelines",
+      "blocked": "HTTP 403: automated retrieval restricted by publisher"
+    },
+    {
+      "journalId": "journal-tops",
+      "role": "data-code",
+      "url": "https://www.acm.org/publications/policies/artifact-review-and-badging-current",
+      "blocked": "HTTP 403: automated retrieval restricted by publisher"
+    },
+    {
+      "journalId": "journal-tops",
+      "role": "ethics",
+      "url": "https://www.acm.org/publications/policies/",
+      "httpStatus": 200,
+      "finalUrl": "https://www.acm.org/publications/policies/",
+      "contentType": "text/html",
+      "contentSha256": "0156c3db9dc3e34455db9174edd8ae00002c0e2d953f8d36e1348cc99d06c56b",
+      "bytesRead": 79337,
+      "contentChanged": false
+    },
+    {
+      "journalId": "journal-tops",
+      "role": "homepage",
+      "url": "https://dl.acm.org/journal/tops",
+      "blocked": "HTTP 403: automated retrieval restricted by publisher"
+    },
+    {
+      "journalId": "journal-tops",
+      "role": "metric:CiteScore",
+      "url": "https://library.wur.nl/WebQuery/wurbrowser/72772",
+      "httpStatus": 200,
+      "finalUrl": "https://library.wur.nl/WebQuery/wurbrowser/72772",
+      "contentType": "text/html",
+      "contentSha256": "a8b197546e5d3b3c1ec00de115f879a42646756dff20d9ae6153e55ff9186dbc",
+      "bytesRead": 31248,
+      "contentChanged": false
+    },
+    {
+      "journalId": "journal-tops",
+      "role": "metric:Journal Impact Factor",
+      "url": "https://www.acm.org/binaries/content/assets/press-releases/2024/july/news-release_impact_factors_2024_final.pdf",
+      "httpStatus": 200,
+      "finalUrl": "https://www.acm.org/binaries/content/assets/press-releases/2024/july/news-release_impact_factors_2024_final.pdf",
+      "contentType": "application/pdf",
+      "contentSha256": "b04281198dacd61bb844a4283f9cd73731502f7c6eb63664b20ba018433129b2",
+      "bytesRead": 175315,
+      "contentChanged": false
+    },
+    {
+      "journalId": "journal-tops",
+      "role": "ranking:CCF",
+      "url": "https://www.ccf.org.cn/Academic_Evaluation/NIS/",
+      "httpStatus": 200,
+      "finalUrl": "https://www.ccf.org.cn/Academic_Evaluation/NIS/",
+      "contentType": "text/html",
+      "contentSha256": "cb1bf36dd9731ffb02d2dd6b8f1b890da39cc87d617d383fafb97e36b4b9370a",
+      "bytesRead": 15999,
+      "contentChanged": false
+    },
+    {
+      "journalId": "journal-tosc",
+      "role": "author-guidelines",
+      "url": "https://tosc.iacr.org/index.php/ToSC/Submission",
+      "httpStatus": 200,
+      "finalUrl": "https://tosc.iacr.org/index.php/ToSC/Submission",
+      "contentType": "text/html",
+      "contentSha256": "0589c0388bcf7bd4be39c96b8f0bdd5286d6710950142e35118181f31793f222",
+      "bytesRead": 10220,
+      "contentChanged": false
+    },
+    {
+      "journalId": "journal-tosc",
+      "role": "ethics",
+      "url": "https://tosc.iacr.org/index.php/ToSC/ethics",
+      "httpStatus": 200,
+      "finalUrl": "https://tosc.iacr.org/index.php/ToSC/ethics",
+      "contentType": "text/html",
+      "contentSha256": "abb2f161dcb731fd2878533dbaf7105ae5e1d54257be1552a826c17171b388d1",
+      "bytesRead": 22413,
+      "contentChanged": false
+    },
+    {
+      "journalId": "journal-tosc",
+      "role": "homepage",
+      "url": "https://tosc.iacr.org/index.php/ToSC/index",
+      "httpStatus": 200,
+      "finalUrl": "https://tosc.iacr.org/index.php/ToSC/index",
+      "contentType": "text/html",
+      "contentSha256": "f3b1ca27be02eca78d4c9e1ca0819b693a9effb44e910b6bc339d39862897fe0",
+      "bytesRead": 19325,
+      "contentChanged": false
+    },
+    {
+      "journalId": "journal-tosc",
+      "role": "ranking:SJR",
+      "url": "https://library.wur.nl/WebQuery/utbrowser/76231",
+      "httpStatus": 200,
+      "finalUrl": "https://library.wur.nl/WebQuery/utbrowser/76231",
+      "contentType": "text/html",
+      "contentSha256": "cf6668b682ff3930e5c1dec1a5179501f591aea15a8e18184c4e672de6fb2fec",
+      "bytesRead": 13772,
+      "contentChanged": false
+    },
+    {
+      "journalId": "journal-tosc",
+      "role": "timeline",
+      "url": "https://tosc.iacr.org/index.php/ToSC/Call",
+      "httpStatus": 200,
+      "finalUrl": "https://tosc.iacr.org/index.php/ToSC/Call",
+      "contentType": "text/html",
+      "contentSha256": "8f4357039735e51a6a7068cb90bf435bf4a8fc41aff8742e0af3daa4344bd386",
+      "bytesRead": 16303,
+      "contentChanged": false
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "generatedAt": "2026-08-25T22:56:20.030Z",
+  "sources": {
+    "cyber-research-radar.json": "e6d1cb4e1d34aa83e36c1be9f2b9d395942e6277bd3a36fdbc6ced7fdf5c9728",
+    "catalogue-events-cyber.xlsx": "4c936f5a2d0492120a0a9b6e131f442a0330b942918d2e2a4bb2d415dc88e80f"
+  },
+  "detailedRadarEvents": 47,
+  "workbookEventRows": 302,
+  "workbookReferenceRows": 335,
+  "matchedCatalogueRows": 66,
+  "addedCatalogueRows": 236,
+  "outputRecords": 283,
+  "mappedRecords": 65,
+  "byType": {
+    "conference": 200,
+    "workshop": 83
+  },
+  "byStatus": {
+    "verified": 34,
+    "watchlist": 246,
+    "needs-review": 1,
+    "closed": 2
+  }
+}

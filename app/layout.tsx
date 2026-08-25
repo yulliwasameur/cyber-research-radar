@@ -9,10 +9,10 @@ const siteUrl = new URL('https://cyber-research-radar.yulliwas.chatgpt.site');
 export const metadata: Metadata = {
   metadataBase: siteUrl,
   title: {
-    default: 'CyberResearch Radar — Cybersecurity & cryptography events worldwide',
+    default: 'CyberResearch Radar — Cyber events, CFPs & journal targeting',
     template: '%s · CyberResearch Radar',
   },
-  description: 'Discover verified cybersecurity and cryptography conferences, workshops and CFP deadlines worldwide, with rankings, topics and an interactive map.',
+  description: 'Discover cybersecurity and cryptography events worldwide, then compare journals by scope, publisher, access model, APC, editorial timing and dated ranking evidence.',
   applicationName: 'CyberResearch Radar',
   authors: [{ name: 'Yulliwas Ameur' }],
   creator: 'Yulliwas Ameur',
@@ -20,6 +20,7 @@ export const metadata: Metadata = {
   keywords: [
     'cybersecurity conferences', 'cryptography conferences', 'call for papers', 'CFP deadlines',
     'post-quantum cryptography', 'homomorphic encryption', 'privacy-preserving machine learning',
+    'cybersecurity journals', 'cryptography journals', 'journal APC', 'journal quartile',
     'cybersecurity PhD', 'cybersecurity grants', 'research schools', 'workshops',
   ],
   openGraph: {
@@ -27,13 +28,13 @@ export const metadata: Metadata = {
     url: '/',
     locale: 'en_US',
     siteName: 'CyberResearch Radar',
-    title: 'CyberResearch Radar — The global map of cybersecurity and cryptography events',
-    description: 'Verified cyber and crypto conferences, workshops and CFP deadlines worldwide.',
+    title: 'CyberResearch Radar — Global cyber events and journal intelligence',
+    description: 'Cyber and crypto events, CFP deadlines and source-linked journal targeting data.',
   },
   twitter: {
     card: 'summary',
     title: 'CyberResearch Radar',
-    description: 'The global map of cybersecurity and cryptography events.',
+    description: 'The global map of cybersecurity events and evidence-led journal targeting directory.',
   },
   robots: { index: true, follow: true },
   category: 'research',

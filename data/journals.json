@@ -1,0 +1,1895 @@
+[
+  {
+    "id": "journal-dtrap",
+    "title": "ACM Digital Threats: Research and Practice",
+    "acronym": "DTRAP",
+    "publisher": "Association for Computing Machinery",
+    "society": "ACM",
+    "summary": "Digital Threats: Research and Practice (DTRAP) is a fully open-access journal tracked for cybersecurity and cryptography manuscript targeting.",
+    "scope": "Prevention, identification, mitigation and elimination of real digital threats: malware, exploits, vulnerabilities, adversary tactics, crime, incident response, SecOps/TTPs, threat intelligence and security posture across hardware, software, networks, firmware, robotics and industrial automation.",
+    "topics": [
+      "security research",
+      "privacy",
+      "digital threats",
+      "practice",
+      "systems security"
+    ],
+    "officialUrl": "https://dl.acm.org/journal/dtrap",
+    "authorGuidelinesUrl": "https://dl.acm.org/journal/dtrap/author-guidelines",
+    "submissionUrl": null,
+    "issn": [
+      "2692-1626",
+      "2576-5337"
+    ],
+    "accessModel": "gold",
+    "apc": {
+      "amount": 1450,
+      "currency": "USD",
+      "label": "ACM subsidized journal APC for 2026",
+      "mandatory": true,
+      "conditions": "USD 1,450 without ACM/SIG membership or USD 950 when an author is a member. ACM Open institutions and eligible countries may pay USD 0; geographic reductions also apply.",
+      "sourceUrl": "https://prod-authors.acm.bloomreach.cloud/open-access/acm-open-for-authors-home",
+      "verifiedAt": "2026-08-26"
+    },
+    "submissionFee": null,
+    "otherCharges": null,
+    "waivers": "ACM Open agreements and country-based waivers/discounts can reduce the APC to zero.",
+    "timeline": {
+      "firstDecisionDays": null,
+      "reviewDays": null,
+      "submissionToAcceptanceDays": null,
+      "acceptanceToPublicationDays": null,
+      "basis": "not-published",
+      "note": "No comparable publisher-reported timing was captured in the source snapshot.",
+      "sourceUrl": null,
+      "verifiedAt": "2026-08-26",
+      "measureType": "not-published"
+    },
+    "publicationFrequency": "4 issues per year",
+    "peerReviewModel": "Double-blind",
+    "articleTypes": [
+      "Research article",
+      "Experience report",
+      "Field note",
+      "Dataset or repository contribution"
+    ],
+    "indexing": [
+      "Scopus"
+    ],
+    "metrics": [
+      {
+        "name": "CiteScore",
+        "value": 5.2,
+        "year": 2024,
+        "sourceUrl": "https://library.wur.nl/WebQuery/utbrowser/81553"
+      }
+    ],
+    "rankings": [
+      {
+        "framework": "SJR",
+        "rank": "Q1",
+        "category": "Safety Research",
+        "edition": "2024",
+        "sourceUrl": "https://library.wur.nl/WebQuery/utbrowser/81553"
+      }
+    ],
+    "acceptanceRate": null,
+    "dataCodePolicy": "Recent official calls have expected code and data where possible. When NDA or operational constraints prevent release, authors should document the limits and threats to reproducibility; authors must recheck the current call.",
+    "dataCodePolicyUrl": "https://dtrap-blog.acm.org/2022/05/27/extended-call-for-papers/",
+    "ethicsUrl": "https://www.acm.org/publications/policies/",
+    "status": "active",
+    "caution": null,
+    "notes": null,
+    "verifiedAt": "2026-08-26"
+  },
+  {
+    "id": "journal-tops",
+    "title": "ACM Transactions on Privacy and Security",
+    "acronym": "TOPS",
+    "publisher": "Association for Computing Machinery",
+    "society": "ACM SIGSAC",
+    "summary": "ACM Transactions on Privacy and Security (TOPS) is a hybrid journal tracked for cybersecurity and cryptography manuscript targeting.",
+    "scope": "Information and systems security and privacy: authentication, authorisation, audit, intrusion, cryptography, protocols, assurance, risk, formal methods, operating systems, databases, networks, distributed/mobile/cloud/CPS systems, privacy technologies, voting, health, usability and policy.",
+    "topics": [
+      "privacy",
+      "systems security",
+      "network security",
+      "formal methods",
+      "usable security"
+    ],
+    "officialUrl": "https://dl.acm.org/journal/tops",
+    "authorGuidelinesUrl": "https://dl.acm.org/journal/tops/author-guidelines",
+    "submissionUrl": null,
+    "issn": [
+      "2471-2566",
+      "2471-2574"
+    ],
+    "accessModel": "gold",
+    "apc": {
+      "amount": 1450,
+      "currency": "USD",
+      "label": "ACM subsidized journal APC for 2026",
+      "mandatory": true,
+      "conditions": "USD 1,450 without ACM/SIG membership or USD 950 when an author is a member. ACM Open institutions and eligible countries may pay USD 0; geographic reductions also apply.",
+      "sourceUrl": "https://prod-authors.acm.bloomreach.cloud/open-access/acm-open-for-authors-home",
+      "verifiedAt": "2026-08-26"
+    },
+    "submissionFee": null,
+    "otherCharges": null,
+    "waivers": "ACM Open agreements and country-based waivers/discounts can reduce the APC to zero.",
+    "timeline": {
+      "firstDecisionDays": null,
+      "reviewDays": null,
+      "submissionToAcceptanceDays": null,
+      "acceptanceToPublicationDays": null,
+      "basis": "not-published",
+      "note": "No comparable publisher-reported timing was captured in the source snapshot.",
+      "sourceUrl": null,
+      "verifiedAt": "2026-08-26",
+      "measureType": "not-published"
+    },
+    "publicationFrequency": "4 issues per year",
+    "peerReviewModel": null,
+    "articleTypes": [
+      "Research article with practical relevance"
+    ],
+    "indexing": [
+      "SCIE",
+      "Scopus"
+    ],
+    "metrics": [
+      {
+        "name": "Journal Impact Factor",
+        "value": 3,
+        "year": 2023,
+        "sourceUrl": "https://www.acm.org/binaries/content/assets/press-releases/2024/july/news-release_impact_factors_2024_final.pdf"
+      },
+      {
+        "name": "CiteScore",
+        "value": 6.5,
+        "year": 2024,
+        "sourceUrl": "https://library.wur.nl/WebQuery/wurbrowser/72772"
+      }
+    ],
+    "rankings": [
+      {
+        "framework": "SJR",
+        "rank": "Q1",
+        "category": "Safety Research",
+        "edition": "2024",
+        "sourceUrl": "https://library.wur.nl/WebQuery/wurbrowser/72772"
+      },
+      {
+        "framework": "CCF",
+        "rank": "B",
+        "category": "Network and Information Security",
+        "edition": "2026 · 7th edition",
+        "sourceUrl": "https://www.ccf.org.cn/Academic_Evaluation/NIS/"
+      }
+    ],
+    "acceptanceRate": null,
+    "dataCodePolicy": "Eligible for ACM artifact review and badging; no title-specific mandatory artifact rule was found.",
+    "dataCodePolicyUrl": "https://www.acm.org/publications/policies/artifact-review-and-badging-current",
+    "ethicsUrl": "https://www.acm.org/publications/policies/",
+    "status": "active",
+    "caution": null,
+    "notes": null,
+    "verifiedAt": "2026-08-26"
+  },
+  {
+    "id": "journal-clsr",
+    "title": "Computer Law & Security Review",
+    "acronym": "CLSR",
+    "publisher": "Elsevier",
+    "society": null,
+    "summary": "Computer Law & Security Review is a hybrid journal tracked for cybersecurity and cryptography manuscript targeting.",
+    "scope": "Technology law and practice: internet and telecom regulation, intellectual property, cybercrime, surveillance, e-commerce, outsourcing, data protection, ePrivacy and public-sector digital systems.",
+    "topics": [
+      "technology law",
+      "privacy law",
+      "cybersecurity policy",
+      "data protection",
+      "regulation"
+    ],
+    "officialUrl": "https://www.sciencedirect.com/journal/computer-law-and-security-review",
+    "authorGuidelinesUrl": "https://www.sciencedirect.com/journal/computer-law-and-security-review/publish/guide-for-authors",
+    "submissionUrl": null,
+    "issn": [
+      "2212-473X",
+      "2212-4748"
+    ],
+    "accessModel": "hybrid",
+    "apc": {
+      "amount": 3760,
+      "currency": "USD",
+      "label": "Optional open-access APC",
+      "mandatory": false,
+      "conditions": "USD 3,760 excluding taxes for open access. The subscription publication route has no publication fee.",
+      "sourceUrl": "https://www.sciencedirect.com/journal/computer-law-and-security-review/about/insights",
+      "verifiedAt": "2026-08-26"
+    },
+    "submissionFee": null,
+    "otherCharges": null,
+    "waivers": null,
+    "timeline": {
+      "firstDecisionDays": 5,
+      "reviewDays": 102,
+      "submissionToAcceptanceDays": 226,
+      "acceptanceToPublicationDays": 13,
+      "basis": "publisher-reported",
+      "note": "Publisher journal-insights medians; first decision can include editorial screening.",
+      "sourceUrl": "https://www.sciencedirect.com/journal/computer-law-and-security-review/about/insights",
+      "verifiedAt": "2026-08-26",
+      "measureType": "median"
+    },
+    "publicationFrequency": "6 publications per year",
+    "peerReviewModel": null,
+    "articleTypes": [
+      "Article (generally 6,000–15,000 words)",
+      "Opinion (at least 2,000 words)"
+    ],
+    "indexing": [
+      "Scopus",
+      "SSCI",
+      "ABDC"
+    ],
+    "metrics": [],
+    "rankings": [
+      {
+        "framework": "CCF",
+        "rank": "C",
+        "category": "Network and Information Security",
+        "edition": "2026 · 7th edition",
+        "sourceUrl": "https://www.ccf.org.cn/Academic_Evaluation/NIS/"
+      }
+    ],
+    "acceptanceRate": "23% (publisher reported)",
+    "dataCodePolicy": "Elsevier research-data policy applies; linked Data in Brief or MethodsX submissions are encouraged.",
+    "dataCodePolicyUrl": "https://www.sciencedirect.com/journal/computer-law-and-security-review/publish/guide-for-authors",
+    "ethicsUrl": null,
+    "status": "active",
+    "caution": null,
+    "notes": "The journal explicitly encourages doctoral researchers to obtain supervisor confirmation or recommendation before submitting. Current metric values conflict across official Elsevier pages and are withheld pending dated reconciliation.",
+    "verifiedAt": "2026-08-26"
+  },
+  {
+    "id": "journal-cose",
+    "title": "Computers & Security",
+    "acronym": "COSE",
+    "publisher": "Elsevier",
+    "society": null,
+    "summary": "Computers & Security (COSE) is a hybrid journal tracked for cybersecurity and cryptography manuscript targeting.",
+    "scope": "Information security research and practice for systems, organisations, audit, control and data integrity. The current official scope explicitly excludes cryptology as a principal component and currently places AI/ML-centred submissions outside scope.",
+    "topics": [
+      "information security management",
+      "systems security",
+      "audit",
+      "risk",
+      "human factors"
+    ],
+    "officialUrl": "https://www.sciencedirect.com/journal/computers-and-security",
+    "authorGuidelinesUrl": null,
+    "submissionUrl": null,
+    "issn": [
+      "0167-4048",
+      "1872-6208"
+    ],
+    "accessModel": "hybrid",
+    "apc": {
+      "amount": 3190,
+      "currency": "USD",
+      "label": "Optional open-access APC; subscription route has no publication fee",
+      "mandatory": false,
+      "conditions": "USD 3,190 excluding taxes for open access; reductions may apply. The subscription publication route has no publication fee.",
+      "sourceUrl": "https://www.sciencedirect.com/journal/computers-and-security",
+      "verifiedAt": "2026-08-26"
+    },
+    "submissionFee": null,
+    "otherCharges": null,
+    "waivers": null,
+    "timeline": {
+      "firstDecisionDays": 3,
+      "reviewDays": 53,
+      "submissionToAcceptanceDays": 150,
+      "acceptanceToPublicationDays": 6,
+      "basis": "publisher-reported",
+      "note": "Publisher journal-insights medians; first decision can include editorial screening and is not equivalent to completed peer review.",
+      "sourceUrl": "https://www.sciencedirect.com/journal/computers-and-security",
+      "verifiedAt": "2026-08-26",
+      "measureType": "median"
+    },
+    "publicationFrequency": "12 issues per year",
+    "peerReviewModel": null,
+    "articleTypes": [],
+    "indexing": [
+      "Scopus"
+    ],
+    "metrics": [],
+    "rankings": [
+      {
+        "framework": "SJR",
+        "rank": "Q1",
+        "category": "Computer Science (miscellaneous)",
+        "edition": "2024",
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=28898&tip=sid"
+      },
+      {
+        "framework": "CCF",
+        "rank": "B",
+        "category": "Network and Information Security",
+        "edition": "2026 · 7th edition",
+        "sourceUrl": "https://www.ccf.org.cn/Academic_Evaluation/NIS/"
+      }
+    ],
+    "acceptanceRate": null,
+    "dataCodePolicy": null,
+    "dataCodePolicyUrl": null,
+    "ethicsUrl": null,
+    "status": "active",
+    "caution": null,
+    "notes": null,
+    "verifiedAt": "2026-08-26"
+  },
+  {
+    "id": "journal-cybersecurity",
+    "title": "Cybersecurity",
+    "acronym": "Cybersecurity",
+    "publisher": "SpringerOpen",
+    "society": null,
+    "summary": "Cybersecurity is a fully open-access journal tracked for cybersecurity and cryptography manuscript targeting.",
+    "scope": "Cybersecurity of networks, critical infrastructure, systems, data and applications, including malware, privacy, adversarial reasoning and security analytics.",
+    "topics": [
+      "cybersecurity",
+      "threat intelligence",
+      "critical infrastructure",
+      "privacy",
+      "secure systems"
+    ],
+    "officialUrl": "https://link.springer.com/journal/42400",
+    "authorGuidelinesUrl": "https://link.springer.com/journal/42400/submission-guidelines",
+    "submissionUrl": null,
+    "issn": [
+      "2523-3246"
+    ],
+    "accessModel": "gold",
+    "apc": {
+      "amount": 1485,
+      "currency": "USD",
+      "label": "Mandatory open-access APC",
+      "mandatory": true,
+      "conditions": "USD 1,485 / GBP 1,060 / EUR 1,190, excluding taxes. Institutional agreements, waivers and reductions may apply.",
+      "sourceUrl": "https://link.springer.com/journal/42400/how-to-publish-with-us",
+      "verifiedAt": "2026-08-26"
+    },
+    "submissionFee": null,
+    "otherCharges": null,
+    "waivers": "Institutional agreements, country waivers and reductions may apply.",
+    "timeline": {
+      "firstDecisionDays": 15,
+      "reviewDays": null,
+      "submissionToAcceptanceDays": null,
+      "acceptanceToPublicationDays": null,
+      "basis": "publisher-reported",
+      "note": "Publisher-reported median to first decision.",
+      "sourceUrl": "https://link.springer.com/journal/42400",
+      "verifiedAt": "2026-08-26",
+      "measureType": "median"
+    },
+    "publicationFrequency": "Continuous publication in one annual volume",
+    "peerReviewModel": null,
+    "articleTypes": [],
+    "indexing": [
+      "DBLP",
+      "DOAJ",
+      "EI Compendex",
+      "ESCI",
+      "INSPEC",
+      "Scopus",
+      "SCImago"
+    ],
+    "metrics": [
+      {
+        "name": "Journal Impact Factor",
+        "value": 4.1,
+        "year": 2025,
+        "sourceUrl": "https://link.springer.com/journal/42400"
+      }
+    ],
+    "rankings": [
+      {
+        "framework": "CCF",
+        "rank": "C",
+        "category": "Network and Information Security",
+        "edition": "2026 · 7th edition",
+        "sourceUrl": "https://www.ccf.org.cn/Academic_Evaluation/NIS/"
+      }
+    ],
+    "acceptanceRate": null,
+    "dataCodePolicy": null,
+    "dataCodePolicyUrl": null,
+    "ethicsUrl": null,
+    "status": "active",
+    "caution": null,
+    "notes": null,
+    "verifiedAt": "2026-08-26"
+  },
+  {
+    "id": "journal-dcc",
+    "title": "Designs, Codes and Cryptography",
+    "acronym": "DCC",
+    "publisher": "Springer",
+    "society": null,
+    "summary": "Designs, Codes and Cryptography is a hybrid journal tracked for cybersecurity and cryptography manuscript targeting.",
+    "scope": "Mathematical research on design theory, coding theory, cryptography, finite fields, algebraic geometry and their interactions.",
+    "topics": [
+      "cryptography",
+      "coding theory",
+      "combinatorics",
+      "information security"
+    ],
+    "officialUrl": "https://link.springer.com/journal/10623",
+    "authorGuidelinesUrl": "https://link.springer.com/journal/10623/submission-guidelines",
+    "submissionUrl": null,
+    "issn": [
+      "0925-1022",
+      "1573-7586"
+    ],
+    "accessModel": "hybrid",
+    "apc": {
+      "amount": 3290,
+      "currency": "USD",
+      "label": "Optional open-access APC",
+      "mandatory": false,
+      "conditions": "USD 3,290 / GBP 2,390 / EUR 2,690, excluding taxes. The subscription route has no APC; institutional agreements may apply and the acceptance-date price governs.",
+      "sourceUrl": "https://link.springer.com/journal/10623/how-to-publish-with-us",
+      "verifiedAt": "2026-08-26"
+    },
+    "submissionFee": null,
+    "otherCharges": null,
+    "waivers": "Institutional open-access agreements may cover or reduce the APC.",
+    "timeline": {
+      "firstDecisionDays": 3,
+      "reviewDays": null,
+      "submissionToAcceptanceDays": null,
+      "acceptanceToPublicationDays": null,
+      "basis": "publisher-reported",
+      "note": "Publisher-reported median to first decision, including editorial screening.",
+      "sourceUrl": "https://link.springer.com/journal/10623",
+      "verifiedAt": "2026-08-26",
+      "measureType": "median"
+    },
+    "publicationFrequency": "12 issues observed in 2025 archives",
+    "peerReviewModel": null,
+    "articleTypes": [],
+    "indexing": [
+      "ACM Digital Library",
+      "DBLP",
+      "EI Compendex",
+      "INSPEC",
+      "Scopus",
+      "SCIE",
+      "Mathematical Reviews",
+      "zbMATH"
+    ],
+    "metrics": [
+      {
+        "name": "Journal Impact Factor",
+        "value": 1.2,
+        "year": 2025,
+        "sourceUrl": "https://link.springer.com/journal/10623"
+      }
+    ],
+    "rankings": [
+      {
+        "framework": "CCF",
+        "rank": "B",
+        "category": "Network and Information Security",
+        "edition": "2026 · 7th edition",
+        "sourceUrl": "https://www.ccf.org.cn/Academic_Evaluation/NIS/"
+      }
+    ],
+    "acceptanceRate": null,
+    "dataCodePolicy": null,
+    "dataCodePolicyUrl": null,
+    "ethicsUrl": null,
+    "status": "active",
+    "caution": null,
+    "notes": null,
+    "verifiedAt": "2026-08-26"
+  },
+  {
+    "id": "journal-fsidi",
+    "title": "Forensic Science International: Digital Investigation",
+    "acronym": "FSIDI",
+    "publisher": "Elsevier",
+    "society": null,
+    "summary": "Forensic Science International: Digital Investigation is a hybrid journal tracked for cybersecurity and cryptography manuscript targeting.",
+    "scope": "Digital evidence, cybercrime and digital forensics, including multimedia provenance, integrity, authenticity, investigative methods, surveys, tool analysis and applications.",
+    "topics": [
+      "digital forensics",
+      "incident response",
+      "cybercrime",
+      "evidence",
+      "forensic methods"
+    ],
+    "officialUrl": "https://www.sciencedirect.com/journal/forensic-science-international-digital-investigation",
+    "authorGuidelinesUrl": "https://www.sciencedirect.com/journal/forensic-science-international-digital-investigation/publish/guide-for-authors",
+    "submissionUrl": null,
+    "issn": [
+      "2666-2825",
+      "2666-2817"
+    ],
+    "accessModel": "hybrid",
+    "apc": {
+      "amount": null,
+      "currency": null,
+      "label": "Price not yet independently sourced",
+      "mandatory": false,
+      "conditions": "Consult the official fee page; taxes, agreements and waivers can change the amount.",
+      "sourceUrl": null,
+      "verifiedAt": "2026-08-26"
+    },
+    "submissionFee": null,
+    "otherCharges": null,
+    "waivers": null,
+    "timeline": {
+      "firstDecisionDays": null,
+      "reviewDays": null,
+      "submissionToAcceptanceDays": null,
+      "acceptanceToPublicationDays": null,
+      "basis": "not-published",
+      "note": "No comparable publisher-reported timing was captured in the source snapshot.",
+      "sourceUrl": null,
+      "verifiedAt": "2026-08-26",
+      "measureType": "not-published"
+    },
+    "publicationFrequency": "Approximately four volumes or issue groups per year in recent archives",
+    "peerReviewModel": null,
+    "articleTypes": [],
+    "indexing": [
+      "Scopus"
+    ],
+    "metrics": [],
+    "rankings": [
+      {
+        "framework": "Scopus",
+        "rank": "Q2",
+        "category": "Information Systems",
+        "edition": "2024",
+        "sourceUrl": "https://library.wur.nl/WebQuery/utbrowser/79751"
+      },
+      {
+        "framework": "Scopus",
+        "rank": "Q1",
+        "category": "Pathology and Forensic Medicine",
+        "edition": "2024",
+        "sourceUrl": "https://library.wur.nl/WebQuery/utbrowser/79751"
+      }
+    ],
+    "acceptanceRate": null,
+    "dataCodePolicy": null,
+    "dataCodePolicyUrl": null,
+    "ethicsUrl": null,
+    "status": "active",
+    "caution": null,
+    "notes": null,
+    "verifiedAt": "2026-08-26"
+  },
+  {
+    "id": "journal-cic",
+    "title": "IACR Communications in Cryptology",
+    "acronym": "CiC",
+    "publisher": "International Association for Cryptologic Research",
+    "society": "International Association for Cryptologic Research",
+    "summary": "IACR Communications in Cryptology (CiC) is a diamond open-access journal tracked for cybersecurity and cryptography manuscript targeting.",
+    "scope": "All cryptography and cryptanalysis: mathematics and theory, primitives and protocols, hardware/software implementation and optimisation, real-world applications, surveys, practitioner work and history of cryptography.",
+    "topics": [
+      "cryptography",
+      "cryptanalysis",
+      "protocols",
+      "implementations",
+      "foundations"
+    ],
+    "officialUrl": "https://cic.iacr.org/",
+    "authorGuidelinesUrl": "https://cic.iacr.org/page/callforpapers",
+    "submissionUrl": null,
+    "issn": [
+      "3006-5496"
+    ],
+    "accessModel": "diamond",
+    "apc": {
+      "amount": 0,
+      "currency": "USD",
+      "label": "Diamond open access · no APC",
+      "mandatory": false,
+      "conditions": "Submission, publication and reading are free. CC BY 4.0; authors retain copyright.",
+      "sourceUrl": "https://cic.iacr.org/page/faq",
+      "verifiedAt": "2026-08-26"
+    },
+    "submissionFee": null,
+    "otherCharges": null,
+    "waivers": null,
+    "timeline": {
+      "firstDecisionDays": 90,
+      "reviewDays": null,
+      "submissionToAcceptanceDays": null,
+      "acceptanceToPublicationDays": null,
+      "basis": "journal-reported",
+      "note": "The journal targets a decision within three months for normal-length papers; longer submissions may be deferred.",
+      "sourceUrl": "https://cic.iacr.org/page/faq",
+      "verifiedAt": "2026-08-26",
+      "measureType": "target"
+    },
+    "publicationFrequency": "4 submission cycles / issues per year",
+    "peerReviewModel": "Double-blind; at least three editorial-board reviewers",
+    "articleTypes": [
+      "Original research",
+      "Survey / SoK",
+      "Practitioner article",
+      "Historical article"
+    ],
+    "indexing": [
+      "Open metadata / OAI-PMH",
+      "Google Scholar discovery"
+    ],
+    "metrics": [],
+    "rankings": [],
+    "acceptanceRate": null,
+    "dataCodePolicy": "Experimental data and code should be made available whenever possible.",
+    "dataCodePolicyUrl": "https://cic.iacr.org/page/callforpapers",
+    "ethicsUrl": "https://cic.iacr.org/page/ethics",
+    "status": "active",
+    "caution": null,
+    "notes": "No strict page limit; papers over 20 pages may miss the three-month target, and submissions over 40 pages can receive a length-justification decision first.",
+    "verifiedAt": "2026-08-26"
+  },
+  {
+    "id": "journal-tches",
+    "title": "IACR Transactions on Cryptographic Hardware and Embedded Systems",
+    "acronym": "TCHES",
+    "publisher": "IACR / Ruhr University Bochum",
+    "society": "International Association for Cryptologic Research",
+    "summary": "IACR TCHES (CHES) is a diamond open-access journal tracked for cybersecurity and cryptography manuscript targeting.",
+    "scope": "Cryptographic hardware and software, accelerators, RNGs and PUFs, side channels, faults, tamper and white-box security, reverse engineering, hardware Trojans, CAD/DSL tools, FPGA/RISC-V/TEE/secure elements, IoT/CPS and implementations of PQC, MPC, FHE and zero knowledge.",
+    "topics": [
+      "cryptographic hardware",
+      "embedded security",
+      "side channels",
+      "implementations",
+      "fault attacks"
+    ],
+    "officialUrl": "https://tches.iacr.org/index.php/TCHES/index",
+    "authorGuidelinesUrl": "https://tches.iacr.org/index.php/TCHES/Submission",
+    "submissionUrl": null,
+    "issn": [
+      "2569-2925"
+    ],
+    "accessModel": "diamond",
+    "apc": {
+      "amount": 0,
+      "currency": "USD",
+      "label": "Diamond open access · no APC",
+      "mandatory": false,
+      "conditions": "Submission and publication are free under CC BY; authors retain rights.",
+      "sourceUrl": "https://tches.iacr.org/index.php/TCHES/index",
+      "verifiedAt": "2026-08-26"
+    },
+    "submissionFee": null,
+    "otherCharges": null,
+    "waivers": null,
+    "timeline": {
+      "firstDecisionDays": 60,
+      "reviewDays": null,
+      "submissionToAcceptanceDays": null,
+      "acceptanceToPublicationDays": null,
+      "basis": "journal-reported",
+      "note": "The 2026 calendar gives two months from deadline to notification and about one additional month to camera-ready; camera-ready is not treated as publication time.",
+      "sourceUrl": "https://ches.iacr.org/2026/callforpapers.php",
+      "verifiedAt": "2026-08-26",
+      "measureType": "scheduled-cycle"
+    },
+    "publicationFrequency": "Quarterly · 4 issues per year",
+    "peerReviewModel": "Double-blind, multi-stage review",
+    "articleTypes": [
+      "Regular paper (20 pages excluding references)",
+      "Pre-approved long paper (up to 40 pages)",
+      "SoK"
+    ],
+    "indexing": [
+      "Scopus",
+      "DOAJ",
+      "OpenAlex",
+      "Crossref"
+    ],
+    "metrics": [],
+    "rankings": [],
+    "acceptanceRate": "34% in 2025 (111 accepted / 318 unique submissions); 38% in 2024",
+    "dataCodePolicy": "Supplemental validation material, tools, datasets and code are explicitly supported according to contribution type.",
+    "dataCodePolicyUrl": "https://tches.iacr.org/index.php/TCHES/Submission",
+    "ethicsUrl": "https://tches.iacr.org/index.php/TCHES/ethics",
+    "status": "active",
+    "caution": null,
+    "notes": "CHES conference ranks must not be copied to the TCHES journal record.",
+    "verifiedAt": "2026-08-26"
+  },
+  {
+    "id": "journal-tosc",
+    "title": "IACR Transactions on Symmetric Cryptology",
+    "acronym": "ToSC",
+    "publisher": "IACR / Ruhr University Bochum",
+    "society": "International Association for Cryptologic Research",
+    "summary": "IACR ToSC (FSE) is a diamond open-access journal tracked for cybersecurity and cryptography manuscript targeting.",
+    "scope": "Design and analysis of block and stream ciphers, encryption, hashes, MACs, permutations, authenticated encryption, cryptanalysis, evaluation tools and implementations, including SoK work.",
+    "topics": [
+      "symmetric cryptography",
+      "cryptanalysis",
+      "design",
+      "foundations",
+      "implementations"
+    ],
+    "officialUrl": "https://tosc.iacr.org/index.php/ToSC/index",
+    "authorGuidelinesUrl": "https://tosc.iacr.org/index.php/ToSC/Submission",
+    "submissionUrl": null,
+    "issn": [
+      "2519-173X"
+    ],
+    "accessModel": "diamond",
+    "apc": {
+      "amount": 0,
+      "currency": "USD",
+      "label": "Diamond open access · no APC",
+      "mandatory": false,
+      "conditions": "Submission and publication are free under CC BY.",
+      "sourceUrl": "https://tosc.iacr.org/index.php/ToSC/index",
+      "verifiedAt": "2026-08-26"
+    },
+    "submissionFee": null,
+    "otherCharges": null,
+    "waivers": null,
+    "timeline": {
+      "firstDecisionDays": 60,
+      "reviewDays": null,
+      "submissionToAcceptanceDays": null,
+      "acceptanceToPublicationDays": null,
+      "basis": "journal-reported",
+      "note": "Notification is scheduled about two months after each quarterly deadline.",
+      "sourceUrl": "https://tosc.iacr.org/index.php/ToSC/Call",
+      "verifiedAt": "2026-08-26",
+      "measureType": "scheduled-cycle"
+    },
+    "publicationFrequency": "Quarterly",
+    "peerReviewModel": "Double-blind; at least three editorial-board reviewers, rebuttal and discussion",
+    "articleTypes": [
+      "Regular paper (20 pages excluding references)",
+      "Long paper",
+      "SoK",
+      "Addendum / corrigendum"
+    ],
+    "indexing": [
+      "Scopus",
+      "DOAJ"
+    ],
+    "metrics": [
+      {
+        "name": "CiteScore",
+        "value": 4.3,
+        "year": 2025,
+        "sourceUrl": "https://tosc.iacr.org/index.php/ToSC/index"
+      }
+    ],
+    "rankings": [
+      {
+        "framework": "SJR",
+        "rank": "Q2",
+        "category": "Computer Science Applications",
+        "edition": "2024",
+        "sourceUrl": "https://library.wur.nl/WebQuery/utbrowser/76231"
+      }
+    ],
+    "acceptanceRate": null,
+    "dataCodePolicy": "Code, test values, graphs and other supplements are accepted; authors must distinguish material requiring review from archival supplements.",
+    "dataCodePolicyUrl": "https://tosc.iacr.org/index.php/ToSC/Submission",
+    "ethicsUrl": "https://tosc.iacr.org/index.php/ToSC/ethics",
+    "status": "active",
+    "caution": null,
+    "notes": "FSE conference ranks must not be copied to the ToSC journal. Per-cycle counts include revisions crossing cycles, so no annual acceptance rate is inferred.",
+    "verifiedAt": "2026-08-26"
+  },
+  {
+    "id": "journal-ieee-s-p-magazine",
+    "title": "IEEE Security & Privacy Magazine",
+    "acronym": "IEEE S&P Magazine",
+    "publisher": "IEEE Computer Society",
+    "society": "IEEE Computer Society",
+    "summary": "A peer-reviewed scientific and professional magazine for researchers, practitioners, developers and decision-makers; it is not a conventional archival research journal.",
+    "scope": "Practical and research context across systems, attacks and defences, software, hardware, networks, applied cryptography, privacy, usable security, forensics, cybercrime, policy, economics, critical infrastructure, malware and education.",
+    "topics": [
+      "security practice",
+      "privacy",
+      "policy",
+      "systems security",
+      "education"
+    ],
+    "officialUrl": "https://www.computer.org/csdl/magazine/sp",
+    "authorGuidelinesUrl": "https://www.computer.org/csdl/magazine/sp/write-for-us",
+    "submissionUrl": null,
+    "issn": [
+      "1540-7993",
+      "1558-4046"
+    ],
+    "accessModel": "hybrid",
+    "apc": {
+      "amount": 2995,
+      "currency": "USD",
+      "label": "Optional IEEE open-access APC",
+      "mandatory": false,
+      "conditions": "2026 OA APC: USD 2,995. Traditional publication remains available; IEEE also lists a USD 1,275 repository-licensing option.",
+      "sourceUrl": "https://magazines.ieeeauthorcenter.ieee.org/wp-content/uploads/sites/10/IEEE-Article-Processing-Charges-List.pdf",
+      "verifiedAt": "2026-08-26"
+    },
+    "submissionFee": null,
+    "otherCharges": null,
+    "waivers": null,
+    "timeline": {
+      "firstDecisionDays": null,
+      "reviewDays": null,
+      "submissionToAcceptanceDays": null,
+      "acceptanceToPublicationDays": null,
+      "basis": "not-published",
+      "note": "No comparable publisher-reported timing was captured in the source snapshot.",
+      "sourceUrl": null,
+      "verifiedAt": "2026-08-26",
+      "measureType": "not-published"
+    },
+    "publicationFrequency": "Bimonthly",
+    "peerReviewModel": "Peer-reviewed features plus editorial content; current calls use single-anonymous review",
+    "articleTypes": [
+      "Practical feature",
+      "Case study",
+      "Tutorial",
+      "Survey",
+      "Department article"
+    ],
+    "indexing": [
+      "SCIE",
+      "Scopus"
+    ],
+    "metrics": [
+      {
+        "name": "Journal Impact Factor",
+        "value": 3,
+        "year": 2024,
+        "sourceUrl": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-January-2026.pdf"
+      },
+      {
+        "name": "CiteScore",
+        "value": 4.8,
+        "year": 2024,
+        "sourceUrl": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-January-2026.pdf"
+      }
+    ],
+    "rankings": [
+      {
+        "framework": "JCR",
+        "rank": "Q2",
+        "category": "Computer Science, Information Systems",
+        "edition": "2024",
+        "sourceUrl": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-January-2026.pdf"
+      }
+    ],
+    "acceptanceRate": null,
+    "dataCodePolicy": "Current calls may encourage IEEE DataPort deposits; requirements vary by special issue, so no title-wide mandatory policy is asserted.",
+    "dataCodePolicyUrl": null,
+    "ethicsUrl": null,
+    "status": "active",
+    "caution": null,
+    "notes": "Do not confuse this magazine with the IEEE Symposium on Security and Privacy conference. Current special-issue limits typically range from 4,900 to 7,200 words and must be checked per call.",
+    "verifiedAt": "2026-08-26"
+  },
+  {
+    "id": "journal-tdsc",
+    "title": "IEEE Transactions on Dependable and Secure Computing",
+    "acronym": "TDSC",
+    "publisher": "IEEE Computer Society",
+    "society": "IEEE Computer Society",
+    "summary": "IEEE Transactions on Dependable and Secure Computing (TDSC) is a hybrid journal tracked for cybersecurity and cryptography manuscript targeting.",
+    "scope": "Foundations, methodologies and mechanisms for dependable and secure systems and networks, including design, modelling, measurement, simulation, joint security/dependability evaluation and verification. Pure cryptography without a clear systems application is outside scope.",
+    "topics": [
+      "dependable systems",
+      "secure computing",
+      "fault tolerance",
+      "distributed systems",
+      "privacy"
+    ],
+    "officialUrl": "https://www.computer.org/csdl/journal/tq",
+    "authorGuidelinesUrl": "https://www.computer.org/csdl/journal/tq/write-for-us",
+    "submissionUrl": null,
+    "issn": [
+      "1545-5971",
+      "1941-0018"
+    ],
+    "accessModel": "hybrid",
+    "apc": {
+      "amount": 2800,
+      "currency": "USD",
+      "label": "Optional IEEE open-access APC",
+      "mandatory": false,
+      "conditions": "2026 OA APC: USD 2,800. Traditional publication remains available; IEEE also lists a USD 1,275 repository-licensing option.",
+      "sourceUrl": "https://magazines.ieeeauthorcenter.ieee.org/wp-content/uploads/sites/10/IEEE-Article-Processing-Charges-List.pdf",
+      "verifiedAt": "2026-08-26"
+    },
+    "submissionFee": null,
+    "otherCharges": "Mandatory overlength charge: USD 220/page beyond the standard 12 formatted pages.",
+    "waivers": null,
+    "timeline": {
+      "firstDecisionDays": null,
+      "reviewDays": null,
+      "submissionToAcceptanceDays": null,
+      "acceptanceToPublicationDays": null,
+      "basis": "not-published",
+      "note": "No comparable publisher-reported timing was captured in the source snapshot.",
+      "sourceUrl": null,
+      "verifiedAt": "2026-08-26",
+      "measureType": "not-published"
+    },
+    "publicationFrequency": "Bimonthly · 6 issues per year",
+    "peerReviewModel": "Single-anonymous; TDSC does not offer double-anonymous review",
+    "articleTypes": [
+      "Regular article (standard 12 formatted pages)",
+      "Letter where offered (standard 4 formatted pages)"
+    ],
+    "indexing": [
+      "SCIE",
+      "Scopus",
+      "Portico"
+    ],
+    "metrics": [
+      {
+        "name": "Journal Impact Factor",
+        "value": 7.5,
+        "year": 2024,
+        "sourceUrl": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-January-2026.pdf"
+      },
+      {
+        "name": "CiteScore",
+        "value": 12.6,
+        "year": 2024,
+        "sourceUrl": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-January-2026.pdf"
+      }
+    ],
+    "rankings": [
+      {
+        "framework": "JCR",
+        "rank": "Q1",
+        "category": "Computer Science, Information Systems",
+        "edition": "2024",
+        "sourceUrl": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-January-2026.pdf"
+      },
+      {
+        "framework": "CCF",
+        "rank": "A",
+        "category": "Network and Information Security",
+        "edition": "2026 · 7th edition",
+        "sourceUrl": "https://www.ccf.org.cn/Academic_Evaluation/NIS/"
+      }
+    ],
+    "acceptanceRate": null,
+    "dataCodePolicy": "IEEE Computer Society supports Code Ocean integration and code/data deposits; no title-specific mandatory deposit was found.",
+    "dataCodePolicyUrl": "https://www.computer.org/publications/author-resources",
+    "ethicsUrl": "https://journals.ieeeauthorcenter.ieee.org/become-an-ieee-journal-author/publishing-ethics/",
+    "status": "active",
+    "caution": null,
+    "notes": null,
+    "verifiedAt": "2026-08-26"
+  },
+  {
+    "id": "journal-tifs",
+    "title": "IEEE Transactions on Information Forensics and Security",
+    "acronym": "TIFS",
+    "publisher": "IEEE Signal Processing Society",
+    "society": "IEEE Signal Processing Society",
+    "summary": "IEEE Transactions on Information Forensics and Security (TIFS) is a hybrid journal tracked for cybersecurity and cryptography manuscript targeting.",
+    "scope": "Information forensics and security science, technology and applications, including biometrics, surveillance, signal/content/data security and systems that embed these capabilities.",
+    "topics": [
+      "information forensics",
+      "biometrics",
+      "multimedia security",
+      "privacy",
+      "network forensics"
+    ],
+    "officialUrl": "https://signalprocessingsociety.org/publications-resources/ieee-transactions-information-forensics-and-security/about-transactions",
+    "authorGuidelinesUrl": "https://signalprocessingsociety.org/publications-resources/information-authors",
+    "submissionUrl": null,
+    "issn": [
+      "1556-6013",
+      "1556-6021"
+    ],
+    "accessModel": "hybrid",
+    "apc": {
+      "amount": 2800,
+      "currency": "USD",
+      "label": "Optional IEEE open-access APC",
+      "mandatory": false,
+      "conditions": "2026 OA APC: USD 2,800. Traditional publication remains available. IEEE also lists a USD 1,275 repository-licensing option.",
+      "sourceUrl": "https://magazines.ieeeauthorcenter.ieee.org/wp-content/uploads/sites/10/IEEE-Article-Processing-Charges-List.pdf",
+      "verifiedAt": "2026-08-26"
+    },
+    "submissionFee": null,
+    "otherCharges": "Voluntary USD 110/page contribution for the first ten published pages; mandatory USD 220/page beyond ten pages. Two extra reference/biography pages may qualify for exemption. Online colour is free.",
+    "waivers": null,
+    "timeline": {
+      "firstDecisionDays": null,
+      "reviewDays": null,
+      "submissionToAcceptanceDays": null,
+      "acceptanceToPublicationDays": null,
+      "basis": "not-published",
+      "note": "No comparable publisher-reported timing was captured in the source snapshot.",
+      "sourceUrl": null,
+      "verifiedAt": "2026-08-26",
+      "measureType": "not-published"
+    },
+    "publicationFrequency": null,
+    "peerReviewModel": "Single-anonymized; at least two independent reviewers",
+    "articleTypes": [
+      "Regular article (13 initial pages; 16 revision pages)",
+      "Invited overview",
+      "Comment correspondence (2 pages)"
+    ],
+    "indexing": [
+      "SCIE",
+      "Scopus"
+    ],
+    "metrics": [
+      {
+        "name": "Journal Impact Factor",
+        "value": 8,
+        "year": 2024,
+        "sourceUrl": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-January-2026.pdf"
+      },
+      {
+        "name": "CiteScore",
+        "value": 12.5,
+        "year": 2024,
+        "sourceUrl": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-January-2026.pdf"
+      }
+    ],
+    "rankings": [
+      {
+        "framework": "JCR",
+        "rank": "Q1",
+        "category": "Computer Science, Information Systems",
+        "edition": "2024",
+        "sourceUrl": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-January-2026.pdf"
+      },
+      {
+        "framework": "CCF",
+        "rank": "A",
+        "category": "Network and Information Security",
+        "edition": "2026 · 7th edition",
+        "sourceUrl": "https://www.ccf.org.cn/Academic_Evaluation/NIS/"
+      }
+    ],
+    "acceptanceRate": null,
+    "dataCodePolicy": "Code, data and the information required to reproduce figures and tables are strongly encouraged; deep-learning work has a specific reproducibility checklist.",
+    "dataCodePolicyUrl": "https://signalprocessingsociety.org/publications-resources/publications-faq",
+    "ethicsUrl": "https://journals.ieeeauthorcenter.ieee.org/become-an-ieee-journal-author/publishing-ethics/",
+    "status": "active",
+    "caution": null,
+    "notes": null,
+    "verifiedAt": "2026-08-26"
+  },
+  {
+    "id": "journal-iet-is",
+    "title": "IET Information Security",
+    "acronym": "IET-IS",
+    "publisher": "Wiley/IET",
+    "society": null,
+    "summary": "IET Information Security is a fully open-access journal tracked for cybersecurity and cryptography manuscript targeting.",
+    "scope": "Cryptography and cryptanalysis, blockchain, signatures, hashes, PKI, quantum security, network and hardware security, privacy, malware, MPC, critical infrastructure and digital currencies.",
+    "topics": [
+      "information security",
+      "cryptography",
+      "network security",
+      "privacy",
+      "authentication"
+    ],
+    "officialUrl": "https://ietresearch.onlinelibrary.wiley.com/journal/ietis",
+    "authorGuidelinesUrl": "https://ietresearch.onlinelibrary.wiley.com/page/journal/ietis/homepage/author-guidelines",
+    "submissionUrl": null,
+    "issn": [
+      "1751-8709",
+      "1751-8717"
+    ],
+    "accessModel": "gold",
+    "apc": {
+      "amount": 2800,
+      "currency": "USD",
+      "label": "Mandatory open-access APC",
+      "mandatory": true,
+      "conditions": "2026 price: USD 2,800 / GBP 2,180 / EUR 2,550, excluding taxes. IET members receive 15% off; country waivers and Wiley agreements may apply.",
+      "sourceUrl": "https://ietresearch.onlinelibrary.wiley.com/page/journal/ietis/homepage/open-access",
+      "verifiedAt": "2026-08-26"
+    },
+    "submissionFee": {
+      "amount": 0,
+      "currency": "USD",
+      "label": "No submission fee",
+      "mandatory": false,
+      "conditions": "No submission or page fee is stated.",
+      "sourceUrl": "https://ietresearch.onlinelibrary.wiley.com/page/journal/ietis/homepage/open-access",
+      "verifiedAt": "2026-08-26"
+    },
+    "otherCharges": null,
+    "waivers": "Automatic country waivers/reductions and Wiley open-access agreements may apply.",
+    "timeline": {
+      "firstDecisionDays": 70,
+      "reviewDays": null,
+      "submissionToAcceptanceDays": null,
+      "acceptanceToPublicationDays": null,
+      "basis": "publisher-reported",
+      "note": "Publisher-reported median to first decision.",
+      "sourceUrl": "https://ietresearch.onlinelibrary.wiley.com/page/journal/ietis/homepage/productinformation.html",
+      "verifiedAt": "2026-08-26",
+      "measureType": "median"
+    },
+    "publicationFrequency": "Continuous publication in one annual issue",
+    "peerReviewModel": "Single-anonymized",
+    "articleTypes": [
+      "Research article",
+      "Review"
+    ],
+    "indexing": [
+      "ACM Guide",
+      "Compendex",
+      "DOAJ",
+      "INSPEC",
+      "SCIE",
+      "Scopus",
+      "DBLP",
+      "Web of Science"
+    ],
+    "metrics": [],
+    "rankings": [
+      {
+        "framework": "CCF",
+        "rank": "C",
+        "category": "Network and Information Security",
+        "edition": "2026 · 7th edition",
+        "sourceUrl": "https://www.ccf.org.cn/Academic_Evaluation/NIS/"
+      }
+    ],
+    "acceptanceRate": "32% (publisher reported)",
+    "dataCodePolicy": "A data availability statement is required; data/code sharing and reproducibility are encouraged.",
+    "dataCodePolicyUrl": "https://ietresearch.onlinelibrary.wiley.com/page/journal/ietis/homepage/author-guidelines",
+    "ethicsUrl": null,
+    "status": "active",
+    "caution": null,
+    "notes": null,
+    "verifiedAt": "2026-08-26"
+  },
+  {
+    "id": "journal-ijcip",
+    "title": "International Journal of Critical Infrastructure Protection",
+    "acronym": "IJCIP",
+    "publisher": "Elsevier",
+    "society": null,
+    "summary": "International Journal of Critical Infrastructure Protection (IJCIP) is a hybrid journal tracked for cybersecurity and cryptography manuscript targeting.",
+    "scope": "Protection and resilience of critical infrastructure, including cyber and physical threats, industrial control systems, risk, interdependencies, policy and governance.",
+    "topics": [
+      "critical infrastructure",
+      "industrial control systems",
+      "OT security",
+      "resilience",
+      "risk"
+    ],
+    "officialUrl": "https://www.sciencedirect.com/journal/international-journal-of-critical-infrastructure-protection",
+    "authorGuidelinesUrl": "https://www.sciencedirect.com/journal/international-journal-of-critical-infrastructure-protection/publish/guide-for-authors",
+    "submissionUrl": null,
+    "issn": [
+      "1874-5482",
+      "2212-2087"
+    ],
+    "accessModel": "hybrid",
+    "apc": {
+      "amount": null,
+      "currency": null,
+      "label": "Price not yet independently sourced",
+      "mandatory": false,
+      "conditions": "Consult the official fee page; taxes, agreements and waivers can change the amount.",
+      "sourceUrl": null,
+      "verifiedAt": "2026-08-26"
+    },
+    "submissionFee": null,
+    "otherCharges": null,
+    "waivers": null,
+    "timeline": {
+      "firstDecisionDays": null,
+      "reviewDays": null,
+      "submissionToAcceptanceDays": null,
+      "acceptanceToPublicationDays": null,
+      "basis": "not-published",
+      "note": "No comparable publisher-reported timing was captured in the source snapshot.",
+      "sourceUrl": null,
+      "verifiedAt": "2026-08-26",
+      "measureType": "not-published"
+    },
+    "publicationFrequency": "Quarterly",
+    "peerReviewModel": null,
+    "articleTypes": [],
+    "indexing": [
+      "Scopus"
+    ],
+    "metrics": [],
+    "rankings": [],
+    "acceptanceRate": null,
+    "dataCodePolicy": null,
+    "dataCodePolicyUrl": null,
+    "ethicsUrl": null,
+    "status": "active",
+    "caution": null,
+    "notes": null,
+    "verifiedAt": "2026-08-26"
+  },
+  {
+    "id": "journal-ijis",
+    "title": "International Journal of Information Security",
+    "acronym": "IJIS",
+    "publisher": "Springer",
+    "society": null,
+    "summary": "International Journal of Information Security (IJIS) is a fully open-access journal tracked for cybersecurity and cryptography manuscript targeting.",
+    "scope": "Security of systems, networks, applications and content, including privacy, access control, authentication, identity, applied cryptography and formal methods.",
+    "topics": [
+      "information security",
+      "network security",
+      "privacy",
+      "secure systems",
+      "cryptography"
+    ],
+    "officialUrl": "https://link.springer.com/journal/10207",
+    "authorGuidelinesUrl": "https://link.springer.com/journal/10207/submission-guidelines",
+    "submissionUrl": null,
+    "issn": [
+      "1615-5262",
+      "1615-5270"
+    ],
+    "accessModel": "gold",
+    "apc": {
+      "amount": 3690,
+      "currency": "USD",
+      "label": "Mandatory open-access APC",
+      "mandatory": true,
+      "conditions": "USD 3,690 / GBP 2,690 / EUR 2,990, excluding taxes. Price at acceptance; institutional agreements may apply.",
+      "sourceUrl": "https://link.springer.com/journal/10207/how-to-publish-with-us",
+      "verifiedAt": "2026-08-26"
+    },
+    "submissionFee": null,
+    "otherCharges": null,
+    "waivers": "Institutional agreements, waivers and reductions may apply; requests should be made during submission.",
+    "timeline": {
+      "firstDecisionDays": 9,
+      "reviewDays": 175,
+      "submissionToAcceptanceDays": null,
+      "acceptanceToPublicationDays": null,
+      "basis": "publisher-reported",
+      "note": "Nine days is the median across all submissions and includes desk decisions; Springer separately reports about 175 days for manuscripts entering review.",
+      "sourceUrl": "https://link.springer.com/journal/10207",
+      "verifiedAt": "2026-08-26",
+      "measureType": "median"
+    },
+    "publicationFrequency": null,
+    "peerReviewModel": null,
+    "articleTypes": [],
+    "indexing": [
+      "ACM Digital Library",
+      "DBLP",
+      "EI Compendex",
+      "INSPEC",
+      "Scopus",
+      "SCIE",
+      "SCImago"
+    ],
+    "metrics": [
+      {
+        "name": "Journal Impact Factor",
+        "value": 5,
+        "year": 2025,
+        "sourceUrl": "https://link.springer.com/journal/10207"
+      }
+    ],
+    "rankings": [],
+    "acceptanceRate": null,
+    "dataCodePolicy": null,
+    "dataCodePolicyUrl": null,
+    "ethicsUrl": null,
+    "status": "active",
+    "caution": null,
+    "notes": null,
+    "verifiedAt": "2026-08-26"
+  },
+  {
+    "id": "journal-jcs",
+    "title": "Journal of Computer Security",
+    "acronym": "JCS",
+    "publisher": "SAGE in association with IOS Press",
+    "society": null,
+    "summary": "Journal of Computer Security (JCS) is a hybrid journal tracked for cybersecurity and cryptography manuscript targeting.",
+    "scope": "Theory, design, implementation and analysis of secure systems: confidentiality, integrity, availability, privacy, security policy, enforcement mechanisms and architectures.",
+    "topics": [
+      "computer security",
+      "formal security",
+      "access control",
+      "privacy",
+      "secure systems"
+    ],
+    "officialUrl": "https://journals.sagepub.com/home/jcu",
+    "authorGuidelinesUrl": "https://journals.sagepub.com/author-instructions/JCU",
+    "submissionUrl": null,
+    "issn": [
+      "0926-227X",
+      "1875-8924"
+    ],
+    "accessModel": "hybrid",
+    "apc": {
+      "amount": null,
+      "currency": null,
+      "label": "Optional SAGE Choice price not reliably published",
+      "mandatory": false,
+      "conditions": "The subscription route has no submission or publication fee. Optional OA and possible colour charges require confirmation.",
+      "sourceUrl": "https://journals.sagepub.com/author-instructions/JCU",
+      "verifiedAt": "2026-08-26"
+    },
+    "submissionFee": null,
+    "otherCharges": "Colour reproduction may be chargeable; the amount was not reliably published.",
+    "waivers": null,
+    "timeline": {
+      "firstDecisionDays": null,
+      "reviewDays": null,
+      "submissionToAcceptanceDays": null,
+      "acceptanceToPublicationDays": null,
+      "basis": "not-published",
+      "note": "No comparable publisher-reported timing was captured in the source snapshot.",
+      "sourceUrl": null,
+      "verifiedAt": "2026-08-26",
+      "measureType": "not-published"
+    },
+    "publicationFrequency": null,
+    "peerReviewModel": "Single-anonymized; editorial screening followed by independent reviewers",
+    "articleTypes": [
+      "Research article",
+      "Substantially extended conference article"
+    ],
+    "indexing": [
+      "EBSCO",
+      "EI Compendex",
+      "ESCI",
+      "ProQuest",
+      "Scopus"
+    ],
+    "metrics": [],
+    "rankings": [
+      {
+        "framework": "CCF",
+        "rank": "B",
+        "category": "Network and Information Security",
+        "edition": "2026 · 7th edition",
+        "sourceUrl": "https://www.ccf.org.cn/Academic_Evaluation/NIS/"
+      }
+    ],
+    "acceptanceRate": null,
+    "dataCodePolicy": "A data availability statement is required; data deposit and citation are encouraged. AI use, funding, conflicts and ethics approvals must be disclosed.",
+    "dataCodePolicyUrl": "https://journals.sagepub.com/author-instructions/JCU",
+    "ethicsUrl": "https://journals.sagepub.com/author-instructions/JCU",
+    "status": "active",
+    "caution": null,
+    "notes": null,
+    "verifiedAt": "2026-08-26"
+  },
+  {
+    "id": "journal-joc",
+    "title": "Journal of Cryptology",
+    "acronym": "JoC",
+    "publisher": "Springer Nature for IACR",
+    "society": "International Association for Cryptologic Research",
+    "summary": "Journal of Cryptology is a hybrid journal tracked for cybersecurity and cryptography manuscript targeting.",
+    "scope": "Modern information security through cryptography and cryptanalysis: public-key and symmetric algorithms, pseudorandomness, algorithmic number theory, protocols, anonymity, privacy, authentication, key management, quantum cryptography, implementations, applications and standards.",
+    "topics": [
+      "theoretical cryptography",
+      "cryptographic protocols",
+      "cryptanalysis",
+      "foundations"
+    ],
+    "officialUrl": "https://link.springer.com/journal/145",
+    "authorGuidelinesUrl": "https://link.springer.com/journal/145/submission-guidelines",
+    "submissionUrl": null,
+    "issn": [
+      "0933-2790",
+      "1432-1378"
+    ],
+    "accessModel": "hybrid",
+    "apc": {
+      "amount": 3290,
+      "currency": "USD",
+      "label": "Optional open-access APC",
+      "mandatory": false,
+      "conditions": "USD 3,290 / GBP 2,390 / EUR 2,690, excluding taxes. The subscription route has no APC and institutional agreements may apply.",
+      "sourceUrl": "https://link.springer.com/journal/145/how-to-publish-with-us",
+      "verifiedAt": "2026-08-26"
+    },
+    "submissionFee": null,
+    "otherCharges": null,
+    "waivers": "Institutional open-access agreements may cover or reduce the APC.",
+    "timeline": {
+      "firstDecisionDays": null,
+      "reviewDays": null,
+      "submissionToAcceptanceDays": null,
+      "acceptanceToPublicationDays": null,
+      "basis": "not-published",
+      "note": "No comparable publisher-reported timing was captured in the source snapshot.",
+      "sourceUrl": null,
+      "verifiedAt": "2026-08-26",
+      "measureType": "not-published"
+    },
+    "publicationFrequency": null,
+    "peerReviewModel": "Single-blind",
+    "articleTypes": [
+      "Full technical paper",
+      "Survey",
+      "Historical article",
+      "Short note"
+    ],
+    "indexing": [
+      "SCIE",
+      "Scopus",
+      "DBLP",
+      "ACM Digital Library",
+      "EI Compendex",
+      "INSPEC",
+      "MathSciNet",
+      "zbMATH",
+      "CLOCKSS",
+      "Portico"
+    ],
+    "metrics": [
+      {
+        "name": "Journal Impact Factor",
+        "value": 2.1,
+        "year": 2025,
+        "sourceUrl": "https://link.springer.com/journal/145"
+      },
+      {
+        "name": "CiteScore",
+        "value": 6,
+        "year": 2024,
+        "sourceUrl": "https://library.wur.nl/WebQuery/utbrowser/2483"
+      }
+    ],
+    "rankings": [
+      {
+        "framework": "SJR",
+        "rank": "Q2",
+        "category": "Computer Science Applications",
+        "edition": "2024",
+        "sourceUrl": "https://library.wur.nl/WebQuery/utbrowser/2483"
+      },
+      {
+        "framework": "CCF",
+        "rank": "A",
+        "category": "Network and Information Security",
+        "edition": "2026 · 7th edition",
+        "sourceUrl": "https://www.ccf.org.cn/Academic_Evaluation/NIS/"
+      }
+    ],
+    "acceptanceRate": null,
+    "dataCodePolicy": null,
+    "dataCodePolicyUrl": null,
+    "ethicsUrl": "https://link.springer.com/journal/145/ethics-and-disclosures",
+    "status": "active",
+    "caution": null,
+    "notes": null,
+    "verifiedAt": "2026-08-26"
+  },
+  {
+    "id": "journal-jocyb",
+    "title": "Journal of Cybersecurity",
+    "acronym": "JoCyb",
+    "publisher": "Oxford University Press",
+    "society": null,
+    "summary": "Journal of Cybersecurity is a fully open-access journal tracked for cybersecurity and cryptography manuscript targeting.",
+    "scope": "Interdisciplinary cybersecurity spanning computer science and cryptography, economics, law, policy, strategy, international relations, human factors, culture, crime science and privacy. Purely technical work should address a meaningful interdisciplinary, human or organisational challenge.",
+    "topics": [
+      "cybersecurity policy",
+      "economics",
+      "human factors",
+      "technology",
+      "law"
+    ],
+    "officialUrl": "https://academic.oup.com/cybersecurity",
+    "authorGuidelinesUrl": "https://academic.oup.com/cybersecurity/pages/General_Instructions",
+    "submissionUrl": null,
+    "issn": [
+      "2057-2085",
+      "2057-2093"
+    ],
+    "accessModel": "gold",
+    "apc": {
+      "amount": null,
+      "currency": null,
+      "label": "Open-access APC requires article-type revalidation",
+      "mandatory": true,
+      "conditions": "The OUP calculator did not return a reliable article-specific amount. Read-and-publish agreements, LMIC waivers and taxes may apply.",
+      "sourceUrl": "https://academic.oup.com/cybersecurity/pages/publish-with-us",
+      "verifiedAt": "2026-08-26"
+    },
+    "submissionFee": null,
+    "otherCharges": null,
+    "waivers": "LMIC waivers, discounts and institutional read-and-publish agreements may apply.",
+    "timeline": {
+      "firstDecisionDays": null,
+      "reviewDays": null,
+      "submissionToAcceptanceDays": null,
+      "acceptanceToPublicationDays": null,
+      "basis": "publisher-reported",
+      "note": "OUP reports accepted-manuscript posting in approximately one week, but this is not necessarily Version-of-Record publication; no comparable publication or first-decision statistic is stored.",
+      "sourceUrl": "https://academic.oup.com/cybersecurity/pages/publish-with-us",
+      "verifiedAt": "2026-08-26",
+      "measureType": "not-published"
+    },
+    "publicationFrequency": "Continuous publication in one annual volume",
+    "peerReviewModel": "Single-anonymized; normally two independent reviewers after editorial screening",
+    "articleTypes": [
+      "Research article (up to 15,000 words)",
+      "Perspective (up to 5,000 words)"
+    ],
+    "indexing": [
+      "Web of Science",
+      "Scopus"
+    ],
+    "metrics": [
+      {
+        "name": "Journal Impact Factor",
+        "value": 4.4,
+        "year": 2025,
+        "sourceUrl": "https://academic.oup.com/cybersecurity/pages/About?login=false"
+      },
+      {
+        "name": "CiteScore",
+        "value": 6.1,
+        "year": 2025,
+        "sourceUrl": "https://academic.oup.com/cybersecurity/pages/About?login=false"
+      }
+    ],
+    "rankings": [
+      {
+        "framework": "JCR",
+        "rank": "Q1",
+        "category": "Social Sciences, Interdisciplinary",
+        "edition": "2025",
+        "sourceUrl": "https://academic.oup.com/cybersecurity/pages/About?login=false"
+      }
+    ],
+    "acceptanceRate": null,
+    "dataCodePolicy": "Data and code sharing is strongly encouraged where ethically possible; persistent identifiers and dataset citations are recommended. ORCID and generative-AI disclosure are required.",
+    "dataCodePolicyUrl": "https://academic.oup.com/cybersecurity/pages/General_Instructions",
+    "ethicsUrl": "https://academic.oup.com/cybersecurity/pages/General_Instructions",
+    "status": "active",
+    "caution": null,
+    "notes": null,
+    "verifiedAt": "2026-08-26"
+  },
+  {
+    "id": "journal-jisa",
+    "title": "Journal of Information Security and Applications",
+    "acronym": "JISA",
+    "publisher": "Elsevier",
+    "society": null,
+    "summary": "Journal of Information Security and Applications (JISA) is a hybrid journal tracked for cybersecurity and cryptography manuscript targeting.",
+    "scope": "Applied, practice-oriented information security connecting research and industry. Pure cryptography, abstract formal work without empirical relevance, routine AI/ML applications and unvalidated hardware-security studies are explicitly outside the current scope.",
+    "topics": [
+      "applied security",
+      "network security",
+      "privacy",
+      "digital forensics",
+      "security management"
+    ],
+    "officialUrl": "https://www.sciencedirect.com/journal/journal-of-information-security-and-applications",
+    "authorGuidelinesUrl": "https://www.sciencedirect.com/journal/journal-of-information-security-and-applications/publish/guide-for-authors",
+    "submissionUrl": null,
+    "issn": [
+      "2214-2126",
+      "2214-2134"
+    ],
+    "accessModel": "hybrid",
+    "apc": {
+      "amount": null,
+      "currency": null,
+      "label": "Price not yet independently sourced",
+      "mandatory": false,
+      "conditions": "Consult the official fee page; taxes, agreements and waivers can change the amount.",
+      "sourceUrl": null,
+      "verifiedAt": "2026-08-26"
+    },
+    "submissionFee": null,
+    "otherCharges": null,
+    "waivers": null,
+    "timeline": {
+      "firstDecisionDays": null,
+      "reviewDays": null,
+      "submissionToAcceptanceDays": null,
+      "acceptanceToPublicationDays": null,
+      "basis": "not-published",
+      "note": "No comparable publisher-reported timing was captured in the source snapshot.",
+      "sourceUrl": null,
+      "verifiedAt": "2026-08-26",
+      "measureType": "not-published"
+    },
+    "publicationFrequency": "8 issues per year",
+    "peerReviewModel": null,
+    "articleTypes": [],
+    "indexing": [
+      "Scopus"
+    ],
+    "metrics": [],
+    "rankings": [
+      {
+        "framework": "Scopus",
+        "rank": "Q1",
+        "category": "Computer Networks and Communications",
+        "edition": "2024",
+        "sourceUrl": "https://library.wur.nl/WebQuery/utbrowser/38477"
+      },
+      {
+        "framework": "CCF",
+        "rank": "C",
+        "category": "Network and Information Security",
+        "edition": "2026 · 7th edition",
+        "sourceUrl": "https://www.ccf.org.cn/Academic_Evaluation/NIS/"
+      }
+    ],
+    "acceptanceRate": null,
+    "dataCodePolicy": null,
+    "dataCodePolicyUrl": null,
+    "ethicsUrl": null,
+    "status": "active",
+    "caution": null,
+    "notes": null,
+    "verifiedAt": "2026-08-26"
+  },
+  {
+    "id": "journal-jins",
+    "title": "Journal on Information Security",
+    "acronym": "JINS",
+    "publisher": "Springer Nature",
+    "society": null,
+    "summary": "Journal on Information Security is the 2026 continuation of EURASIP Journal on Information Security; both names refer to one continuous journal record.",
+    "scope": "Information security and privacy, signal processing, data-driven methods and system measurements, with emphasis on realistic adversarial behaviour and empirical validation.",
+    "topics": [
+      "information security",
+      "privacy",
+      "network security",
+      "cryptography",
+      "secure systems"
+    ],
+    "officialUrl": "https://link.springer.com/journal/13635",
+    "authorGuidelinesUrl": "https://link.springer.com/journal/13635/submission-guidelines",
+    "submissionUrl": null,
+    "issn": [
+      "3091-4515"
+    ],
+    "accessModel": "gold",
+    "apc": {
+      "amount": 1590,
+      "currency": "USD",
+      "label": "Mandatory open-access APC",
+      "mandatory": true,
+      "conditions": "USD 1,590 / GBP 1,090 / EUR 1,290, excluding taxes. Country waivers, reductions and institutional agreements may apply.",
+      "sourceUrl": "https://link.springer.com/journal/13635/how-to-publish-with-us",
+      "verifiedAt": "2026-08-26"
+    },
+    "submissionFee": null,
+    "otherCharges": null,
+    "waivers": "Country waivers, reductions and institutional agreements may apply.",
+    "timeline": {
+      "firstDecisionDays": 23,
+      "reviewDays": null,
+      "submissionToAcceptanceDays": null,
+      "acceptanceToPublicationDays": null,
+      "basis": "publisher-reported",
+      "note": "Publisher-reported median to first decision.",
+      "sourceUrl": "https://link.springer.com/journal/13635",
+      "verifiedAt": "2026-08-26",
+      "measureType": "median"
+    },
+    "publicationFrequency": "Continuous publication in one annual volume",
+    "peerReviewModel": null,
+    "articleTypes": [],
+    "indexing": [
+      "ACM Digital Library",
+      "DBLP",
+      "EI Compendex",
+      "ESCI",
+      "INSPEC",
+      "Scopus",
+      "SCImago"
+    ],
+    "metrics": [
+      {
+        "name": "Journal Impact Factor",
+        "value": 2.1,
+        "year": 2025,
+        "sourceUrl": "https://link.springer.com/journal/13635"
+      },
+      {
+        "name": "CiteScore",
+        "value": 3.53,
+        "year": 2025,
+        "sourceUrl": "https://link.springer.com/journal/13635"
+      }
+    ],
+    "rankings": [
+      {
+        "framework": "SJR",
+        "rank": "Q2",
+        "category": "Computer Science Applications",
+        "edition": "2024",
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=21100812851&tip=sid"
+      },
+      {
+        "framework": "CCF",
+        "rank": "C",
+        "category": "Network and Information Security",
+        "edition": "2026 · 7th edition",
+        "sourceUrl": "https://www.ccf.org.cn/Academic_Evaluation/NIS/"
+      }
+    ],
+    "acceptanceRate": null,
+    "dataCodePolicy": null,
+    "dataCodePolicyUrl": null,
+    "ethicsUrl": null,
+    "status": "active",
+    "caution": null,
+    "notes": "Former title: EURASIP Journal on Information Security (through 2025). The title change took effect on 1 January 2026.",
+    "verifiedAt": "2026-08-26",
+    "formerTitles": [
+      "EURASIP Journal on Information Security"
+    ],
+    "formerIssns": [
+      "2510-523X",
+      "1687-4161"
+    ]
+  },
+  {
+    "id": "journal-popets",
+    "title": "Proceedings on Privacy Enhancing Technologies",
+    "acronym": "PoPETs",
+    "publisher": "PETS / PoPETs",
+    "society": "Privacy Enhancing Technologies Symposium",
+    "summary": "PoPETs (PETS) is a diamond open-access journal tracked for cybersecurity and cryptography manuscript targeting.",
+    "scope": "Design, analysis, experimentation and deployment of privacy-enhancing technologies, including usable, social, cultural, legal and contextual factors when they shape technical design or deployment.",
+    "topics": [
+      "privacy-enhancing technologies",
+      "anonymity",
+      "privacy engineering",
+      "usable privacy"
+    ],
+    "officialUrl": "https://www.petsymposium.org/",
+    "authorGuidelinesUrl": "https://www.petsymposium.org/authors-2026.php",
+    "submissionUrl": null,
+    "issn": [
+      "2299-0984"
+    ],
+    "accessModel": "diamond",
+    "apc": {
+      "amount": 0,
+      "currency": "USD",
+      "label": "Diamond open access · no APC",
+      "mandatory": false,
+      "conditions": "Submission and publication are free. Current articles use CC BY 4.0 and authors retain copyright.",
+      "sourceUrl": "https://www.petsymposium.org/faq.php",
+      "verifiedAt": "2026-08-26"
+    },
+    "submissionFee": null,
+    "otherCharges": null,
+    "waivers": null,
+    "timeline": {
+      "firstDecisionDays": 60,
+      "reviewDays": null,
+      "submissionToAcceptanceDays": null,
+      "acceptanceToPublicationDays": null,
+      "basis": "journal-reported",
+      "note": "The review schedule targets a decision about two months after each deadline.",
+      "sourceUrl": "https://www.petsymposium.org/reviews-2026.php",
+      "verifiedAt": "2026-08-26",
+      "measureType": "scheduled-cycle"
+    },
+    "publicationFrequency": "Quarterly · 4 issues per annual volume",
+    "peerReviewModel": "Double-blind, editor-led; typically four reviews, rebuttal and discussion",
+    "articleTypes": [
+      "Research article (12-page initial body; 13-page revision/camera-ready body)"
+    ],
+    "indexing": [
+      "DBLP",
+      "Google Scholar"
+    ],
+    "metrics": [],
+    "rankings": [],
+    "acceptanceRate": "22.4% for volume 2026 (160/714); 26% for 2025 (169/644)",
+    "dataCodePolicy": "Artifact evaluation and reproducibility badges are available.",
+    "dataCodePolicyUrl": "https://www.petsymposium.org/authors-2026.php",
+    "ethicsUrl": null,
+    "status": "active",
+    "caution": null,
+    "notes": "The ICORE rank belongs to the PETS symposium series, not automatically to the PoPETs journal record.",
+    "verifiedAt": "2026-08-26"
+  },
+  {
+    "id": "journal-scn",
+    "title": "Security and Communication Networks",
+    "acronym": "SCN",
+    "publisher": "Wiley",
+    "society": null,
+    "summary": "Security and Communication Networks is a fully open-access journal tracked for cybersecurity and cryptography manuscript targeting.",
+    "scope": "Network and communication security across wired, wireless and optical systems, including cryptography, protocols, applied research and case studies.",
+    "topics": [
+      "network security",
+      "communications security",
+      "privacy",
+      "wireless security"
+    ],
+    "officialUrl": "https://onlinelibrary.wiley.com/journal/2037",
+    "authorGuidelinesUrl": null,
+    "submissionUrl": null,
+    "issn": [
+      "1939-0114",
+      "1939-0122"
+    ],
+    "accessModel": "gold",
+    "apc": {
+      "amount": 2670,
+      "currency": "USD",
+      "label": "Mandatory open-access APC",
+      "mandatory": true,
+      "conditions": "USD 2,670 / GBP 1,960 / EUR 2,320, excluding taxes. Country waivers/reductions and Wiley agreements may apply.",
+      "sourceUrl": "https://onlinelibrary.wiley.com/page/journal/2037/homepage/open-access",
+      "verifiedAt": "2026-08-26"
+    },
+    "submissionFee": null,
+    "otherCharges": null,
+    "waivers": "Country waivers/reductions and Wiley agreements may apply.",
+    "timeline": {
+      "firstDecisionDays": 36,
+      "reviewDays": null,
+      "submissionToAcceptanceDays": null,
+      "acceptanceToPublicationDays": null,
+      "basis": "publisher-reported",
+      "note": "Publisher-reported median to first decision.",
+      "sourceUrl": "https://onlinelibrary.wiley.com/journal/2037",
+      "verifiedAt": "2026-08-26",
+      "measureType": "median"
+    },
+    "publicationFrequency": "Continuous publication in one annual issue",
+    "peerReviewModel": null,
+    "articleTypes": [],
+    "indexing": [
+      "Scopus coverage discontinued in 2023",
+      "Web of Science delisted in 2023"
+    ],
+    "metrics": [],
+    "rankings": [
+      {
+        "framework": "CCF",
+        "rank": "C",
+        "category": "Network and Information Security",
+        "edition": "2026 · 7th edition",
+        "sourceUrl": "https://www.ccf.org.cn/Academic_Evaluation/NIS/"
+      }
+    ],
+    "acceptanceRate": "15% (publisher reported)",
+    "dataCodePolicy": null,
+    "dataCodePolicyUrl": null,
+    "ethicsUrl": null,
+    "status": "caution",
+    "caution": "Critical integrity and indexing warning: Web of Science delisted the journal and Scopus/SCImago shows coverage discontinued in 2023 after extensive publication-process manipulation concerns. Verify institutional eligibility and current indexing before submission.",
+    "notes": "Published within the Wiley Forward Series. Current editorial activity does not override the indexing and integrity caution.",
+    "verifiedAt": "2026-08-26"
+  }
+]
