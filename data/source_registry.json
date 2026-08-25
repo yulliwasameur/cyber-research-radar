@@ -1,0 +1,32 @@
+[
+  {
+    "id": "ieee-computer-society-cfps",
+    "name": "IEEE Computer Society calls for papers",
+    "url": "https://www.computer.org/publications/author-resources/calls-for-papers",
+    "scope": ["security", "privacy", "artificial intelligence", "systems"]
+  },
+  {
+    "id": "ieee-comsoc-events",
+    "name": "IEEE Communications Society conferences and events",
+    "url": "https://www.comsoc.org/conferences-events",
+    "scope": ["network security", "wireless security", "privacy", "IoT"]
+  },
+  {
+    "id": "iacr-events",
+    "name": "International Association for Cryptologic Research events",
+    "url": "https://www.iacr.org/events/",
+    "scope": ["cryptography", "post-quantum", "privacy", "theory"]
+  },
+  {
+    "id": "usenix-conferences",
+    "name": "USENIX upcoming conferences",
+    "url": "https://www.usenix.org/conferences",
+    "scope": ["security", "privacy", "systems", "usable security"]
+  },
+  {
+    "id": "acsac-calls",
+    "name": "Annual Computer Security Applications Conference calls",
+    "url": "https://www.acsac.org/",
+    "scope": ["applied security", "workshops", "security and privacy"]
+  }
+]

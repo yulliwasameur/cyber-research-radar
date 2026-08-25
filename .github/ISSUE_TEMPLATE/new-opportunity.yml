@@ -1,0 +1,65 @@
+name: Suggest a research opportunity
+description: Add or correct a conference, workshop, special issue, book chapter, school, grant or doctoral opportunity.
+title: "[Opportunity]: "
+labels: ["data", "needs-verification"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for strengthening CyberResearch Radar. Official sources make verification faster.
+  - type: input
+    id: title
+    attributes:
+      label: Official title and acronym
+      placeholder: e.g. Privacy Enhancing Technologies Symposium (PETS 2027)
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Opportunity type
+      options:
+        - Conference
+        - Workshop
+        - Book chapter
+        - Journal special issue
+        - Research school
+        - Grant
+        - PhD or postdoctoral position
+    validations:
+      required: true
+  - type: input
+    id: cfp
+    attributes:
+      label: Official call URL
+      placeholder: https://...
+    validations:
+      required: true
+  - type: input
+    id: deadline
+    attributes:
+      label: Deadline and timezone
+      placeholder: 17 September 2026, 23:59 AoE
+    validations:
+      required: true
+  - type: input
+    id: event
+    attributes:
+      label: Event dates and location
+      placeholder: 11–15 April 2027, Eindhoven, Netherlands
+  - type: textarea
+    id: topics
+    attributes:
+      label: Research topics
+      placeholder: Applied cryptography, PQC, PPML, systems security...
+    validations:
+      required: true
+  - type: input
+    id: ranking
+    attributes:
+      label: Ranking evidence, if applicable
+      placeholder: Link to the exact ICORE or CCF series record
+  - type: textarea
+    id: note
+    attributes:
+      label: Additional context or correction

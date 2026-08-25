@@ -1,0 +1,722 @@
+[
+  {
+    "id": "edfb4eeab77395b0",
+    "title": "crypt@b-it 2026 Summer School (crypt@b-it '26)",
+    "url": "https://cryptabit.bit.uni-bonn.de/2026",
+    "sourceId": "iacr-events",
+    "sourceHost": "www.iacr.org",
+    "foundAt": "2026-08-25",
+    "status": "needs-review"
+  },
+  {
+    "id": "72293800e7e3a27f",
+    "title": "Workshop on Privacy-preserving Machine Learning and Privacy in Distributed Settings (no proceedings)",
+    "url": "https://p1dpml.github.io/index.html",
+    "sourceId": "iacr-events",
+    "sourceHost": "www.iacr.org",
+    "foundAt": "2026-08-25",
+    "status": "needs-review"
+  },
+  {
+    "id": "483d7742574641da",
+    "title": "Workshop on Human-Targeted Cyber Threats and Defenses (HumSec@ESORICS 2026)",
+    "url": "https://humsec26.github.io/",
+    "sourceId": "iacr-events",
+    "sourceHost": "www.iacr.org",
+    "foundAt": "2026-08-25",
+    "status": "needs-review"
+  },
+  {
+    "id": "190663b2a5be7d75",
+    "title": "Workshop on Fault Diagnosis and Tolerance in Cryptography (FDTC)",
+    "url": "http://fdtc.deib.polimi.it/FDTC26/index.html",
+    "sourceId": "iacr-events",
+    "sourceHost": "www.iacr.org",
+    "foundAt": "2026-08-25",
+    "status": "needs-review"
+  },
+  {
+    "id": "e2a0b463798aaa31",
+    "title": "WAITI – Workshop on AI for Cyber Threat Intelligence",
+    "url": "https://www.acsac.org/2026/workshops/waiti/",
+    "sourceId": "acsac-calls",
+    "sourceHost": "www.acsac.org",
+    "foundAt": "2026-08-25",
+    "status": "needs-review"
+  },
+  {
+    "id": "54a01c78d3fd329f",
+    "title": "USENIX Security '28",
+    "url": "https://www.usenix.org/conference/usenixsecurity28",
+    "sourceId": "usenix-conferences",
+    "sourceHost": "www.usenix.org",
+    "foundAt": "2026-08-25",
+    "status": "needs-review"
+  },
+  {
+    "id": "f1b3e32ed4a2e857",
+    "title": "USENIX Security '27",
+    "url": "https://www.usenix.org/conference/usenixsecurity27",
+    "sourceId": "usenix-conferences",
+    "sourceHost": "www.usenix.org",
+    "foundAt": "2026-08-25",
+    "status": "needs-review"
+  },
+  {
+    "id": "a39ec2c80aa0faee",
+    "title": "Theory of Cryptography Conference (TCC 2026)",
+    "url": "https://tcc.iacr.org/2026",
+    "sourceId": "iacr-events",
+    "sourceHost": "www.iacr.org",
+    "foundAt": "2026-08-25",
+    "status": "needs-review"
+  },
+  {
+    "id": "9e878209805b0bd9",
+    "title": "The third International Conference on Cryptography and Information Security (VCRIS 2026)",
+    "url": "https://vcris.org/",
+    "sourceId": "iacr-events",
+    "sourceHost": "www.iacr.org",
+    "foundAt": "2026-08-25",
+    "status": "needs-review"
+  },
+  {
+    "id": "18d1aaa7f30b4980",
+    "title": "The Cryptographers' Track at RSA Conference (CT-RSAC 2027)",
+    "url": "https://www.esat.kuleuven.be/cosic/events/ct-rsa-2027/",
+    "sourceId": "iacr-events",
+    "sourceHost": "www.iacr.org",
+    "foundAt": "2026-08-25",
+    "status": "needs-review"
+  },
+  {
+    "id": "19babf64080e693b",
+    "title": "The 6th Annual FHE.org Conference on Fully Homomorphic Encryption (FHE.org 2027)",
+    "url": "https://fhe.org/2027",
+    "sourceId": "iacr-events",
+    "sourceHost": "www.iacr.org",
+    "foundAt": "2026-08-25",
+    "status": "needs-review"
+  },
+  {
+    "id": "aed9980e9cf02ffc",
+    "title": "The 5th International Conference on Advanced Security on Software and Systems (ASSS 2026)",
+    "url": "https://asss.sptagelab.org/2026/",
+    "sourceId": "iacr-events",
+    "sourceHost": "www.iacr.org",
+    "foundAt": "2026-08-25",
+    "status": "needs-review"
+  },
+  {
+    "id": "b42ebe3187113140",
+    "title": "The 32nd International Conference on the Theory and Application of Cryptology and Information Security (Asiacrypt 2026)",
+    "url": "https://asiacrypt.iacr.org/2026/",
+    "sourceId": "iacr-events",
+    "sourceHost": "www.iacr.org",
+    "foundAt": "2026-08-25",
+    "status": "needs-review"
+  },
+  {
+    "id": "95aff82eea2e19e0",
+    "title": "The 29th Annual International Conference on Information Security and Cryptology (ICISC 2026)",
+    "url": "https://www.icisc.org/",
+    "sourceId": "iacr-events",
+    "sourceHost": "www.iacr.org",
+    "foundAt": "2026-08-25",
+    "status": "needs-review"
+  },
+  {
+    "id": "dfb1c64f6a0a08fa",
+    "title": "The 28th International Conference on Information and Communications Security (ICICS 2026)",
+    "url": "https://sulab-sever.u-aizu.ac.jp/icics2026/index.html",
+    "sourceId": "iacr-events",
+    "sourceHost": "www.iacr.org",
+    "foundAt": "2026-08-25",
+    "status": "needs-review"
+  },
+  {
+    "id": "df75a72dd7ab4e2c",
+    "title": "The 27th World Conference on Information Security Applications (WISA 2026)",
+    "url": "https://www.wisa.or.kr",
+    "sourceId": "iacr-events",
+    "sourceHost": "www.iacr.org",
+    "foundAt": "2026-08-25",
+    "status": "needs-review"
+  },
+  {
+    "id": "34f963670db74239",
+    "title": "The 27th World Conference on Information Security Applications (WISA 2026)",
+    "url": "https://www.wisa.or.kr/",
+    "sourceId": "iacr-events",
+    "sourceHost": "www.iacr.org",
+    "foundAt": "2026-08-25",
+    "status": "needs-review"
+  },
+  {
+    "id": "3d775c116d91d172",
+    "title": "The 21st International Workshop on Security (IWSEC 2026)",
+    "url": "https://www.iwsec.org/2026/index.html",
+    "sourceId": "iacr-events",
+    "sourceHost": "www.iacr.org",
+    "foundAt": "2026-08-25",
+    "status": "needs-review"
+  },
+  {
+    "id": "b2cdda2b2b9dbba7",
+    "title": "The 10th KIISC International Conference on Mobile Internet Security (MobiSec 2026)",
+    "url": "https://www.manuscriptlink.com/society/kiisc/conference/mobisec2026",
+    "sourceId": "iacr-events",
+    "sourceHost": "www.iacr.org",
+    "foundAt": "2026-08-25",
+    "status": "needs-review"
+  },
+  {
+    "id": "3b31514b4022998d",
+    "title": "Sixteenth International Conference on Security, Privacy and Applied Cryptographic Engineering (SPACE 2026)",
+    "url": "https://space2026.isec.tugraz.at/",
+    "sourceId": "iacr-events",
+    "sourceHost": "www.iacr.org",
+    "foundAt": "2026-08-25",
+    "status": "needs-review"
+  },
+  {
+    "id": "1606dd018bb69c45",
+    "title": "Security Standardisation Research Conference 2026 (SSR2026)",
+    "url": "https://ssresearch26.umbc.edu/",
+    "sourceId": "iacr-events",
+    "sourceHost": "www.iacr.org",
+    "foundAt": "2026-08-25",
+    "status": "needs-review"
+  },
+  {
+    "id": "e337bc1b121bbd41",
+    "title": "SecureBioAI – Security and Safety of AI in Biotechnology",
+    "url": "https://www.acsac.org/2026/workshops/securebioai/",
+    "sourceId": "acsac-calls",
+    "sourceHost": "www.acsac.org",
+    "foundAt": "2026-08-25",
+    "status": "needs-review"
+  },
+  {
+    "id": "5d5e00b2791a2a36",
+    "title": "NIST Workshop on Privacy-Enhancing Cryptography 2026 (WPEC 2026)",
+    "url": "https://csrc.nist.gov/events/2026/wpec2026",
+    "sourceId": "iacr-events",
+    "sourceHost": "www.iacr.org",
+    "foundAt": "2026-08-25",
+    "status": "needs-review"
+  },
+  {
+    "id": "bf2ea9b7eda853f3",
+    "title": "LASER – Learning from Authoritative Security Experiment Results",
+    "url": "https://www.acsac.org/2026/workshops/laser/",
+    "sourceId": "acsac-calls",
+    "sourceHost": "www.acsac.org",
+    "foundAt": "2026-08-25",
+    "status": "needs-review"
+  },
+  {
+    "id": "4d53096f58b9267b",
+    "title": "International Conference on Security for Information Technology and Communications (SECITC 2026)",
+    "url": "https://secitc.eu/",
+    "sourceId": "iacr-events",
+    "sourceHost": "www.iacr.org",
+    "foundAt": "2026-08-25",
+    "status": "needs-review"
+  },
+  {
+    "id": "90f198f168045f82",
+    "title": "International Conference on Provable and Practical Security (ProvSec 2026)",
+    "url": "https://provsec-2026.github.io/Provsec2026-base/",
+    "sourceId": "iacr-events",
+    "sourceHost": "www.iacr.org",
+    "foundAt": "2026-08-25",
+    "status": "needs-review"
+  },
+  {
+    "id": "9fa26d6f58d58d08",
+    "title": "International Conference on Cryptographic Information Security (UkrCrypto2026)",
+    "url": "https://csi.cip.gov.ua/en/pages/ukrcrypto2026",
+    "sourceId": "iacr-events",
+    "sourceHost": "www.iacr.org",
+    "foundAt": "2026-08-25",
+    "status": "needs-review"
+  },
+  {
+    "id": "b3fa99cbd0fcaf39",
+    "title": "IEEE International Workshop on Computer Aided Modeling and Design of Communication Links and Networks 2026",
+    "url": "https://www.comsoc.org/conferences-events/ieee-international-workshop-computer-aided-modeling-and-design-communication-8",
+    "sourceId": "ieee-comsoc-events",
+    "sourceHost": "www.comsoc.org",
+    "foundAt": "2026-08-25",
+    "status": "needs-review"
+  },
+  {
+    "id": "e3e56971f3628c27",
+    "title": "IEEE Conference on Standards for Communications and Networking 2026",
+    "url": "https://www.comsoc.org/conferences-events/ieee-conference-standards-communications-and-networking-2026",
+    "sourceId": "ieee-comsoc-events",
+    "sourceHost": "www.comsoc.org",
+    "foundAt": "2026-08-25",
+    "status": "needs-review"
+  },
+  {
+    "id": "e39f7d6181f0935e",
+    "title": "ICSS – Industrial Control System Security",
+    "url": "https://www.acsac.org/2026/workshops/icss/",
+    "sourceId": "acsac-calls",
+    "sourceHost": "www.acsac.org",
+    "foundAt": "2026-08-25",
+    "status": "needs-review"
+  },
+  {
+    "id": "87e6cd43e87a1716",
+    "title": "HealthSec – Cybersecurity in Healthcare",
+    "url": "https://www.acsac.org/2026/workshops/healthsec/",
+    "sourceId": "acsac-calls",
+    "sourceHost": "www.acsac.org",
+    "foundAt": "2026-08-25",
+    "status": "needs-review"
+  },
+  {
+    "id": "b2e412965bfb4b2e",
+    "title": "Fifteenth International Conference on Security and Cryptography for Networks (SCN 2026)",
+    "url": "https://scn.unisa.it",
+    "sourceId": "iacr-events",
+    "sourceHost": "www.iacr.org",
+    "foundAt": "2026-08-25",
+    "status": "needs-review"
+  },
+  {
+    "id": "ff3eb529c04503a4",
+    "title": "FIPS 'n' Chips Cryptographic Module Validation Conference (FNC2026)",
+    "url": "https://crypto-v.org/fnc2026",
+    "sourceId": "iacr-events",
+    "sourceHost": "www.iacr.org",
+    "foundAt": "2026-08-25",
+    "status": "needs-review"
+  },
+  {
+    "id": "ef68209d2a1dd924",
+    "title": "Cryptology Schools",
+    "url": "https://www.iacr.org/schools/",
+    "sourceId": "iacr-events",
+    "sourceHost": "www.iacr.org",
+    "foundAt": "2026-08-25",
+    "status": "needs-review"
+  },
+  {
+    "id": "c13bffcc0c7a4639",
+    "title": "Constructive Approaches for SeCurity Analysis and Design of Embedded systems Conference 2027 (CASCADE 2027)",
+    "url": "https://cascade-conference.org/index.html",
+    "sourceId": "iacr-events",
+    "sourceHost": "www.iacr.org",
+    "foundAt": "2026-08-25",
+    "status": "needs-review"
+  },
+  {
+    "id": "5bd08a764353c573",
+    "title": "Call for Submissions: IEEE Quantum Week 2026",
+    "url": "https://www.computer.org/conferences/cfp-ieee-qunatum-week",
+    "sourceId": "ieee-computer-society-cfps",
+    "sourceHost": "www.computer.org",
+    "foundAt": "2026-08-25",
+    "status": "needs-review"
+  },
+  {
+    "id": "06fe8609930a3d7b",
+    "title": "Call for Submissions: IEEE Quantum Week 2025",
+    "url": "https://www.computer.org/conferences/cfp-ieee-qce-2025",
+    "sourceId": "ieee-computer-society-cfps",
+    "sourceHost": "www.computer.org",
+    "foundAt": "2026-08-25",
+    "status": "needs-review"
+  },
+  {
+    "id": "f1aeea81062abf88",
+    "title": "Call for Submissions: IEEE DCOSS-IoT",
+    "url": "https://www.computer.org/conferences/cfp-ieee-dcoss-iot-2026",
+    "sourceId": "ieee-computer-society-cfps",
+    "sourceHost": "www.computer.org",
+    "foundAt": "2026-08-25",
+    "status": "needs-review"
+  },
+  {
+    "id": "833f0a1059fe2285",
+    "title": "Call for Papers: The 11th IEEE International Conference on Big Data Computing Service and Machine Learning Applications",
+    "url": "https://www.computer.org/conferences/cfp-bigdataservice",
+    "sourceId": "ieee-computer-society-cfps",
+    "sourceHost": "www.computer.org",
+    "foundAt": "2026-08-25",
+    "status": "needs-review"
+  },
+  {
+    "id": "1546939a5a097d32",
+    "title": "Call for Papers: Special Section on Exploring Emerging Technologies in the Zero Trust Landscape: Challenges and Solutions",
+    "url": "https://www.computer.org/digital-library/journals/oj/cfp-emerging-technologies-in-the-zero-trust-landscape-challenges-and-solutions",
+    "sourceId": "ieee-computer-society-cfps",
+    "sourceHost": "www.computer.org",
+    "foundAt": "2026-08-25",
+    "status": "needs-review"
+  },
+  {
+    "id": "53f3e409ca83793c",
+    "title": "Call for Papers: Special Issue on Privacy-Preserving Machine Learning Services",
+    "url": "https://www.computer.org/digital-library/journals/tsc/cfp-privacy-preserving-machine-learning-services",
+    "sourceId": "ieee-computer-society-cfps",
+    "sourceHost": "www.computer.org",
+    "foundAt": "2026-08-25",
+    "status": "needs-review"
+  },
+  {
+    "id": "e5b7f09f5d7b97a4",
+    "title": "Call for Papers: Special Issue on Building Trustworthy Software in the Time of AI",
+    "url": "https://www.computer.org/digital-library/magazines/so/cfp-building-trustworthy-software-ai",
+    "sourceId": "ieee-computer-society-cfps",
+    "sourceHost": "www.computer.org",
+    "foundAt": "2026-08-25",
+    "status": "needs-review"
+  },
+  {
+    "id": "87606b4c662c9435",
+    "title": "Call for Papers: Special Issue on Big Data Analytics in Complex Social Information Networks",
+    "url": "https://www.computer.org/digital-library/journals/bd/cfp-complex-social-information-networks",
+    "sourceId": "ieee-computer-society-cfps",
+    "sourceHost": "www.computer.org",
+    "foundAt": "2026-08-25",
+    "status": "needs-review"
+  },
+  {
+    "id": "00ce8e372a697d2a",
+    "title": "Call for Papers: Silicon Valley Cybersecurity Conference (SVCC)",
+    "url": "https://www.computer.org/conferences/svcc-cfp",
+    "sourceId": "ieee-computer-society-cfps",
+    "sourceHost": "www.computer.org",
+    "foundAt": "2026-08-25",
+    "status": "needs-review"
+  },
+  {
+    "id": "790d22f2b322cbd7",
+    "title": "Call for Papers: IEEE/ACM Transactions on Networking Special Issue on AI and Networking",
+    "url": "https://www.computer.org/digital-library/journals/nt/cfp-trans-on-networking",
+    "sourceId": "ieee-computer-society-cfps",
+    "sourceHost": "www.computer.org",
+    "foundAt": "2026-08-25",
+    "status": "needs-review"
+  },
+  {
+    "id": "d58ae871b5cec078",
+    "title": "Call for Papers: IEEE Transactions on Privacy General Submissions",
+    "url": "https://www.computer.org/digital-library/journals/pr/cfp-general-submissions",
+    "sourceId": "ieee-computer-society-cfps",
+    "sourceHost": "www.computer.org",
+    "foundAt": "2026-08-25",
+    "status": "needs-review"
+  },
+  {
+    "id": "72e66a93a4a0b5da",
+    "title": "Call for Papers: IEEE Security & Privacy",
+    "url": "https://www.computer.org/digital-library/magazines/sp/cfp-ieee-security-and-privacy",
+    "sourceId": "ieee-computer-society-cfps",
+    "sourceHost": "www.computer.org",
+    "foundAt": "2026-08-25",
+    "status": "needs-review"
+  },
+  {
+    "id": "52e3b58764735dd5",
+    "title": "Call for Papers: IEEE Quantum Week 2025",
+    "url": "https://www.computer.org/conferences/quantum-week-2025",
+    "sourceId": "ieee-computer-society-cfps",
+    "sourceHost": "www.computer.org",
+    "foundAt": "2026-08-25",
+    "status": "needs-review"
+  },
+  {
+    "id": "116376a49ae86b59",
+    "title": "Call for Papers: IEEE International Conference on Quantum Artificial Intelligence",
+    "url": "https://www.computer.org/conferences/cfp-qai",
+    "sourceId": "ieee-computer-society-cfps",
+    "sourceHost": "www.computer.org",
+    "foundAt": "2026-08-25",
+    "status": "needs-review"
+  },
+  {
+    "id": "b4dacde62e0dc969",
+    "title": "Call for Papers",
+    "url": "https://www.comsoc.org/publications/magazines/ieee-network/cfp",
+    "sourceId": "ieee-comsoc-events",
+    "sourceHost": "www.comsoc.org",
+    "foundAt": "2026-08-25",
+    "status": "needs-review"
+  },
+  {
+    "id": "0facbe8a5436e2e9",
+    "title": "Call for Papers",
+    "url": "https://www.comsoc.org/publications/journals/ieee-tnet/ieee-transactions-networking-call-papers",
+    "sourceId": "ieee-comsoc-events",
+    "sourceHost": "www.comsoc.org",
+    "foundAt": "2026-08-25",
+    "status": "needs-review"
+  },
+  {
+    "id": "6f49b804f209079d",
+    "title": "Call For Papers: Special Issue on on Visualization for Secure AI and Cyber Systems",
+    "url": "https://www.computer.org/digital-library/magazines/cg/cfp-visualization-secure-ai-cyber-systems",
+    "sourceId": "ieee-computer-society-cfps",
+    "sourceHost": "www.computer.org",
+    "foundAt": "2026-08-25",
+    "status": "needs-review"
+  },
+  {
+    "id": "b021aa1a82439538",
+    "title": "Call For Papers: Special Issue on Software for Quantum Computing",
+    "url": "https://www.computer.org/digital-library/magazines/co/cfp-software-quantum-computing",
+    "sourceId": "ieee-computer-society-cfps",
+    "sourceHost": "www.computer.org",
+    "foundAt": "2026-08-25",
+    "status": "needs-review"
+  },
+  {
+    "id": "b77622cf1fcb6fe6",
+    "title": "Call For Papers: Special Issue on Real-World Security: Impact Beyond the Publications",
+    "url": "https://www.computer.org/digital-library/magazines/sp/cfp-real-world-security-impact",
+    "sourceId": "ieee-computer-society-cfps",
+    "sourceHost": "www.computer.org",
+    "foundAt": "2026-08-25",
+    "status": "needs-review"
+  },
+  {
+    "id": "d2fb52e515884d47",
+    "title": "Call For Papers: Special Issue on Quantum Computing",
+    "url": "https://www.computer.org/digital-library/magazines/cs/cfp-quantum-computing",
+    "sourceId": "ieee-computer-society-cfps",
+    "sourceHost": "www.computer.org",
+    "foundAt": "2026-08-25",
+    "status": "needs-review"
+  },
+  {
+    "id": "179c18b989aa3cc4",
+    "title": "Call For Papers: Special Issue on Inclusive Security and Privacy Engineering",
+    "url": "https://www.computer.org/digital-library/magazines/sp/cfp-inclusive-security-privacy-engineering",
+    "sourceId": "ieee-computer-society-cfps",
+    "sourceHost": "www.computer.org",
+    "foundAt": "2026-08-25",
+    "status": "needs-review"
+  },
+  {
+    "id": "3fb11fcaca679843",
+    "title": "Call For Papers: Special Issue on Artificial Intelligence and Extreme-Scale Workflows",
+    "url": "https://www.computer.org/digital-library/magazines/cs/cfp-ai-extreme-scale-workflows",
+    "sourceId": "ieee-computer-society-cfps",
+    "sourceHost": "www.computer.org",
+    "foundAt": "2026-08-25",
+    "status": "needs-review"
+  },
+  {
+    "id": "f98d4917cb58bec7",
+    "title": "CSET – Cyber Security Experimentation and Test",
+    "url": "https://www.acsac.org/2026/workshops/cset/",
+    "sourceId": "acsac-calls",
+    "sourceHost": "www.acsac.org",
+    "foundAt": "2026-08-25",
+    "status": "needs-review"
+  },
+  {
+    "id": "83b1289713c686d0",
+    "title": "CLOSED: Special Issue on Autonomous AI Agents in Computer Security",
+    "url": "https://www.computer.org/digital-library/magazines/sp/cfp-autonomous-ai-agents-computer-security",
+    "sourceId": "ieee-computer-society-cfps",
+    "sourceHost": "www.computer.org",
+    "foundAt": "2026-08-25",
+    "status": "needs-review"
+  },
+  {
+    "id": "6f11b82580397bbd",
+    "title": "CLOSED: Call for Papers: Special Issue on Cybersecurity and Privacy in Global Conflict and Disaster Regions",
+    "url": "https://www.computer.org/digital-library/magazines/sp/cfp-cybersecurity-and-privacy-in-global-conflict-and-disaster-regions",
+    "sourceId": "ieee-computer-society-cfps",
+    "sourceHost": "www.computer.org",
+    "foundAt": "2026-08-25",
+    "status": "needs-review"
+  },
+  {
+    "id": "fe962ac69afb75e7",
+    "title": "CLOSED: Call For Papers: Special Issue on Security and Privacy of Generative AI",
+    "url": "https://www.computer.org/digital-library/magazines/sp/cfp-security-privacy-generative-ai",
+    "sourceId": "ieee-computer-society-cfps",
+    "sourceHost": "www.computer.org",
+    "foundAt": "2026-08-25",
+    "status": "needs-review"
+  },
+  {
+    "id": "a952a51de44a6888",
+    "title": "CFP: Special Issue on Trust, Privacy, and Security in Intelligent and Agentic Systems",
+    "url": "https://www.computer.org/digital-library/journals/tq/cfp-trust-privacy-security-agentic-systems",
+    "sourceId": "ieee-computer-society-cfps",
+    "sourceHost": "www.computer.org",
+    "foundAt": "2026-08-25",
+    "status": "needs-review"
+  },
+  {
+    "id": "aeab514c60870bcd",
+    "title": "CFP: Special Issue on Leading the Next Computing Frontier: Quantum and Intelligent Systems",
+    "url": "https://www.computer.org/digital-library/magazines/it/cfp-computing-frontier-quantum-intelligent",
+    "sourceId": "ieee-computer-society-cfps",
+    "sourceHost": "www.computer.org",
+    "foundAt": "2026-08-25",
+    "status": "needs-review"
+  },
+  {
+    "id": "f0cabb3140a918db",
+    "title": "Autumn School on the Social Foundations of Cryptography",
+    "url": "https://social-foundations-of-cryptography.gitlab.io/school",
+    "sourceId": "iacr-events",
+    "sourceHost": "www.iacr.org",
+    "foundAt": "2026-08-25",
+    "status": "needs-review"
+  },
+  {
+    "id": "ec2bf39fafe57526",
+    "title": "An international scientific conference on cryptography and cryptographic information security tools “Cryptography in a multipolar world”ileCrypto 2026 (AgileCrypto 2026)",
+    "url": "https://agilecrypto.biz/en",
+    "sourceId": "iacr-events",
+    "sourceHost": "www.iacr.org",
+    "foundAt": "2026-08-25",
+    "status": "needs-review"
+  },
+  {
+    "id": "c80fd1f0392f347b",
+    "title": "Algebraic computation and Privacy Enhancing Cryptography 2026 - Summer School (ALPEC 2026 Summer School)",
+    "url": "https://alpec-school.github.io/",
+    "sourceId": "iacr-events",
+    "sourceHost": "www.iacr.org",
+    "foundAt": "2026-08-25",
+    "status": "needs-review"
+  },
+  {
+    "id": "dd354f5d637a486d",
+    "title": "ARTMAN – Trustworthy Machine Learning",
+    "url": "https://www.acsac.org/2026/workshops/artman/",
+    "sourceId": "acsac-calls",
+    "sourceHost": "www.acsac.org",
+    "foundAt": "2026-08-25",
+    "status": "needs-review"
+  },
+  {
+    "id": "2371fbff1a23983a",
+    "title": "AIDC – Agentic AI in Offensive and Defensive Cyber Operations",
+    "url": "https://www.acsac.org/2026/workshops/aidc/",
+    "sourceId": "acsac-calls",
+    "sourceHost": "www.acsac.org",
+    "foundAt": "2026-08-25",
+    "status": "needs-review"
+  },
+  {
+    "id": "d86ee16702349f93",
+    "title": "ACM Conference on Post-Quantum and Quantum-based Security (PQQS 2026)",
+    "url": "https://www.pqqs.org/",
+    "sourceId": "iacr-events",
+    "sourceHost": "www.iacr.org",
+    "foundAt": "2026-08-25",
+    "status": "needs-review"
+  },
+  {
+    "id": "9b3d62596a7fe573",
+    "title": "7th International Workshop on Secure Cryptographic Implementations and Engineering (SCIEN‘2026)",
+    "url": "https://scien-conf.github.io/?sessionid=",
+    "sourceId": "iacr-events",
+    "sourceHost": "www.iacr.org",
+    "foundAt": "2026-08-25",
+    "status": "needs-review"
+  },
+  {
+    "id": "eff8dc7ac21ae980",
+    "title": "7th International Workshop on Lightweight Cryptography For Security & Privacy (LightSec)",
+    "url": "https://lightsec2026.com/",
+    "sourceId": "iacr-events",
+    "sourceHost": "www.iacr.org",
+    "foundAt": "2026-08-25",
+    "status": "needs-review"
+  },
+  {
+    "id": "651d0e13a7da1410",
+    "title": "5th International Conference on Security & Privacy (ICSP 2026)",
+    "url": "https://icsp.co.in/2026/",
+    "sourceId": "iacr-events",
+    "sourceHost": "www.iacr.org",
+    "foundAt": "2026-08-25",
+    "status": "needs-review"
+  },
+  {
+    "id": "20b16a718b3e33e8",
+    "title": "46th annual international conference on the theory and applications of cryptographic techniques (Eurocrypt 2027)",
+    "url": "https://eurocrypt.iacr.org/2027",
+    "sourceId": "iacr-events",
+    "sourceHost": "www.iacr.org",
+    "foundAt": "2026-08-25",
+    "status": "needs-review"
+  },
+  {
+    "id": "49a789fa57b20a65",
+    "title": "29th Information Security Conference (ISC 2026)",
+    "url": "https://isc2026.github.io/",
+    "sourceId": "iacr-events",
+    "sourceHost": "www.iacr.org",
+    "foundAt": "2026-08-25",
+    "status": "needs-review"
+  },
+  {
+    "id": "c56ad1bb742165d4",
+    "title": "29th Conference on Public Key Cryptography (PKC 2027)",
+    "url": "https://pkc.iacr.org",
+    "sourceId": "iacr-events",
+    "sourceHost": "www.iacr.org",
+    "foundAt": "2026-08-25",
+    "status": "needs-review"
+  },
+  {
+    "id": "d6002423fd523a26",
+    "title": "27th Annual International Conference on Cryptology in India (INDOCRYPT 2026)",
+    "url": "https://indocrypt2026.cdacb.in/",
+    "sourceId": "iacr-events",
+    "sourceHost": "www.iacr.org",
+    "foundAt": "2026-08-25",
+    "status": "needs-review"
+  },
+  {
+    "id": "4d94107d3fbf3771",
+    "title": "24th USENIX Symposium on Networked Systems Design and Implementation",
+    "url": "https://www.usenix.org/conference/nsdi27",
+    "sourceId": "usenix-conferences",
+    "sourceHost": "www.usenix.org",
+    "foundAt": "2026-08-25",
+    "status": "needs-review"
+  },
+  {
+    "id": "ee4620e2214d55b0",
+    "title": "20th IMA International Conference on Cryptography and Coding",
+    "url": "https://ima.org.uk/28271/20th-ima-international-conference-on-cryptography-and-coding/",
+    "sourceId": "iacr-events",
+    "sourceHost": "www.iacr.org",
+    "foundAt": "2026-08-25",
+    "status": "needs-review"
+  },
+  {
+    "id": "b9cdd51a4bea454b",
+    "title": "2026 International Workshop on Future Security and Privacy (FSP 2026)",
+    "url": "https://www.platcon.org/ws/fsp2026",
+    "sourceId": "iacr-events",
+    "sourceHost": "www.iacr.org",
+    "foundAt": "2026-08-25",
+    "status": "needs-review"
+  },
+  {
+    "id": "c977b2ea02882144",
+    "title": "10th International Cryptology and Information Security Conference 2026 (CRYPTOLOGY2026)",
+    "url": "https://mscr.org.my/upcoming-events/cryptology2026",
+    "sourceId": "iacr-events",
+    "sourceHost": "www.iacr.org",
+    "foundAt": "2026-08-25",
+    "status": "needs-review"
+  }
+]
