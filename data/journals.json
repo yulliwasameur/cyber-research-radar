@@ -177,6 +177,98 @@
     "verifiedAt": "2026-08-26"
   },
   {
+    "id": "journal-cjnis",
+    "title": "Chinese Journal of Network and Information Security",
+    "acronym": "CJNIS",
+    "publisher": "Posts & Telecom Press",
+    "society": "Cyber Security Association of China",
+    "summary": "Chinese and English journal on network and information security, communications and trusted computing.",
+    "scope": "Research on secure communications, network and system security, cryptography, privacy, trusted computing and emerging infrastructure.",
+    "topics": [
+      "network security",
+      "communications security",
+      "cryptography",
+      "trusted computing",
+      "privacy",
+      "IoT security",
+      "cloud security",
+      "security protocols"
+    ],
+    "officialUrl": "https://www.infocomm-journal.com/cjnis/EN/2096-109X/home.shtml",
+    "authorGuidelinesUrl": "https://www.infocomm-journal.com/cjnis/EN/column/column183.shtml",
+    "submissionUrl": "https://www.infocomm-journal.com/cjnis/EN/2096-109X/home.shtml",
+    "issn": [
+      "2096-109X"
+    ],
+    "accessModel": "other",
+    "apc": {
+      "amount": 0,
+      "currency": "CNY",
+      "label": "No mandatory APC",
+      "mandatory": false,
+      "conditions": "DOAJ records no APC, but also flags other unspecified author charges; confirm the complete cost directly with the journal.",
+      "sourceUrl": "https://doaj.org/toc/2096-109X",
+      "verifiedAt": "2026-08-26"
+    },
+    "submissionFee": null,
+    "otherCharges": "DOAJ reports other author charges without a current public amount; request a written quotation before submission.",
+    "waivers": null,
+    "timeline": {
+      "firstDecisionDays": null,
+      "reviewDays": null,
+      "submissionToAcceptanceDays": 112,
+      "acceptanceToPublicationDays": null,
+      "basis": "publisher-reported",
+      "measureType": "target",
+      "note": "DOAJ reports an average 16-week submission-to-publication interval; the stored value is only a comparison proxy because the journal does not separate acceptance from production.",
+      "sourceUrl": "https://doaj.org/toc/2096-109X",
+      "verifiedAt": "2026-08-26"
+    },
+    "publicationFrequency": null,
+    "peerReviewModel": "Double-anonymous peer review",
+    "articleTypes": [
+      "Research Article",
+      "Review Article"
+    ],
+    "indexing": [
+      "Scopus",
+      "DOAJ",
+      "Crossref",
+      "CNKI"
+    ],
+    "metrics": [
+      {
+        "name": "H-index",
+        "value": 15,
+        "year": 2025,
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=2096-109X&tip=iss&clean=0"
+      },
+      {
+        "name": "SJR",
+        "value": 0.186,
+        "year": 2025,
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=2096-109X&tip=iss&clean=0"
+      }
+    ],
+    "rankings": [
+      {
+        "framework": "SJR",
+        "rank": "Q4",
+        "category": "Best listed security-related subject category",
+        "edition": "2025",
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=2096-109X&tip=iss&clean=0"
+      }
+    ],
+    "acceptanceRate": null,
+    "dataCodePolicy": "DOAJ and the journal policy pages describe licensing, archiving and editorial requirements; a separate detailed code policy was not located.",
+    "dataCodePolicyUrl": "https://www.infocomm-journal.com/cjnis/EN/column/column183.shtml",
+    "ethicsUrl": "https://www.infocomm-journal.com/cjnis/EN/column/column183.shtml",
+    "status": "active",
+    "caution": null,
+    "notes": "The official site was intermittently inaccessible to automated checks. DOAJ is therefore used for the current fee and timing fields, with uncertainty shown explicitly.",
+    "verifiedAt": "2026-08-26"
+  },
+  {
     "id": "journal-clsr",
     "title": "Computer Law & Security Review",
     "acronym": "CLSR",
@@ -328,6 +420,330 @@
     "status": "active",
     "caution": null,
     "notes": null,
+    "verifiedAt": "2026-08-26"
+  },
+  {
+    "id": "journal-cryptography",
+    "title": "Cryptography",
+    "acronym": "Cryptography",
+    "publisher": "MDPI",
+    "society": null,
+    "summary": "Open-access journal spanning modern cryptography from foundations to implementations.",
+    "scope": "Symmetric, public-key, post-quantum and quantum cryptography; protocols, cryptanalysis, implementation security and applications.",
+    "topics": [
+      "symmetric cryptography",
+      "public-key cryptography",
+      "post-quantum cryptography",
+      "cryptanalysis",
+      "digital signatures",
+      "zero knowledge",
+      "multiparty computation",
+      "side-channel attacks"
+    ],
+    "officialUrl": "https://www.mdpi.com/journal/cryptography",
+    "authorGuidelinesUrl": "https://www.mdpi.com/journal/cryptography/instructions",
+    "submissionUrl": "https://www.mdpi.com/journal/cryptography/instructions",
+    "issn": [
+      "2410-387X"
+    ],
+    "accessModel": "gold",
+    "apc": {
+      "amount": 1800,
+      "currency": "CHF",
+      "label": "Open-access APC",
+      "mandatory": true,
+      "conditions": "Charged after acceptance; taxes and institutional or reviewer-voucher discounts may apply.",
+      "sourceUrl": "https://www.mdpi.com/journal/cryptography/apc",
+      "verifiedAt": "2026-08-26"
+    },
+    "submissionFee": null,
+    "otherCharges": null,
+    "waivers": null,
+    "timeline": {
+      "firstDecisionDays": 19.9,
+      "reviewDays": null,
+      "submissionToAcceptanceDays": null,
+      "acceptanceToPublicationDays": 2.9,
+      "basis": "publisher-reported",
+      "measureType": "median",
+      "note": "Publisher-reported medians for the first half of 2026.",
+      "sourceUrl": "https://www.mdpi.com/journal/cryptography",
+      "verifiedAt": "2026-08-26"
+    },
+    "publicationFrequency": "Bimonthly",
+    "peerReviewModel": "Single-blind",
+    "articleTypes": [
+      "Research Article",
+      "Review Article",
+      "Short Communication"
+    ],
+    "indexing": [
+      "Scopus",
+      "ESCI",
+      "Web of Science",
+      "DBLP",
+      "DOAJ",
+      "Journal Citation Reports",
+      "SCImago",
+      "CLOCKSS"
+    ],
+    "metrics": [
+      {
+        "name": "CiteScore",
+        "value": 6.4,
+        "year": 2025,
+        "sourceUrl": "https://www.mdpi.com/journal/cryptography"
+      },
+      {
+        "name": "H-index",
+        "value": 29,
+        "year": 2025,
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=2410-387X&tip=iss&clean=0"
+      },
+      {
+        "name": "Journal Impact Factor",
+        "value": 2.4,
+        "year": 2025,
+        "sourceUrl": "https://www.mdpi.com/journal/cryptography"
+      },
+      {
+        "name": "SJR",
+        "value": 0.595,
+        "year": 2025,
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=2410-387X&tip=iss&clean=0"
+      }
+    ],
+    "rankings": [
+      {
+        "framework": "SJR",
+        "rank": "Q2",
+        "category": "Best listed security-related subject category",
+        "edition": "2025",
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=2410-387X&tip=iss&clean=0"
+      },
+      {
+        "framework": "JCR",
+        "rank": "Q2",
+        "category": "Computer Science, Theory and Methods",
+        "edition": "2025",
+        "sourceUrl": "https://www.mdpi.com/journal/cryptography"
+      },
+      {
+        "framework": "Scopus",
+        "rank": "Q1",
+        "category": "Applied Mathematics",
+        "edition": "2025",
+        "sourceUrl": "https://www.mdpi.com/journal/cryptography"
+      }
+    ],
+    "acceptanceRate": null,
+    "dataCodePolicy": "The author instructions cover research data, code and reproducibility.",
+    "dataCodePolicyUrl": "https://www.mdpi.com/journal/cryptography/instructions",
+    "ethicsUrl": "https://www.mdpi.com/journal/cryptography/instructions",
+    "status": "active",
+    "caution": null,
+    "notes": "Dated SJR values were imported from the supplied 2025 journal workbook. Publisher and registry metadata were checked on 2026-08-26; unavailable fields remain explicitly unknown.",
+    "verifiedAt": "2026-08-26"
+  },
+  {
+    "id": "journal-cc",
+    "title": "Cryptography and Communications",
+    "acronym": "CCDS",
+    "publisher": "Springer Nature",
+    "society": null,
+    "summary": "Mathematical journal on discrete structures used in symmetric cryptography, coding and communications.",
+    "scope": "Intersections of cryptography, error-correcting codes, communications, information theory, Boolean functions, sequences and finite fields.",
+    "topics": [
+      "Boolean functions",
+      "S-boxes",
+      "finite fields",
+      "sequences",
+      "error-correcting codes",
+      "quantum codes",
+      "symmetric cryptanalysis",
+      "pseudorandomness"
+    ],
+    "officialUrl": "https://link.springer.com/journal/12095",
+    "authorGuidelinesUrl": "https://link.springer.com/journal/12095/submission-guidelines",
+    "submissionUrl": "https://link.springer.com/journal/12095/submission-guidelines",
+    "issn": [
+      "1936-2447",
+      "1936-2455"
+    ],
+    "accessModel": "hybrid",
+    "apc": {
+      "amount": 3290,
+      "currency": "USD",
+      "label": "Optional open-access APC",
+      "mandatory": false,
+      "conditions": "Optional open access; official alternatives are GBP 2,390 or EUR 2,690, excluding taxes. Subscription publication has no APC.",
+      "sourceUrl": "https://link.springer.com/journal/12095/how-to-publish-with-us",
+      "verifiedAt": "2026-08-26"
+    },
+    "submissionFee": null,
+    "otherCharges": null,
+    "waivers": null,
+    "timeline": {
+      "firstDecisionDays": 4,
+      "reviewDays": null,
+      "submissionToAcceptanceDays": null,
+      "acceptanceToPublicationDays": null,
+      "basis": "publisher-reported",
+      "measureType": "median",
+      "note": "Publisher-reported median to first decision; it may include editorial screening.",
+      "sourceUrl": "https://link.springer.com/journal/12095",
+      "verifiedAt": "2026-08-26"
+    },
+    "publicationFrequency": null,
+    "peerReviewModel": "Single-blind",
+    "articleTypes": [
+      "Original Research Article",
+      "Extended Conference Article",
+      "Invited Review"
+    ],
+    "indexing": [
+      "ACM Digital Library",
+      "DBLP",
+      "EI Compendex",
+      "INSPEC",
+      "MathSciNet",
+      "SCImago",
+      "Scopus",
+      "SCIE",
+      "zbMATH",
+      "CLOCKSS",
+      "Portico"
+    ],
+    "metrics": [
+      {
+        "name": "H-index",
+        "value": 28,
+        "year": 2025,
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=1936-2447&tip=iss&clean=0"
+      },
+      {
+        "name": "Journal Impact Factor",
+        "value": 1.3,
+        "year": 2025,
+        "sourceUrl": "https://link.springer.com/journal/12095"
+      },
+      {
+        "name": "SJR",
+        "value": 0.853,
+        "year": 2025,
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=1936-2447&tip=iss&clean=0"
+      }
+    ],
+    "rankings": [
+      {
+        "framework": "SJR",
+        "rank": "Q1",
+        "category": "Best listed security-related subject category",
+        "edition": "2025",
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=1936-2447&tip=iss&clean=0"
+      }
+    ],
+    "acceptanceRate": null,
+    "dataCodePolicy": "The submission guidelines contain the journal's research-data policy.",
+    "dataCodePolicyUrl": "https://link.springer.com/journal/12095/submission-guidelines",
+    "ethicsUrl": null,
+    "status": "active",
+    "caution": null,
+    "notes": "The scope is mathematically narrow; generic blockchain, IoT, hardware or key-management papers need a central mathematical contribution.",
+    "verifiedAt": "2026-08-26"
+  },
+  {
+    "id": "journal-csa",
+    "title": "Cyber Security and Applications",
+    "acronym": "CSA",
+    "publisher": "KeAi Communications Co., Ltd.",
+    "society": null,
+    "summary": "International open-access journal for applied cybersecurity research, including quantum-resistant cryptographic mechanisms.",
+    "scope": "Cyberattacks, security breaches, ICT security, cyber-defence tools and quantum or post-quantum encryption, signatures and key management. Substantial extensions of conference papers are eligible.",
+    "topics": [
+      "cyberattacks",
+      "software security",
+      "hardware security",
+      "machine learning security",
+      "IoT security",
+      "cloud security",
+      "post-quantum cryptography",
+      "key management"
+    ],
+    "officialUrl": "https://www.keaipublishing.com/en/journals/cyber-security-and-applications/",
+    "authorGuidelinesUrl": "https://www.keaipublishing.com/en/journals/cyber-security-and-applications/guide-for-authors/",
+    "submissionUrl": "https://www.keaipublishing.com/en/journals/cyber-security-and-applications/guide-for-authors/",
+    "issn": [
+      "2772-9184"
+    ],
+    "accessModel": "diamond",
+    "apc": {
+      "amount": 0,
+      "currency": "USD",
+      "label": "No mandatory APC",
+      "mandatory": false,
+      "conditions": "The official guide currently lists a zero APC for all article types, excluding any applicable taxes.",
+      "sourceUrl": "https://www.keaipublishing.com/en/journals/cyber-security-and-applications/guide-for-authors/",
+      "verifiedAt": "2026-08-26"
+    },
+    "submissionFee": null,
+    "otherCharges": null,
+    "waivers": null,
+    "timeline": {
+      "firstDecisionDays": null,
+      "reviewDays": null,
+      "submissionToAcceptanceDays": null,
+      "acceptanceToPublicationDays": null,
+      "basis": "not-published",
+      "measureType": "not-published",
+      "note": "No comparable official editorial-timing statistic was found in the reviewed public material.",
+      "sourceUrl": null,
+      "verifiedAt": "2026-08-26"
+    },
+    "publicationFrequency": null,
+    "peerReviewModel": "Single-anonymized; at least two independent reviewers",
+    "articleTypes": [
+      "Research Article",
+      "Review Article",
+      "Short Communication",
+      "Editorial"
+    ],
+    "indexing": [
+      "Scopus",
+      "DOAJ",
+      "EI Compendex",
+      "Crossref"
+    ],
+    "metrics": [
+      {
+        "name": "H-index",
+        "value": 20,
+        "year": 2025,
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=2772-9184&tip=iss&clean=0"
+      },
+      {
+        "name": "SJR",
+        "value": 1.589,
+        "year": 2025,
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=2772-9184&tip=iss&clean=0"
+      }
+    ],
+    "rankings": [
+      {
+        "framework": "SJR",
+        "rank": "Q1",
+        "category": "Best listed security-related subject category",
+        "edition": "2025",
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=2772-9184&tip=iss&clean=0"
+      }
+    ],
+    "acceptanceRate": null,
+    "dataCodePolicy": "The author guide includes research-data guidance and supports deposit through Mendeley Data.",
+    "dataCodePolicyUrl": "https://www.keaipublishing.com/en/journals/cyber-security-and-applications/guide-for-authors/",
+    "ethicsUrl": "https://www.keaipublishing.com/en/journals/cyber-security-and-applications/guide-for-authors/",
+    "status": "active",
+    "caution": null,
+    "notes": "The journal page displays a current CiteScore without an explicit metric year, so that undated value is not stored as a dated score.",
     "verifiedAt": "2026-08-26"
   },
   {
@@ -498,6 +914,111 @@
     "verifiedAt": "2026-08-26"
   },
   {
+    "id": "journal-ejplt",
+    "title": "European Journal of Privacy Law & Technologies",
+    "acronym": "EJPLT",
+    "publisher": "ReCEPL",
+    "society": "European Centre for Privacy Law",
+    "summary": "European open-access journal at the intersection of privacy law, data protection and digital technologies.",
+    "scope": "Legal and interdisciplinary analysis of privacy, data protection, artificial intelligence, platforms and emerging technologies.",
+    "topics": [
+      "privacy law",
+      "data protection",
+      "GDPR",
+      "AI regulation",
+      "platform regulation",
+      "cybersecurity law",
+      "digital rights",
+      "technology governance"
+    ],
+    "officialUrl": "https://universitypress.unisob.na.it/ojs/index.php/ejplt/index",
+    "authorGuidelinesUrl": "https://universitypress.unisob.na.it/ojs/index.php/ejplt/about/submissions",
+    "submissionUrl": "https://universitypress.unisob.na.it/ojs/index.php/ejplt/login",
+    "issn": [
+      "2704-8012"
+    ],
+    "accessModel": "diamond",
+    "apc": {
+      "amount": 0,
+      "currency": "EUR",
+      "label": "No mandatory APC",
+      "mandatory": false,
+      "conditions": "DOAJ and the journal's open-access policy report no author charge.",
+      "sourceUrl": "https://doaj.org/toc/2704-8012",
+      "verifiedAt": "2026-08-26"
+    },
+    "submissionFee": {
+      "amount": 0,
+      "currency": null,
+      "label": "No submission fee",
+      "mandatory": false,
+      "conditions": "No submission fee is stated on the official page.",
+      "sourceUrl": "https://doaj.org/toc/2704-8012",
+      "verifiedAt": "2026-08-26"
+    },
+    "otherCharges": null,
+    "waivers": null,
+    "timeline": {
+      "firstDecisionDays": null,
+      "reviewDays": null,
+      "submissionToAcceptanceDays": null,
+      "acceptanceToPublicationDays": null,
+      "basis": "not-published",
+      "measureType": "not-published",
+      "note": "No comparable official editorial-timing statistic was found in the reviewed public material.",
+      "sourceUrl": null,
+      "verifiedAt": "2026-08-26"
+    },
+    "publicationFrequency": null,
+    "peerReviewModel": "Double-blind peer review",
+    "articleTypes": [
+      "Research Article",
+      "Case Note",
+      "Commentary",
+      "Review"
+    ],
+    "indexing": [
+      "DOAJ",
+      "Scopus",
+      "Crossref",
+      "Google Scholar"
+    ],
+    "metrics": [
+      {
+        "name": "H-index",
+        "value": 4,
+        "year": 2025,
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=2704-8012&tip=iss&clean=0"
+      },
+      {
+        "name": "SJR",
+        "value": 0.147,
+        "year": 2025,
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=2704-8012&tip=iss&clean=0"
+      }
+    ],
+    "rankings": [
+      {
+        "framework": "SJR",
+        "rank": "Q3",
+        "category": "Law",
+        "edition": "2025",
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=2704-8012&tip=iss&clean=0"
+      }
+    ],
+    "acceptanceRate": null,
+    "dataCodePolicy": null,
+    "dataCodePolicyUrl": null,
+    "ethicsUrl": "https://universitypress.unisob.na.it/ojs/index.php/ejplt/about/submissions",
+    "status": "active",
+    "caution": null,
+    "notes": "DOAJ reports an average four-week submission-to-publication interval but does not separate editorial and production stages, so it is not displayed as a comparable first-decision value.",
+    "verifiedAt": "2026-08-26",
+    "formerTitles": [
+      "European Journal of Privacy Law and Technologies"
+    ]
+  },
+  {
     "id": "journal-fsidi",
     "title": "Forensic Science International: Digital Investigation",
     "acronym": "FSIDI",
@@ -573,6 +1094,98 @@
     "status": "active",
     "caution": null,
     "notes": null,
+    "verifiedAt": "2026-08-26"
+  },
+  {
+    "id": "journal-gplr",
+    "title": "Global Privacy Law Review",
+    "acronym": "GPLR",
+    "publisher": "Kluwer Law International",
+    "society": null,
+    "summary": "International legal journal on privacy, data protection and the governance of personal information.",
+    "scope": "Comparative, international and domestic analysis of privacy and data-protection law, regulation, enforcement and technology.",
+    "topics": [
+      "privacy law",
+      "data protection",
+      "GDPR",
+      "comparative law",
+      "regulation",
+      "AI governance",
+      "cross-border data",
+      "enforcement"
+    ],
+    "officialUrl": "https://kluwerlawonline.com/Journals/Global%2BPrivacy%2BLaw%2BReview/735",
+    "authorGuidelinesUrl": "https://www.wolterskluwer.com/en/solutions/kluwerlawinternational/authors/for-our-authors#guidelines",
+    "submissionUrl": "https://www.wolterskluwer.com/en/solutions/kluwerlawinternational/authors/for-our-authors#guidelines",
+    "issn": [
+      "2666-3570",
+      "2666-3589"
+    ],
+    "accessModel": "subscription",
+    "apc": {
+      "amount": null,
+      "currency": null,
+      "label": "Journal-specific APC not published",
+      "mandatory": null,
+      "conditions": "No current journal-specific APC is published on the reviewed official journal and author-guideline pages.",
+      "sourceUrl": null,
+      "verifiedAt": "2026-08-26"
+    },
+    "submissionFee": null,
+    "otherCharges": null,
+    "waivers": null,
+    "timeline": {
+      "firstDecisionDays": 49,
+      "reviewDays": null,
+      "submissionToAcceptanceDays": null,
+      "acceptanceToPublicationDays": null,
+      "basis": "publisher-reported",
+      "measureType": "target",
+      "note": "The journal-specific author guidelines target an editorial decision within 6–8 weeks; 49 days is the midpoint of that range. The linked publisher page is the current access point for title guidelines.",
+      "sourceUrl": "https://www.wolterskluwer.com/en/solutions/kluwerlawinternational/authors/for-our-authors#guidelines",
+      "verifiedAt": "2026-08-26"
+    },
+    "publicationFrequency": null,
+    "peerReviewModel": "Double-blind peer review for research articles",
+    "articleTypes": [
+      "Article",
+      "Case Note",
+      "Country Report",
+      "Book Review"
+    ],
+    "indexing": [
+      "Kluwer Law Online"
+    ],
+    "metrics": [
+      {
+        "name": "H-index",
+        "value": 7,
+        "year": 2025,
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=2666-3570&tip=iss&clean=0"
+      },
+      {
+        "name": "SJR",
+        "value": 0.193,
+        "year": 2025,
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=2666-3570&tip=iss&clean=0"
+      }
+    ],
+    "rankings": [
+      {
+        "framework": "SJR",
+        "rank": "Q3",
+        "category": "Law",
+        "edition": "2025",
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=2666-3570&tip=iss&clean=0"
+      }
+    ],
+    "acceptanceRate": null,
+    "dataCodePolicy": null,
+    "dataCodePolicyUrl": null,
+    "ethicsUrl": "https://kluwerlawonline.com/media/KLI_Publication_Ethics_Malpractice_Statement.pdf",
+    "status": "active",
+    "caution": null,
+    "notes": "No official public acceptance-rate, bibliometric-score or journal-specific APC figure was found; those fields remain explicitly unknown.",
     "verifiedAt": "2026-08-26"
   },
   {
@@ -887,6 +1500,111 @@
     "verifiedAt": "2026-08-26"
   },
   {
+    "id": "journal-tbiom",
+    "title": "IEEE Transactions on Biometrics, Behavior, and Identity Science",
+    "acronym": "T-BIOM",
+    "publisher": "IEEE",
+    "society": "IEEE Biometrics Council",
+    "summary": "IEEE journal on biometrics, behavioural analysis and identity science.",
+    "scope": "Theory, algorithms, applications, systems, security, standards and architectures for biometric recognition and identity technologies.",
+    "topics": [
+      "face recognition",
+      "fingerprints",
+      "iris recognition",
+      "multimodal biometrics",
+      "behaviour analysis",
+      "presentation attacks",
+      "template protection",
+      "forensics"
+    ],
+    "officialUrl": "https://ieee-biometrics.org/publications/t-biom/",
+    "authorGuidelinesUrl": "https://ieee-biometrics.org/publications/t-biom/author-instructions/",
+    "submissionUrl": "https://ieee-biometrics.org/publications/t-biom/submit/",
+    "issn": [
+      "2637-6407"
+    ],
+    "accessModel": "hybrid",
+    "apc": {
+      "amount": 2800,
+      "currency": "USD",
+      "label": "Optional open-access APC",
+      "mandatory": false,
+      "conditions": "IEEE 2026 optional open-access APC; traditional publication remains available without an APC. Membership and institutional-agreement reductions may apply.",
+      "sourceUrl": "https://magazines.ieeeauthorcenter.ieee.org/wp-content/uploads/sites/10/IEEE-Article-Processing-Charges-List.pdf",
+      "verifiedAt": "2026-08-26"
+    },
+    "submissionFee": null,
+    "otherCharges": null,
+    "waivers": null,
+    "timeline": {
+      "firstDecisionDays": null,
+      "reviewDays": null,
+      "submissionToAcceptanceDays": null,
+      "acceptanceToPublicationDays": null,
+      "basis": "not-published",
+      "measureType": "not-published",
+      "note": "No comparable official editorial-timing statistic was found in the reviewed public material.",
+      "sourceUrl": null,
+      "verifiedAt": "2026-08-26"
+    },
+    "publicationFrequency": "Quarterly",
+    "peerReviewModel": "Peer reviewed; optional double-anonymous review",
+    "articleTypes": [
+      "Regular Paper",
+      "Short Paper",
+      "Survey Paper",
+      "Position Paper"
+    ],
+    "indexing": [
+      "IEEE Xplore",
+      "Scopus",
+      "Journal Citation Reports"
+    ],
+    "metrics": [
+      {
+        "name": "CiteScore",
+        "value": 11.9,
+        "year": 2025,
+        "sourceUrl": "https://ieee-biometrics.org/publications/t-biom/"
+      },
+      {
+        "name": "H-index",
+        "value": 38,
+        "year": 2025,
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=2637-6407&tip=iss&clean=0"
+      },
+      {
+        "name": "Journal Impact Factor",
+        "value": 5,
+        "year": 2025,
+        "sourceUrl": "https://ieee-biometrics.org/publications/t-biom/"
+      },
+      {
+        "name": "SJR",
+        "value": 1.064,
+        "year": 2025,
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=2637-6407&tip=iss&clean=0"
+      }
+    ],
+    "rankings": [
+      {
+        "framework": "SJR",
+        "rank": "Q1",
+        "category": "Best listed security-related subject category",
+        "edition": "2025",
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=2637-6407&tip=iss&clean=0"
+      }
+    ],
+    "acceptanceRate": null,
+    "dataCodePolicy": "The author instructions address reproducibility, public datasets and code used in biometric research.",
+    "dataCodePolicyUrl": "https://ieee-biometrics.org/publications/t-biom/author-instructions/",
+    "ethicsUrl": "https://ieee-biometrics.org/publications/t-biom/author-instructions/",
+    "status": "active",
+    "caution": null,
+    "notes": "No current journal-specific editorial timing statistic is officially published.",
+    "verifiedAt": "2026-08-26"
+  },
+  {
     "id": "journal-tdsc",
     "title": "IEEE Transactions on Dependable and Secure Computing",
     "acronym": "TDSC",
@@ -1079,6 +1797,113 @@
     "verifiedAt": "2026-08-26"
   },
   {
+    "id": "journal-iet-biometrics",
+    "title": "IET Biometrics",
+    "acronym": "IET-BMT",
+    "publisher": "Wiley",
+    "society": "Institution of Engineering and Technology",
+    "summary": "Fully open-access international journal for biometric science and engineering.",
+    "scope": "Biometric recognition, security, template protection, human factors, sensors and forensic applications.",
+    "topics": [
+      "face recognition",
+      "fingerprints",
+      "iris",
+      "signature",
+      "gait",
+      "multibiometrics",
+      "template protection",
+      "biometric cryptosystems",
+      "privacy",
+      "forensics"
+    ],
+    "officialUrl": "https://ietresearch.onlinelibrary.wiley.com/journal/ietbm",
+    "authorGuidelinesUrl": "https://ietresearch.onlinelibrary.wiley.com/page/journal/ietbm/homepage/author-guidelines",
+    "submissionUrl": "https://ietresearch.onlinelibrary.wiley.com/page/journal/ietbm/homepage/author-guidelines",
+    "issn": [
+      "2047-4938",
+      "2047-4946"
+    ],
+    "accessModel": "gold",
+    "apc": {
+      "amount": 2200,
+      "currency": "USD",
+      "label": "Open-access APC",
+      "mandatory": true,
+      "conditions": "Official alternatives are GBP 1,690 or EUR 2,000, excluding taxes. IET, country and institutional-agreement reductions may apply.",
+      "sourceUrl": "https://ietresearch.onlinelibrary.wiley.com/page/journal/ietbm/homepage/open-access",
+      "verifiedAt": "2026-08-26"
+    },
+    "submissionFee": {
+      "amount": 0,
+      "currency": null,
+      "label": "No submission fee",
+      "mandatory": false,
+      "conditions": "No submission fee or page charge is stated.",
+      "sourceUrl": "https://ietresearch.onlinelibrary.wiley.com/page/journal/ietbm/homepage/open-access",
+      "verifiedAt": "2026-08-26"
+    },
+    "otherCharges": null,
+    "waivers": null,
+    "timeline": {
+      "firstDecisionDays": 73,
+      "reviewDays": null,
+      "submissionToAcceptanceDays": null,
+      "acceptanceToPublicationDays": null,
+      "basis": "publisher-reported",
+      "measureType": "median",
+      "note": "Current publisher-reported median; the calculation year is not displayed.",
+      "sourceUrl": "https://ietresearch.onlinelibrary.wiley.com/journal/ietbm",
+      "verifiedAt": "2026-08-26"
+    },
+    "publicationFrequency": null,
+    "peerReviewModel": "Single-anonymized; normally at least two external reviewers",
+    "articleTypes": [
+      "Research Article",
+      "Review Article",
+      "Systematic Review"
+    ],
+    "indexing": [
+      "SCIE",
+      "Scopus",
+      "SCImago",
+      "EI Compendex",
+      "INSPEC",
+      "DBLP",
+      "DOAJ"
+    ],
+    "metrics": [
+      {
+        "name": "H-index",
+        "value": 47,
+        "year": 2025,
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=2047-4938&tip=iss&clean=0"
+      },
+      {
+        "name": "SJR",
+        "value": 0.363,
+        "year": 2025,
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=2047-4938&tip=iss&clean=0"
+      }
+    ],
+    "rankings": [
+      {
+        "framework": "SJR",
+        "rank": "Q2",
+        "category": "Best listed security-related subject category",
+        "edition": "2025",
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=2047-4938&tip=iss&clean=0"
+      }
+    ],
+    "acceptanceRate": "38% (publisher reported; reference year not displayed)",
+    "dataCodePolicy": null,
+    "dataCodePolicyUrl": null,
+    "ethicsUrl": "https://ietresearch.onlinelibrary.wiley.com/page/journal/ietbm/homepage/author-guidelines",
+    "status": "active",
+    "caution": null,
+    "notes": "Dated SJR values were imported from the supplied 2025 journal workbook. Publisher and registry metadata were checked on 2026-08-26; unavailable fields remain explicitly unknown.",
+    "verifiedAt": "2026-08-26"
+  },
+  {
     "id": "journal-iet-is",
     "title": "IET Information Security",
     "acronym": "IET-IS",
@@ -1168,6 +1993,695 @@
     "verifiedAt": "2026-08-26"
   },
   {
+    "id": "journal-ics",
+    "title": "Information and Computer Security",
+    "acronym": "ICS",
+    "publisher": "Emerald Publishing",
+    "society": null,
+    "summary": "Journal focused on human, organizational and managerial dimensions of information security.",
+    "scope": "Security management, user and organizational behaviour, governance, compliance, security culture, risk management and professional practice.",
+    "topics": [
+      "security management",
+      "governance",
+      "compliance",
+      "risk assessment",
+      "security awareness",
+      "human factors",
+      "privacy",
+      "organizational security"
+    ],
+    "officialUrl": "https://www.emeraldgrouppublishing.com/journal/ics",
+    "authorGuidelinesUrl": "https://www.emeraldgrouppublishing.com/journal/ics",
+    "submissionUrl": "https://www.emeraldgrouppublishing.com/journal/ics",
+    "issn": [
+      "2056-4961",
+      "2056-497X"
+    ],
+    "accessModel": "hybrid",
+    "apc": {
+      "amount": 4351,
+      "currency": "USD",
+      "label": "Optional open-access APC",
+      "mandatory": false,
+      "conditions": "Emerald 2026 hybrid-journal price; official alternatives are GBP 3,222 or EUR 3,710, plus VAT. Subscription publication has no APC.",
+      "sourceUrl": "https://emeraldgrouppublishing.com/publish-with-us/publish-open-access/journal",
+      "verifiedAt": "2026-08-26"
+    },
+    "submissionFee": {
+      "amount": 0,
+      "currency": null,
+      "label": "No submission fee",
+      "mandatory": false,
+      "conditions": "The official FAQ states that no payment is requested at submission.",
+      "sourceUrl": "https://www.emeraldgrouppublishing.com/journal/ics",
+      "verifiedAt": "2026-08-26"
+    },
+    "otherCharges": null,
+    "waivers": null,
+    "timeline": {
+      "firstDecisionDays": 23,
+      "reviewDays": null,
+      "submissionToAcceptanceDays": null,
+      "acceptanceToPublicationDays": 40,
+      "basis": "publisher-reported",
+      "measureType": "median",
+      "note": "Publisher-reported response and publication statistics; first decision can include editorial screening.",
+      "sourceUrl": "https://www.emeraldgrouppublishing.com/journal/ics",
+      "verifiedAt": "2026-08-26"
+    },
+    "publicationFrequency": null,
+    "peerReviewModel": "Double-anonymous; at least two independent reviewers",
+    "articleTypes": [
+      "Research Paper",
+      "Case Study",
+      "Conceptual Paper",
+      "Literature Review",
+      "Technical Paper",
+      "Viewpoint"
+    ],
+    "indexing": [
+      "Scopus",
+      "Journal Citation Reports"
+    ],
+    "metrics": [
+      {
+        "name": "CiteScore",
+        "value": 6.9,
+        "year": 2025,
+        "sourceUrl": "https://www.emeraldgrouppublishing.com/journal/ics"
+      },
+      {
+        "name": "H-index",
+        "value": 63,
+        "year": 2025,
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=2056-4961&tip=iss&clean=0"
+      },
+      {
+        "name": "Journal Impact Factor",
+        "value": 1.8,
+        "year": 2025,
+        "sourceUrl": "https://www.emeraldgrouppublishing.com/journal/ics"
+      },
+      {
+        "name": "SJR",
+        "value": 0.543,
+        "year": 2025,
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=2056-4961&tip=iss&clean=0"
+      }
+    ],
+    "rankings": [
+      {
+        "framework": "SJR",
+        "rank": "Q2",
+        "category": "Best listed security-related subject category",
+        "edition": "2025",
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=2056-4961&tip=iss&clean=0"
+      }
+    ],
+    "acceptanceRate": "10.4% (publisher reported)",
+    "dataCodePolicy": "The journal follows TOP Guidelines and asks authors to cite supporting data and code when available.",
+    "dataCodePolicyUrl": "https://www.emeraldgrouppublishing.com/journal/ics",
+    "ethicsUrl": "https://www.emeraldgrouppublishing.com/journal/ics",
+    "status": "active",
+    "caution": null,
+    "notes": "The journal primarily targets human and organizational security; work focused only on underlying cryptographic mechanisms may fall outside scope.",
+    "verifiedAt": "2026-08-26"
+  },
+  {
+    "id": "journal-isj",
+    "title": "Information Security Journal: A Global Perspective",
+    "acronym": "ISJGP",
+    "publisher": "Taylor & Francis",
+    "society": null,
+    "summary": "International journal for information-security researchers and practitioners.",
+    "scope": "Research, reviews, technologies, tools, professional practice and future challenges in information security.",
+    "topics": [
+      "security management",
+      "risk management",
+      "security architecture",
+      "cyber law",
+      "network security",
+      "digital forensics",
+      "incident response",
+      "business continuity"
+    ],
+    "officialUrl": "https://www.tandfonline.com/journals/uiss20",
+    "authorGuidelinesUrl": "https://www.tandfonline.com/action/authorSubmission?show=instructions&journalCode=uiss20",
+    "submissionUrl": "https://www.tandfonline.com/action/authorSubmission?show=instructions&journalCode=uiss20",
+    "issn": [
+      "1939-3555",
+      "1939-3547"
+    ],
+    "accessModel": "hybrid",
+    "apc": {
+      "amount": null,
+      "currency": null,
+      "label": "Optional open-access APC",
+      "mandatory": false,
+      "conditions": "Open access is optional through Open Select; the exact price is supplied by the publisher's APC Finder. Non-OA publication has no APC.",
+      "sourceUrl": "https://www.tandfonline.com/journals/uiss20/about-this-journal",
+      "verifiedAt": "2026-08-26"
+    },
+    "submissionFee": null,
+    "otherCharges": null,
+    "waivers": null,
+    "timeline": {
+      "firstDecisionDays": 230,
+      "reviewDays": 321,
+      "submissionToAcceptanceDays": null,
+      "acceptanceToPublicationDays": 17,
+      "basis": "publisher-reported",
+      "measureType": "median",
+      "note": "Publisher-reported timings; the post-review decision is a separate, longer statistic.",
+      "sourceUrl": "https://www.tandfonline.com/journals/uiss20/about-this-journal",
+      "verifiedAt": "2026-08-26"
+    },
+    "publicationFrequency": "6 issues per year",
+    "peerReviewModel": "Anonymized review by at least two subject experts; the official page does not label it single- or double-anonymous",
+    "articleTypes": [
+      "Original Research Article",
+      "Review Article"
+    ],
+    "indexing": [
+      "ACM Guide to Computing Literature",
+      "British Library",
+      "CLOCKSS",
+      "Crossref",
+      "EI Compendex",
+      "ESCI",
+      "Portico",
+      "Scopus",
+      "Ulrich's",
+      "WorldCat"
+    ],
+    "metrics": [
+      {
+        "name": "H-index",
+        "value": 37,
+        "year": 2025,
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=1939-3555&tip=iss&clean=0"
+      },
+      {
+        "name": "SJR",
+        "value": 0.456,
+        "year": 2025,
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=1939-3555&tip=iss&clean=0"
+      },
+      {
+        "name": "CiteScore",
+        "value": 5.9,
+        "year": 2024,
+        "sourceUrl": "https://www.tandfonline.com/journals/uiss20/about-this-journal"
+      },
+      {
+        "name": "Journal Impact Factor",
+        "value": 1.4,
+        "year": 2024,
+        "sourceUrl": "https://www.tandfonline.com/journals/uiss20/about-this-journal"
+      },
+      {
+        "name": "SJR",
+        "value": 0.489,
+        "year": 2024,
+        "sourceUrl": "https://www.tandfonline.com/journals/uiss20/about-this-journal"
+      },
+      {
+        "name": "SNIP",
+        "value": 1.091,
+        "year": 2024,
+        "sourceUrl": "https://www.tandfonline.com/journals/uiss20/about-this-journal"
+      }
+    ],
+    "rankings": [
+      {
+        "framework": "SJR",
+        "rank": "Q2",
+        "category": "Best listed security-related subject category",
+        "edition": "2025",
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=1939-3555&tip=iss&clean=0"
+      },
+      {
+        "framework": "Scopus",
+        "rank": "Q2",
+        "category": "Best listed CiteScore subject category",
+        "edition": "2024",
+        "sourceUrl": "https://www.tandfonline.com/journals/uiss20/about-this-journal"
+      }
+    ],
+    "acceptanceRate": "11% (publisher reported)",
+    "dataCodePolicy": null,
+    "dataCodePolicyUrl": null,
+    "ethicsUrl": "https://www.tandfonline.com/action/authorSubmission?show=instructions&journalCode=uiss20",
+    "status": "active",
+    "caution": null,
+    "notes": "The current publisher-reported editorial timings are unusually long; the exact APC is available only through a dynamic pricing tool.",
+    "verifiedAt": "2026-08-26"
+  },
+  {
+    "id": "journal-idpl",
+    "title": "International Data Privacy Law",
+    "acronym": "IDPL",
+    "publisher": "Oxford University Press",
+    "society": null,
+    "summary": "International legal journal devoted to privacy and data-protection law.",
+    "scope": "Rigorous legal research on data-protection law. Interdisciplinary submissions must retain a substantial legal component.",
+    "topics": [
+      "data protection law",
+      "privacy law",
+      "GDPR",
+      "comparative law",
+      "international regulation",
+      "data governance",
+      "technology regulation"
+    ],
+    "officialUrl": "https://academic.oup.com/idpl/",
+    "authorGuidelinesUrl": "https://academic.oup.com/idpl/pages/author-guidelines",
+    "submissionUrl": "https://mc.manuscriptcentral.com/idpl",
+    "issn": [
+      "2044-3994",
+      "2044-4001"
+    ],
+    "accessModel": "hybrid",
+    "apc": {
+      "amount": null,
+      "currency": null,
+      "label": "Optional open-access APC",
+      "mandatory": false,
+      "conditions": "Open access is optional and priced through OUP's post-acceptance pricing tool; standard publication does not require an APC.",
+      "sourceUrl": "https://academic.oup.com/idpl/pages/author-guidelines",
+      "verifiedAt": "2026-08-26"
+    },
+    "submissionFee": null,
+    "otherCharges": null,
+    "waivers": null,
+    "timeline": {
+      "firstDecisionDays": null,
+      "reviewDays": null,
+      "submissionToAcceptanceDays": null,
+      "acceptanceToPublicationDays": 43,
+      "basis": "publisher-reported",
+      "measureType": "median",
+      "note": "Publisher-reported 2025 median from acceptance to publication.",
+      "sourceUrl": "https://academic.oup.com/idpl/pages/About",
+      "verifiedAt": "2026-08-26"
+    },
+    "publicationFrequency": "4 issues per year",
+    "peerReviewModel": "Double-anonymized; normally two reviewers for research articles",
+    "articleTypes": [
+      "Original Article",
+      "Comment & Analysis"
+    ],
+    "indexing": [
+      "Scopus",
+      "Journal Citation Reports",
+      "LOCKSS",
+      "CLOCKSS",
+      "Portico"
+    ],
+    "metrics": [
+      {
+        "name": "CiteScore",
+        "value": 4.6,
+        "year": 2025,
+        "sourceUrl": "https://academic.oup.com/idpl/pages/About"
+      },
+      {
+        "name": "H-index",
+        "value": 35,
+        "year": 2025,
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=2044-3994&tip=iss&clean=0"
+      },
+      {
+        "name": "Journal Impact Factor",
+        "value": 2.4,
+        "year": 2025,
+        "sourceUrl": "https://academic.oup.com/idpl/pages/About"
+      },
+      {
+        "name": "SJR",
+        "value": 1.045,
+        "year": 2025,
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=2044-3994&tip=iss&clean=0"
+      },
+      {
+        "name": "SNIP",
+        "value": 1.716,
+        "year": 2025,
+        "sourceUrl": "https://academic.oup.com/idpl/pages/About"
+      }
+    ],
+    "rankings": [
+      {
+        "framework": "SJR",
+        "rank": "Q1",
+        "category": "Law",
+        "edition": "2025",
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=2044-3994&tip=iss&clean=0"
+      }
+    ],
+    "acceptanceRate": null,
+    "dataCodePolicy": null,
+    "dataCodePolicyUrl": null,
+    "ethicsUrl": "https://academic.oup.com/idpl/pages/author-guidelines",
+    "status": "active",
+    "caution": null,
+    "notes": "The journal excludes purely technical, economic or sociological work that does not contain substantive legal analysis.",
+    "verifiedAt": "2026-08-26"
+  },
+  {
+    "id": "journal-ijact",
+    "title": "International Journal of Applied Cryptography",
+    "acronym": "IJACT",
+    "publisher": "Inderscience Publishers",
+    "society": null,
+    "summary": "International journal linking cryptographic theory, implementation, protocols and real-world applications.",
+    "scope": "Applied cryptography, security protocols, blockchain and distributed ledgers, post-quantum methods, implementation security and cryptanalysis.",
+    "topics": [
+      "applied cryptography",
+      "cryptographic protocols",
+      "post-quantum cryptography",
+      "blockchain",
+      "quantum cryptography",
+      "implementation security",
+      "cryptanalysis",
+      "key management"
+    ],
+    "officialUrl": "https://www.inderscience.com/jhome.php?jcode=ijact",
+    "authorGuidelinesUrl": "https://www.inderscience.com/authorguidelines/",
+    "submissionUrl": "https://www.indersciencesubmissions.com/",
+    "issn": [
+      "1753-0563",
+      "1753-0571"
+    ],
+    "accessModel": "hybrid",
+    "apc": {
+      "amount": 2200,
+      "currency": "EUR",
+      "label": "Optional open-access APC",
+      "mandatory": false,
+      "conditions": "Optional open-access charge for 2026; the standard subscription route does not require an APC.",
+      "sourceUrl": "https://www.inderscience.com/mobile/inauthors/index.php?pid=75",
+      "verifiedAt": "2026-08-26"
+    },
+    "submissionFee": {
+      "amount": 0,
+      "currency": null,
+      "label": "No submission fee",
+      "mandatory": false,
+      "conditions": "No submission fee is stated on the official page.",
+      "sourceUrl": "https://www.inderscience.com/mobile/inauthors/index.php?pid=75",
+      "verifiedAt": "2026-08-26"
+    },
+    "otherCharges": null,
+    "waivers": null,
+    "timeline": {
+      "firstDecisionDays": null,
+      "reviewDays": null,
+      "submissionToAcceptanceDays": null,
+      "acceptanceToPublicationDays": null,
+      "basis": "not-published",
+      "measureType": "not-published",
+      "note": "No comparable official editorial-timing statistic was found in the reviewed public material.",
+      "sourceUrl": null,
+      "verifiedAt": "2026-08-26"
+    },
+    "publicationFrequency": "4 issues per year",
+    "peerReviewModel": "Double-blind peer review",
+    "articleTypes": [
+      "Original Research Article",
+      "Review Article",
+      "Technical Report",
+      "Case Study"
+    ],
+    "indexing": [
+      "Scopus",
+      "ACM Digital Library",
+      "DBLP",
+      "MathSciNet",
+      "zbMATH",
+      "EBSCO",
+      "ProQuest"
+    ],
+    "metrics": [
+      {
+        "name": "CiteScore",
+        "value": 0.2,
+        "year": 2025,
+        "sourceUrl": "https://www.inderscience.com/jhome.php?jcode=ijact"
+      },
+      {
+        "name": "H-index",
+        "value": 20,
+        "year": 2025,
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=1753-0563&tip=iss&clean=0"
+      },
+      {
+        "name": "SJR",
+        "value": 0.123,
+        "year": 2025,
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=1753-0563&tip=iss&clean=0"
+      }
+    ],
+    "rankings": [
+      {
+        "framework": "SJR",
+        "rank": "Q4",
+        "category": "Best listed security-related subject category",
+        "edition": "2025",
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=1753-0563&tip=iss&clean=0"
+      }
+    ],
+    "acceptanceRate": null,
+    "dataCodePolicy": null,
+    "dataCodePolicyUrl": null,
+    "ethicsUrl": "https://www.inderscience.com/info/inauthors/author_ethical.php",
+    "status": "active",
+    "caution": null,
+    "notes": "The journal covers both theoretical and practical cryptography but expects a clear applied contribution; the 2026 open-access fee is optional.",
+    "verifiedAt": "2026-08-26"
+  },
+  {
+    "id": "journal-ijbm",
+    "title": "International Journal of Biometrics",
+    "acronym": "IJBM",
+    "publisher": "Inderscience Publishers",
+    "society": null,
+    "summary": "International journal on biometric recognition, identity and related security technologies.",
+    "scope": "Research on biometric modalities, algorithms, evaluation, security, privacy, standards and applications.",
+    "topics": [
+      "biometrics",
+      "face recognition",
+      "fingerprints",
+      "iris recognition",
+      "multimodal biometrics",
+      "template protection",
+      "presentation attacks",
+      "identity"
+    ],
+    "officialUrl": "https://www.inderscience.com/jhome.php?jcode=ijbm",
+    "authorGuidelinesUrl": "https://www.inderscience.com/authorguidelines/",
+    "submissionUrl": "https://www.indersciencesubmissions.com/",
+    "issn": [
+      "1755-8301",
+      "1755-831X"
+    ],
+    "accessModel": "hybrid",
+    "apc": {
+      "amount": 2200,
+      "currency": "EUR",
+      "label": "Optional open-access APC",
+      "mandatory": false,
+      "conditions": "Optional open-access charge for 2026; the standard subscription route does not require an APC.",
+      "sourceUrl": "https://www.inderscience.com/mobile/inauthors/index.php?pid=75",
+      "verifiedAt": "2026-08-26"
+    },
+    "submissionFee": {
+      "amount": 0,
+      "currency": null,
+      "label": "No submission fee",
+      "mandatory": false,
+      "conditions": "No submission fee is stated on the official page.",
+      "sourceUrl": "https://www.inderscience.com/mobile/inauthors/index.php?pid=75",
+      "verifiedAt": "2026-08-26"
+    },
+    "otherCharges": null,
+    "waivers": null,
+    "timeline": {
+      "firstDecisionDays": null,
+      "reviewDays": null,
+      "submissionToAcceptanceDays": null,
+      "acceptanceToPublicationDays": null,
+      "basis": "not-published",
+      "measureType": "not-published",
+      "note": "No comparable official editorial-timing statistic was found in the reviewed public material.",
+      "sourceUrl": null,
+      "verifiedAt": "2026-08-26"
+    },
+    "publicationFrequency": "6 issues per year",
+    "peerReviewModel": "Double-blind peer review",
+    "articleTypes": [
+      "Original Research Article",
+      "Review Article",
+      "Technical Report",
+      "Case Study"
+    ],
+    "indexing": [
+      "Scopus",
+      "EI Compendex",
+      "INSPEC",
+      "DBLP",
+      "EBSCO",
+      "ProQuest"
+    ],
+    "metrics": [
+      {
+        "name": "CiteScore",
+        "value": 2.3,
+        "year": 2025,
+        "sourceUrl": "https://www.inderscience.com/jhome.php?jcode=ijbm"
+      },
+      {
+        "name": "H-index",
+        "value": 20,
+        "year": 2025,
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=1755-8301&tip=iss&clean=0"
+      },
+      {
+        "name": "Journal Impact Factor",
+        "value": 0.8,
+        "year": 2025,
+        "sourceUrl": "https://www.inderscience.com/jhome.php?jcode=ijbm"
+      },
+      {
+        "name": "SJR",
+        "value": 0.264,
+        "year": 2025,
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=1755-8301&tip=iss&clean=0"
+      }
+    ],
+    "rankings": [
+      {
+        "framework": "SJR",
+        "rank": "Q3",
+        "category": "Best listed security-related subject category",
+        "edition": "2025",
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=1755-8301&tip=iss&clean=0"
+      }
+    ],
+    "acceptanceRate": null,
+    "dataCodePolicy": null,
+    "dataCodePolicyUrl": null,
+    "ethicsUrl": "https://www.inderscience.com/info/inauthors/author_ethical.php",
+    "status": "active",
+    "caution": null,
+    "notes": "Dated SJR values were imported from the supplied 2025 journal workbook. Publisher and registry metadata were checked on 2026-08-26; unavailable fields remain explicitly unknown.",
+    "verifiedAt": "2026-08-26"
+  },
+  {
+    "id": "journal-ijcnis",
+    "title": "International Journal of Computer Network and Information Security",
+    "acronym": "IJCNIS",
+    "publisher": "Modern Education and Computer Science Press",
+    "society": null,
+    "summary": "Open-access journal on computer networks, communications and information security.",
+    "scope": "Research on secure networks and systems, cryptography, wireless and mobile security, privacy, forensics and security management.",
+    "topics": [
+      "network security",
+      "information security",
+      "cryptography",
+      "wireless security",
+      "cloud security",
+      "IoT security",
+      "privacy",
+      "digital forensics"
+    ],
+    "officialUrl": "https://www.mecs-press.org/ijcnis/",
+    "authorGuidelinesUrl": "https://www.mecs-press.org/ijcnis/author.html",
+    "submissionUrl": "https://www.mecs-press.org/ijcnis/submission.html",
+    "issn": [
+      "2074-9090",
+      "2074-9104"
+    ],
+    "accessModel": "gold",
+    "apc": {
+      "amount": 400,
+      "currency": "USD",
+      "label": "Open-access APC",
+      "mandatory": true,
+      "conditions": "Applies to manuscripts submitted from 1 April 2026 and is payable after acceptance.",
+      "sourceUrl": "https://www.mecs-press.org/ijcnis/apc.html",
+      "verifiedAt": "2026-08-26"
+    },
+    "submissionFee": {
+      "amount": 0,
+      "currency": null,
+      "label": "No submission fee",
+      "mandatory": false,
+      "conditions": "No submission fee is stated on the official page.",
+      "sourceUrl": "https://www.mecs-press.org/ijcnis/apc.html",
+      "verifiedAt": "2026-08-26"
+    },
+    "otherCharges": null,
+    "waivers": null,
+    "timeline": {
+      "firstDecisionDays": null,
+      "reviewDays": null,
+      "submissionToAcceptanceDays": null,
+      "acceptanceToPublicationDays": null,
+      "basis": "not-published",
+      "measureType": "not-published",
+      "note": "No comparable official editorial-timing statistic was found in the reviewed public material.",
+      "sourceUrl": null,
+      "verifiedAt": "2026-08-26"
+    },
+    "publicationFrequency": "6 issues per year",
+    "peerReviewModel": "Double-blind peer review",
+    "articleTypes": [
+      "Research Article",
+      "Review Article",
+      "Short Communication"
+    ],
+    "indexing": [
+      "Scopus",
+      "DOAJ",
+      "Crossref",
+      "EBSCO",
+      "ProQuest",
+      "Google Scholar"
+    ],
+    "metrics": [
+      {
+        "name": "H-index",
+        "value": 22,
+        "year": 2025,
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=2074-9090&tip=iss&clean=0"
+      },
+      {
+        "name": "SJR",
+        "value": 0.286,
+        "year": 2025,
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=2074-9090&tip=iss&clean=0"
+      }
+    ],
+    "rankings": [
+      {
+        "framework": "SJR",
+        "rank": "Q3",
+        "category": "Best listed security-related subject category",
+        "edition": "2025",
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=2074-9090&tip=iss&clean=0"
+      }
+    ],
+    "acceptanceRate": null,
+    "dataCodePolicy": "The publisher's policies cover originality, data integrity and supporting research material.",
+    "dataCodePolicyUrl": "https://www.mecs-press.org/ijcnis/publishingpolicies.html",
+    "ethicsUrl": "https://www.mecs-press.org/ijcnis/ethics.html",
+    "status": "active",
+    "caution": null,
+    "notes": "The current USD 400 APC is effective for submissions from 1 April 2026; earlier workbook notes did not contain this dated change.",
+    "verifiedAt": "2026-08-26"
+  },
+  {
     "id": "journal-ijcip",
     "title": "International Journal of Critical Infrastructure Protection",
     "acronym": "IJCIP",
@@ -1228,6 +2742,356 @@
     "status": "active",
     "caution": null,
     "notes": null,
+    "verifiedAt": "2026-08-26"
+  },
+  {
+    "id": "journal-ijdcf",
+    "title": "International Journal of Digital Crime and Forensics",
+    "acronym": "IJDCF",
+    "publisher": "IGI Global Scientific Publishing",
+    "society": null,
+    "summary": "Gold open-access journal on digital crime investigation and computer forensics.",
+    "scope": "Scientific and practical methods for acquiring, preserving, analysing and presenting digital evidence and investigating cybercrime.",
+    "topics": [
+      "digital forensics",
+      "cybercrime",
+      "incident response",
+      "mobile forensics",
+      "network forensics",
+      "evidence",
+      "malware analysis",
+      "forensic law"
+    ],
+    "officialUrl": "https://www.igi-global.com/calls-for-papers/international-journal-digital-crime-forensics/1112",
+    "authorGuidelinesUrl": "https://www.igi-global.com/publish/contributor-resources/before-you-write/?titleid=1112",
+    "submissionUrl": "https://www.igi-global.com/submission/submit-manuscript/",
+    "issn": [
+      "1941-6210",
+      "1941-6229"
+    ],
+    "accessModel": "gold",
+    "apc": {
+      "amount": 2100,
+      "currency": "USD",
+      "label": "Open-access APC",
+      "mandatory": true,
+      "conditions": "Current gold open-access charge; publisher waivers or discounts may apply.",
+      "sourceUrl": "https://www.igi-global.com/calls-for-papers/international-journal-digital-crime-forensics/1112",
+      "verifiedAt": "2026-08-26"
+    },
+    "submissionFee": null,
+    "otherCharges": null,
+    "waivers": null,
+    "timeline": {
+      "firstDecisionDays": null,
+      "reviewDays": null,
+      "submissionToAcceptanceDays": null,
+      "acceptanceToPublicationDays": null,
+      "basis": "not-published",
+      "measureType": "not-published",
+      "note": "No comparable official editorial-timing statistic was found in the reviewed public material.",
+      "sourceUrl": null,
+      "verifiedAt": "2026-08-26"
+    },
+    "publicationFrequency": "Continuous volume publication",
+    "peerReviewModel": "Double-anonymized; normally at least three reviewers",
+    "articleTypes": [
+      "Research Article",
+      "Review Article",
+      "Case Study",
+      "Technical Paper"
+    ],
+    "indexing": [
+      "Scopus",
+      "Web of Science",
+      "INSPEC",
+      "DBLP",
+      "EBSCO",
+      "ProQuest"
+    ],
+    "metrics": [
+      {
+        "name": "H-index",
+        "value": 20,
+        "year": 2025,
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=1941-6210&tip=iss&clean=0"
+      },
+      {
+        "name": "SJR",
+        "value": 0.206,
+        "year": 2025,
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=1941-6210&tip=iss&clean=0"
+      },
+      {
+        "name": "H-index",
+        "value": 18,
+        "year": 2024,
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=19700186819&tip=sid&clean=0"
+      },
+      {
+        "name": "SJR",
+        "value": 0.217,
+        "year": 2024,
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=19700186819&tip=sid&clean=0"
+      }
+    ],
+    "rankings": [
+      {
+        "framework": "SJR",
+        "rank": "Q4",
+        "category": "Best listed security-related subject category",
+        "edition": "2025",
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=1941-6210&tip=iss&clean=0"
+      }
+    ],
+    "acceptanceRate": null,
+    "dataCodePolicy": null,
+    "dataCodePolicyUrl": null,
+    "ethicsUrl": "https://www.igi-global.com/publish/contributor-resources/before-you-write/?titleid=1112",
+    "status": "active",
+    "caution": null,
+    "notes": "Dated SJR values were imported from the supplied 2025 journal workbook. Publisher and registry metadata were checked on 2026-08-26; unavailable fields remain explicitly unknown.",
+    "verifiedAt": "2026-08-26"
+  },
+  {
+    "id": "journal-ijesdf",
+    "title": "International Journal of Electronic Security and Digital Forensics",
+    "acronym": "IJESDF",
+    "publisher": "Inderscience Publishers",
+    "society": null,
+    "summary": "Open-access journal on electronic security, cybercrime and digital forensics.",
+    "scope": "Secure electronic systems, cybercrime investigation, digital-evidence methods and related legal or operational issues.",
+    "topics": [
+      "electronic security",
+      "digital forensics",
+      "cybercrime",
+      "network forensics",
+      "mobile forensics",
+      "evidence",
+      "incident response",
+      "privacy"
+    ],
+    "officialUrl": "https://www.inderscience.com/jhome.php?jcode=ijesdf",
+    "authorGuidelinesUrl": "https://www.inderscience.com/mobile/inauthors/index.php?pid=70",
+    "submissionUrl": "https://www.indersciencesubmissions.com/",
+    "issn": [
+      "1751-911X",
+      "1751-9128"
+    ],
+    "accessModel": "gold",
+    "apc": {
+      "amount": 1700,
+      "currency": "EUR",
+      "label": "Open-access APC",
+      "mandatory": true,
+      "conditions": "The journal is listed as open-access-only with a 2026 APC; taxes and eligible waivers may apply.",
+      "sourceUrl": "https://www.inderscience.com/mobile/inauthors/index.php?pid=75",
+      "verifiedAt": "2026-08-26"
+    },
+    "submissionFee": {
+      "amount": 0,
+      "currency": null,
+      "label": "No submission fee",
+      "mandatory": false,
+      "conditions": "No submission fee is stated on the official page.",
+      "sourceUrl": "https://www.inderscience.com/mobile/inauthors/index.php?pid=75",
+      "verifiedAt": "2026-08-26"
+    },
+    "otherCharges": null,
+    "waivers": null,
+    "timeline": {
+      "firstDecisionDays": null,
+      "reviewDays": null,
+      "submissionToAcceptanceDays": null,
+      "acceptanceToPublicationDays": null,
+      "basis": "not-published",
+      "measureType": "not-published",
+      "note": "No comparable official editorial-timing statistic was found in the reviewed public material.",
+      "sourceUrl": null,
+      "verifiedAt": "2026-08-26"
+    },
+    "publicationFrequency": "6 issues per year",
+    "peerReviewModel": "Double-blind peer review",
+    "articleTypes": [
+      "Original Research Article",
+      "Review Article",
+      "Technical Report",
+      "Case Study"
+    ],
+    "indexing": [
+      "Scopus",
+      "EI Compendex",
+      "INSPEC",
+      "DBLP",
+      "EBSCO",
+      "ProQuest"
+    ],
+    "metrics": [
+      {
+        "name": "CiteScore",
+        "value": 2.5,
+        "year": 2025,
+        "sourceUrl": "https://www.inderscience.com/jhome.php?jcode=ijesdf"
+      },
+      {
+        "name": "H-index",
+        "value": 20,
+        "year": 2025,
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=1751-911X&tip=iss&clean=0"
+      },
+      {
+        "name": "Journal Impact Factor",
+        "value": 0.5,
+        "year": 2025,
+        "sourceUrl": "https://www.inderscience.com/jhome.php?jcode=ijesdf"
+      },
+      {
+        "name": "SJR",
+        "value": 0.199,
+        "year": 2025,
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=1751-911X&tip=iss&clean=0"
+      }
+    ],
+    "rankings": [
+      {
+        "framework": "SJR",
+        "rank": "Q2",
+        "category": "Law",
+        "edition": "2025",
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=1751-911X&tip=iss&clean=0"
+      },
+      {
+        "framework": "SJR",
+        "rank": "Q4",
+        "category": "Computer Science",
+        "edition": "2025",
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=1751-911X&tip=iss&clean=0"
+      }
+    ],
+    "acceptanceRate": null,
+    "dataCodePolicy": null,
+    "dataCodePolicyUrl": null,
+    "ethicsUrl": "https://www.inderscience.com/info/inauthors/author_ethical.php",
+    "status": "active",
+    "caution": null,
+    "notes": "Dated SJR values were imported from the supplied 2025 journal workbook. Publisher and registry metadata were checked on 2026-08-26; unavailable fields remain explicitly unknown.",
+    "verifiedAt": "2026-08-26"
+  },
+  {
+    "id": "journal-ijics",
+    "title": "International Journal of Information and Computer Security",
+    "acronym": "IJICS",
+    "publisher": "Inderscience Publishers",
+    "society": null,
+    "summary": "International journal covering information, computer and communications security.",
+    "scope": "Theory, design, implementation and management of secure information and computer systems.",
+    "topics": [
+      "computer security",
+      "network security",
+      "cryptography",
+      "privacy",
+      "access control",
+      "security protocols",
+      "malware",
+      "trust management"
+    ],
+    "officialUrl": "https://www.inderscience.com/jhome.php?jcode=ijics",
+    "authorGuidelinesUrl": "https://www.inderscience.com/authorguidelines/",
+    "submissionUrl": "https://www.indersciencesubmissions.com/",
+    "issn": [
+      "1744-1765",
+      "1744-1773"
+    ],
+    "accessModel": "hybrid",
+    "apc": {
+      "amount": 2200,
+      "currency": "EUR",
+      "label": "Optional open-access APC",
+      "mandatory": false,
+      "conditions": "Optional open-access charge for 2026; the standard subscription route does not require an APC.",
+      "sourceUrl": "https://www.inderscience.com/mobile/inauthors/index.php?pid=75",
+      "verifiedAt": "2026-08-26"
+    },
+    "submissionFee": {
+      "amount": 0,
+      "currency": null,
+      "label": "No submission fee",
+      "mandatory": false,
+      "conditions": "No submission fee is stated on the official page.",
+      "sourceUrl": "https://www.inderscience.com/mobile/inauthors/index.php?pid=75",
+      "verifiedAt": "2026-08-26"
+    },
+    "otherCharges": null,
+    "waivers": null,
+    "timeline": {
+      "firstDecisionDays": null,
+      "reviewDays": null,
+      "submissionToAcceptanceDays": null,
+      "acceptanceToPublicationDays": null,
+      "basis": "not-published",
+      "measureType": "not-published",
+      "note": "No comparable official editorial-timing statistic was found in the reviewed public material.",
+      "sourceUrl": null,
+      "verifiedAt": "2026-08-26"
+    },
+    "publicationFrequency": "12 issues per year",
+    "peerReviewModel": "Double-blind peer review",
+    "articleTypes": [
+      "Original Research Article",
+      "Review Article",
+      "Technical Report",
+      "Case Study"
+    ],
+    "indexing": [
+      "Scopus",
+      "EI Compendex",
+      "INSPEC",
+      "DBLP",
+      "EBSCO",
+      "ProQuest"
+    ],
+    "metrics": [
+      {
+        "name": "CiteScore",
+        "value": 1.7,
+        "year": 2025,
+        "sourceUrl": "https://www.inderscience.com/jhome.php?jcode=ijics"
+      },
+      {
+        "name": "H-index",
+        "value": 22,
+        "year": 2025,
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=1744-1765&tip=iss&clean=0"
+      },
+      {
+        "name": "Journal Impact Factor",
+        "value": 0.6,
+        "year": 2025,
+        "sourceUrl": "https://www.inderscience.com/jhome.php?jcode=ijics"
+      },
+      {
+        "name": "SJR",
+        "value": 0.207,
+        "year": 2025,
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=1744-1765&tip=iss&clean=0"
+      }
+    ],
+    "rankings": [
+      {
+        "framework": "SJR",
+        "rank": "Q3",
+        "category": "Best listed security-related subject category",
+        "edition": "2025",
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=1744-1765&tip=iss&clean=0"
+      }
+    ],
+    "acceptanceRate": null,
+    "dataCodePolicy": null,
+    "dataCodePolicyUrl": null,
+    "ethicsUrl": "https://www.inderscience.com/info/inauthors/author_ethical.php",
+    "status": "active",
+    "caution": null,
+    "notes": "Dated SJR values were imported from the supplied 2025 journal workbook. Publisher and registry metadata were checked on 2026-08-26; unavailable fields remain explicitly unknown.",
     "verifiedAt": "2026-08-26"
   },
   {
@@ -1307,6 +3171,214 @@
     "verifiedAt": "2026-08-26"
   },
   {
+    "id": "journal-ijisp",
+    "title": "International Journal of Information Security and Privacy",
+    "acronym": "IJISP",
+    "publisher": "IGI Global Scientific Publishing",
+    "society": null,
+    "summary": "Gold open-access journal spanning information-security and privacy research, policy and practice.",
+    "scope": "Technical, managerial, behavioural, legal and policy dimensions of information security and privacy.",
+    "topics": [
+      "information security",
+      "privacy",
+      "access control",
+      "security management",
+      "cyber policy",
+      "identity management",
+      "risk",
+      "trust"
+    ],
+    "officialUrl": "https://www.igi-global.com/calls-for-papers/international-journal-information-security-privacy/1096",
+    "authorGuidelinesUrl": "https://www.igi-global.com/publish/contributor-resources/before-you-write/?titleid=1096",
+    "submissionUrl": "https://www.igi-global.com/submission/submit-manuscript/",
+    "issn": [
+      "1930-1650",
+      "1930-1669"
+    ],
+    "accessModel": "gold",
+    "apc": {
+      "amount": 2850,
+      "currency": "USD",
+      "label": "Open-access APC",
+      "mandatory": true,
+      "conditions": "Current gold open-access charge; waivers or discounts depend on the publisher's eligibility rules.",
+      "sourceUrl": "https://www.igi-global.com/calls-for-papers/international-journal-information-security-privacy/1096",
+      "verifiedAt": "2026-08-26"
+    },
+    "submissionFee": null,
+    "otherCharges": null,
+    "waivers": null,
+    "timeline": {
+      "firstDecisionDays": null,
+      "reviewDays": 98,
+      "submissionToAcceptanceDays": null,
+      "acceptanceToPublicationDays": null,
+      "basis": "publisher-reported",
+      "measureType": "target",
+      "note": "The publisher describes a 12–16 week review window; 98 days is the midpoint and not a guaranteed decision time.",
+      "sourceUrl": "https://www.igi-global.com/calls-for-papers/international-journal-information-security-privacy/1096",
+      "verifiedAt": "2026-08-26"
+    },
+    "publicationFrequency": "Continuous volume publication",
+    "peerReviewModel": "Double-anonymized; normally at least three reviewers",
+    "articleTypes": [
+      "Research Article",
+      "Review Article",
+      "Case Study",
+      "Conceptual Paper"
+    ],
+    "indexing": [
+      "Scopus",
+      "Web of Science",
+      "INSPEC",
+      "DBLP",
+      "EBSCO",
+      "ProQuest"
+    ],
+    "metrics": [
+      {
+        "name": "H-index",
+        "value": 23,
+        "year": 2025,
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=1930-1650&tip=iss&clean=0"
+      },
+      {
+        "name": "SJR",
+        "value": 0.276,
+        "year": 2025,
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=1930-1650&tip=iss&clean=0"
+      }
+    ],
+    "rankings": [
+      {
+        "framework": "SJR",
+        "rank": "Q3",
+        "category": "Best listed security-related subject category",
+        "edition": "2025",
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=1930-1650&tip=iss&clean=0"
+      }
+    ],
+    "acceptanceRate": null,
+    "dataCodePolicy": null,
+    "dataCodePolicyUrl": null,
+    "ethicsUrl": "https://www.igi-global.com/publish/contributor-resources/before-you-write/?titleid=1096",
+    "status": "active",
+    "caution": null,
+    "notes": "Some older IGI templates show legacy prices and schedules. This record uses the current journal call and contributor pages.",
+    "verifiedAt": "2026-08-26"
+  },
+  {
+    "id": "journal-ijsn",
+    "title": "International Journal of Security and Networks",
+    "acronym": "IJSN",
+    "publisher": "Inderscience Publishers",
+    "society": null,
+    "summary": "International journal on security and trust in networks and distributed systems.",
+    "scope": "Security architectures, protocols, privacy and trust for wired, wireless, mobile, cloud and distributed networks.",
+    "topics": [
+      "network security",
+      "wireless security",
+      "mobile security",
+      "cloud security",
+      "IoT security",
+      "authentication",
+      "privacy",
+      "trust management"
+    ],
+    "officialUrl": "https://www.inderscience.com/jhome.php?jcode=ijsn",
+    "authorGuidelinesUrl": "https://www.inderscience.com/mobile/inauthors/index.php?pid=70",
+    "submissionUrl": "https://www.indersciencesubmissions.com/",
+    "issn": [
+      "1747-8405",
+      "1747-8413"
+    ],
+    "accessModel": "hybrid",
+    "apc": {
+      "amount": 2200,
+      "currency": "EUR",
+      "label": "Optional open-access APC",
+      "mandatory": false,
+      "conditions": "Optional open-access charge for 2026; the standard subscription route does not require an APC.",
+      "sourceUrl": "https://www.inderscience.com/mobile/inauthors/index.php?pid=75",
+      "verifiedAt": "2026-08-26"
+    },
+    "submissionFee": {
+      "amount": 0,
+      "currency": null,
+      "label": "No submission fee",
+      "mandatory": false,
+      "conditions": "No submission fee is stated on the official page.",
+      "sourceUrl": "https://www.inderscience.com/mobile/inauthors/index.php?pid=75",
+      "verifiedAt": "2026-08-26"
+    },
+    "otherCharges": null,
+    "waivers": null,
+    "timeline": {
+      "firstDecisionDays": null,
+      "reviewDays": null,
+      "submissionToAcceptanceDays": null,
+      "acceptanceToPublicationDays": null,
+      "basis": "not-published",
+      "measureType": "not-published",
+      "note": "No comparable official editorial-timing statistic was found in the reviewed public material.",
+      "sourceUrl": null,
+      "verifiedAt": "2026-08-26"
+    },
+    "publicationFrequency": "4 issues per year",
+    "peerReviewModel": "Double-blind peer review",
+    "articleTypes": [
+      "Original Research Article",
+      "Review Article",
+      "Technical Report",
+      "Case Study"
+    ],
+    "indexing": [
+      "Scopus",
+      "EI Compendex",
+      "INSPEC",
+      "DBLP",
+      "EBSCO",
+      "ProQuest"
+    ],
+    "metrics": [
+      {
+        "name": "CiteScore",
+        "value": 1.4,
+        "year": 2025,
+        "sourceUrl": "https://www.inderscience.com/jhome.php?jcode=ijsn"
+      },
+      {
+        "name": "H-index",
+        "value": 28,
+        "year": 2025,
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=1747-8405&tip=iss&clean=0"
+      },
+      {
+        "name": "SJR",
+        "value": 0.191,
+        "year": 2025,
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=1747-8405&tip=iss&clean=0"
+      }
+    ],
+    "rankings": [
+      {
+        "framework": "SJR",
+        "rank": "Q4",
+        "category": "Best listed security-related subject category",
+        "edition": "2025",
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=1747-8405&tip=iss&clean=0"
+      }
+    ],
+    "acceptanceRate": null,
+    "dataCodePolicy": null,
+    "dataCodePolicyUrl": null,
+    "ethicsUrl": "https://www.inderscience.com/info/inauthors/author_ethical.php",
+    "status": "active",
+    "caution": null,
+    "notes": "Dated SJR values were imported from the supplied 2025 journal workbook. Publisher and registry metadata were checked on 2026-08-26; unavailable fields remain explicitly unknown.",
+    "verifiedAt": "2026-08-26"
+  },
+  {
     "id": "journal-jcs",
     "title": "Journal of Computer Security",
     "acronym": "JCS",
@@ -1382,6 +3454,350 @@
     "status": "active",
     "caution": null,
     "notes": null,
+    "verifiedAt": "2026-08-26"
+  },
+  {
+    "id": "journal-jcvht",
+    "title": "Journal of Computer Virology and Hacking Techniques",
+    "acronym": "JCVHT",
+    "publisher": "Springer Nature",
+    "society": null,
+    "summary": "Specialist journal on computer virology, malware analysis and hacking techniques.",
+    "scope": "Theoretical and experimental work on viral and antiviral technologies, offensive analysis and proactive defence.",
+    "topics": [
+      "computer virology",
+      "malware analysis",
+      "reverse engineering",
+      "cryptology",
+      "steganography",
+      "intrusion detection",
+      "hardware hacking",
+      "network security"
+    ],
+    "officialUrl": "https://link.springer.com/journal/11416",
+    "authorGuidelinesUrl": "https://link.springer.com/journal/11416/submission-guidelines",
+    "submissionUrl": "https://link.springer.com/journal/11416/submission-guidelines",
+    "issn": [
+      "2263-8733",
+      "2263-8741"
+    ],
+    "formerIssns": [
+      "1772-9890",
+      "1772-9904"
+    ],
+    "accessModel": "hybrid",
+    "apc": {
+      "amount": 3490,
+      "currency": "USD",
+      "label": "Optional open-access APC",
+      "mandatory": false,
+      "conditions": "Optional open access; official alternatives are GBP 2,590 or EUR 2,890, excluding taxes. Subscription publication has no APC.",
+      "sourceUrl": "https://link.springer.com/journal/11416/how-to-publish-with-us",
+      "verifiedAt": "2026-08-26"
+    },
+    "submissionFee": null,
+    "otherCharges": null,
+    "waivers": null,
+    "timeline": {
+      "firstDecisionDays": 5,
+      "reviewDays": null,
+      "submissionToAcceptanceDays": null,
+      "acceptanceToPublicationDays": null,
+      "basis": "publisher-reported",
+      "measureType": "median",
+      "note": "Publisher-reported median to first decision; editorial screening may be included.",
+      "sourceUrl": "https://link.springer.com/journal/11416",
+      "verifiedAt": "2026-08-26"
+    },
+    "publicationFrequency": "4 issues per year",
+    "peerReviewModel": "Double-blind",
+    "articleTypes": [
+      "Full-length Theoretical or Technical Article",
+      "Short Communication",
+      "Note",
+      "Invited Survey"
+    ],
+    "indexing": [
+      "ACM Digital Library",
+      "DBLP",
+      "EI Compendex",
+      "ESCI",
+      "INSPEC",
+      "SCImago",
+      "Scopus",
+      "CLOCKSS",
+      "Portico"
+    ],
+    "metrics": [
+      {
+        "name": "H-index",
+        "value": 51,
+        "year": 2025,
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=2263-8733&tip=iss&clean=0"
+      },
+      {
+        "name": "Journal Impact Factor",
+        "value": 2.7,
+        "year": 2025,
+        "sourceUrl": "https://link.springer.com/journal/11416"
+      },
+      {
+        "name": "SJR",
+        "value": 0.636,
+        "year": 2025,
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=2263-8733&tip=iss&clean=0"
+      }
+    ],
+    "rankings": [
+      {
+        "framework": "SJR",
+        "rank": "Q2",
+        "category": "Best listed security-related subject category",
+        "edition": "2025",
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=2263-8733&tip=iss&clean=0"
+      }
+    ],
+    "acceptanceRate": null,
+    "dataCodePolicy": "The submission guidelines include research-data statements and strict dual-use disclosure requirements.",
+    "dataCodePolicyUrl": "https://link.springer.com/journal/11416/submission-guidelines",
+    "ethicsUrl": null,
+    "status": "active",
+    "caution": null,
+    "notes": "Dated SJR values were imported from the supplied 2025 journal workbook. Publisher and registry metadata were checked on 2026-08-26; unavailable fields remain explicitly unknown.",
+    "verifiedAt": "2026-08-26"
+  },
+  {
+    "id": "journal-jce",
+    "title": "Journal of Cryptographic Engineering",
+    "acronym": "JCEN",
+    "publisher": "Springer Nature",
+    "society": null,
+    "summary": "Journal on architectures, algorithms, tools, implementations and applications in cryptographic engineering.",
+    "scope": "Cryptographic hardware and embedded implementations, implementation security, physical attacks and secure applications.",
+    "topics": [
+      "public-key cryptography",
+      "secret-key cryptography",
+      "post-quantum cryptography",
+      "side-channel attacks",
+      "fault attacks",
+      "PUFs",
+      "random-number generators",
+      "embedded security"
+    ],
+    "officialUrl": "https://link.springer.com/journal/13389",
+    "authorGuidelinesUrl": "https://link.springer.com/journal/13389/submission-guidelines",
+    "submissionUrl": "https://link.springer.com/journal/13389/submission-guidelines",
+    "issn": [
+      "2190-8508",
+      "2190-8516"
+    ],
+    "accessModel": "hybrid",
+    "apc": {
+      "amount": 3490,
+      "currency": "USD",
+      "label": "Optional open-access APC",
+      "mandatory": false,
+      "conditions": "Optional open access; official alternatives are GBP 2,590 or EUR 2,890, excluding taxes. Subscription publication has no APC.",
+      "sourceUrl": "https://link.springer.com/journal/13389/how-to-publish-with-us",
+      "verifiedAt": "2026-08-26"
+    },
+    "submissionFee": null,
+    "otherCharges": null,
+    "waivers": null,
+    "timeline": {
+      "firstDecisionDays": 23,
+      "reviewDays": null,
+      "submissionToAcceptanceDays": null,
+      "acceptanceToPublicationDays": null,
+      "basis": "publisher-reported",
+      "measureType": "median",
+      "note": "Current publisher-reported median; the calculation year is not displayed.",
+      "sourceUrl": "https://link.springer.com/journal/13389",
+      "verifiedAt": "2026-08-26"
+    },
+    "publicationFrequency": "4 issues per year",
+    "peerReviewModel": "Single-blind",
+    "articleTypes": [
+      "Research Article",
+      "Review Article"
+    ],
+    "indexing": [
+      "SCIE",
+      "Scopus",
+      "SCImago",
+      "EI Compendex",
+      "INSPEC",
+      "DBLP",
+      "CLOCKSS",
+      "Portico"
+    ],
+    "metrics": [
+      {
+        "name": "H-index",
+        "value": 38,
+        "year": 2025,
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=2190-8508&tip=iss&clean=0"
+      },
+      {
+        "name": "Journal Impact Factor",
+        "value": 1.7,
+        "year": 2025,
+        "sourceUrl": "https://link.springer.com/journal/13389"
+      },
+      {
+        "name": "SJR",
+        "value": 0.383,
+        "year": 2025,
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=2190-8508&tip=iss&clean=0"
+      },
+      {
+        "name": "SJR",
+        "value": 0.351,
+        "year": 2024,
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=21100266502&tip=sid&clean=0"
+      }
+    ],
+    "rankings": [
+      {
+        "framework": "SJR",
+        "rank": "Q3",
+        "category": "Best listed security-related subject category",
+        "edition": "2025",
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=2190-8508&tip=iss&clean=0"
+      },
+      {
+        "framework": "SJR",
+        "rank": "Q3",
+        "category": "Computer Networks and Communications",
+        "edition": "2024",
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=21100266502&tip=sid&clean=0"
+      },
+      {
+        "framework": "SJR",
+        "rank": "Q3",
+        "category": "Software",
+        "edition": "2024",
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=21100266502&tip=sid&clean=0"
+      }
+    ],
+    "acceptanceRate": null,
+    "dataCodePolicy": null,
+    "dataCodePolicyUrl": null,
+    "ethicsUrl": "https://link.springer.com/journal/13389/submission-guidelines",
+    "status": "active",
+    "caution": null,
+    "notes": "Dated SJR values were imported from the supplied 2025 journal workbook. Publisher and registry metadata were checked on 2026-08-26; unavailable fields remain explicitly unknown.",
+    "verifiedAt": "2026-08-26"
+  },
+  {
+    "id": "journal-jcr",
+    "title": "Journal of Cryptologic Research",
+    "acronym": "JCR",
+    "publisher": "Science Press",
+    "society": "Chinese Association for Cryptologic Research",
+    "summary": "Chinese cryptology journal publishing theoretical and applied work in cryptography and information security.",
+    "scope": "Cryptographic theory, algorithms, protocols, cryptanalysis, trusted computing and applications of cryptology.",
+    "topics": [
+      "cryptography",
+      "cryptanalysis",
+      "security protocols",
+      "trusted computing",
+      "coding",
+      "information security",
+      "post-quantum cryptography"
+    ],
+    "officialUrl": "http://www.jcr.cacrnet.org.cn/EN/1005-0388/home.shtml",
+    "authorGuidelinesUrl": "http://www.jcr.cacrnet.org.cn/EN/column/column1.shtml",
+    "submissionUrl": "http://www.jcr.cacrnet.org.cn/EN/1005-0388/home.shtml",
+    "issn": [
+      "2095-7025"
+    ],
+    "accessModel": "diamond",
+    "apc": {
+      "amount": 0,
+      "currency": "CNY",
+      "label": "No mandatory APC",
+      "mandatory": false,
+      "conditions": "The reviewed official and DOAJ records indicate no publication fee.",
+      "sourceUrl": "https://doaj.org/toc/2095-7025",
+      "verifiedAt": "2026-08-26"
+    },
+    "submissionFee": {
+      "amount": 0,
+      "currency": null,
+      "label": "No submission fee",
+      "mandatory": false,
+      "conditions": "No submission fee is stated on the official page.",
+      "sourceUrl": "https://doaj.org/toc/2095-7025",
+      "verifiedAt": "2026-08-26"
+    },
+    "otherCharges": null,
+    "waivers": null,
+    "timeline": {
+      "firstDecisionDays": null,
+      "reviewDays": null,
+      "submissionToAcceptanceDays": null,
+      "acceptanceToPublicationDays": null,
+      "basis": "not-published",
+      "measureType": "not-published",
+      "note": "No comparable official editorial-timing statistic was found in the reviewed public material.",
+      "sourceUrl": null,
+      "verifiedAt": "2026-08-26"
+    },
+    "publicationFrequency": "6 issues per year",
+    "peerReviewModel": "Peer reviewed",
+    "articleTypes": [
+      "Research Article",
+      "Review Article"
+    ],
+    "indexing": [
+      "Scopus",
+      "DOAJ",
+      "CNKI",
+      "Crossref"
+    ],
+    "metrics": [
+      {
+        "name": "H-index",
+        "value": 20,
+        "year": 2025,
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=2095-7025&tip=iss&clean=0"
+      },
+      {
+        "name": "SJR",
+        "value": 0.169,
+        "year": 2025,
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=2095-7025&tip=iss&clean=0"
+      },
+      {
+        "name": "H-index",
+        "value": 17,
+        "year": 2024,
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=21100465974&tip=sid&clean=0"
+      },
+      {
+        "name": "SJR",
+        "value": 0.136,
+        "year": 2024,
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=21100465974&tip=sid&clean=0"
+      }
+    ],
+    "rankings": [
+      {
+        "framework": "SJR",
+        "rank": "Q4",
+        "category": "Best listed security-related subject category",
+        "edition": "2025",
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=2095-7025&tip=iss&clean=0"
+      }
+    ],
+    "acceptanceRate": null,
+    "dataCodePolicy": null,
+    "dataCodePolicyUrl": null,
+    "ethicsUrl": "http://www.jcr.cacrnet.org.cn/EN/column/column1.shtml",
+    "status": "active",
+    "caution": null,
+    "notes": "Some automated monitors report a TLS hostname problem on the official domain. The journal identity and ISSN were independently cross-checked; use the linked official domain and avoid look-alike submission sites.",
     "verifiedAt": "2026-08-26"
   },
   {
@@ -1489,6 +3905,442 @@
     "verifiedAt": "2026-08-26"
   },
   {
+    "id": "journal-jcs-china",
+    "title": "Journal of Cyber Security (信息安全学报)",
+    "acronym": "JCS-CN",
+    "publisher": "Science Press",
+    "society": "Institute of Information Engineering, Chinese Academy of Sciences",
+    "summary": "Official Chinese Academy of Sciences journal on cybersecurity and information assurance.",
+    "scope": "Chinese-language research on information-security theory, systems, cryptography, network defence and cybersecurity applications.",
+    "topics": [
+      "cybersecurity",
+      "information security",
+      "cryptography",
+      "network defence",
+      "trusted computing",
+      "privacy",
+      "malware",
+      "security engineering"
+    ],
+    "officialUrl": "https://jcs.iie.ac.cn/",
+    "authorGuidelinesUrl": "https://xuebao.iie.ac.cn/xxaqxb/ch/first_menu.aspx?parent_id=20240524145637001",
+    "submissionUrl": "https://jcs.iie.ac.cn/",
+    "issn": [
+      "2096-1146"
+    ],
+    "accessModel": "other",
+    "apc": {
+      "amount": null,
+      "currency": null,
+      "label": "Per-page publication charge",
+      "mandatory": true,
+      "conditions": "The official author information describes a per-page charge rather than a single APC.",
+      "sourceUrl": "https://xuebao.iie.ac.cn/xxaqxb/ch/first_menu.aspx?parent_id=20240524145637001",
+      "verifiedAt": "2026-08-26"
+    },
+    "submissionFee": null,
+    "otherCharges": "CNY 400 per printed page; when the first author is a CCF member, the official page states a charge of 85% of the standard amount. Confirm that this legacy page is still current.",
+    "waivers": null,
+    "timeline": {
+      "firstDecisionDays": null,
+      "reviewDays": null,
+      "submissionToAcceptanceDays": null,
+      "acceptanceToPublicationDays": null,
+      "basis": "not-published",
+      "measureType": "not-published",
+      "note": "No comparable official editorial-timing statistic was found in the reviewed public material.",
+      "sourceUrl": null,
+      "verifiedAt": "2026-08-26"
+    },
+    "publicationFrequency": "Bimonthly",
+    "peerReviewModel": "Peer reviewed",
+    "articleTypes": [
+      "Research Article",
+      "Review Article"
+    ],
+    "indexing": [
+      "Scopus",
+      "CNKI",
+      "CSCD"
+    ],
+    "metrics": [
+      {
+        "name": "H-index",
+        "value": 13,
+        "year": 2025,
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=2096-1146&tip=iss&clean=0"
+      },
+      {
+        "name": "SJR",
+        "value": 0.133,
+        "year": 2025,
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=2096-1146&tip=iss&clean=0"
+      }
+    ],
+    "rankings": [
+      {
+        "framework": "SJR",
+        "rank": "Q4",
+        "category": "Best listed security-related subject category",
+        "edition": "2025",
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=2096-1146&tip=iss&clean=0"
+      },
+      {
+        "framework": "CCF",
+        "rank": "B",
+        "category": "Recommended Chinese journals",
+        "edition": "2020 publisher announcement",
+        "sourceUrl": "https://xuebao.iie.ac.cn/xxaqxb/ch/first_menu.aspx?parent_id=20240524145637001"
+      }
+    ],
+    "acceptanceRate": null,
+    "dataCodePolicy": null,
+    "dataCodePolicyUrl": null,
+    "ethicsUrl": "https://xuebao.iie.ac.cn/xxaqxb/ch/first_menu.aspx?parent_id=20240524145637001",
+    "status": "caution",
+    "caution": "Identity caution: use only the official Institute of Information Engineering/CAS domains linked here. A separate look-alike website has reused ISSN 2096-1146 for unrelated content. The public fee and CCF-ranking statements are also old and must be reconfirmed before submission.",
+    "notes": "The new official portal is jcs.iie.ac.cn; older author information remains on xuebao.iie.ac.cn. Both are institutional CAS domains.",
+    "verifiedAt": "2026-08-26",
+    "formerTitles": [
+      "Journal of Cyber Security"
+    ]
+  },
+  {
+    "id": "journal-jcsm",
+    "title": "Journal of Cyber Security and Mobility",
+    "acronym": "JCSM",
+    "publisher": "River Publishers",
+    "society": null,
+    "summary": "Open-access journal connecting cybersecurity research with mobile, wireless and connected-system engineering.",
+    "scope": "Security, privacy, trust and resilience for mobile communications, networks, devices, services and cyber-physical environments.",
+    "topics": [
+      "mobile security",
+      "network security",
+      "IoT security",
+      "5G and 6G security",
+      "cloud security",
+      "cyber-physical systems",
+      "privacy",
+      "digital forensics"
+    ],
+    "officialUrl": "https://journals.riverpublishers.com/index.php/JCSANDM/index",
+    "authorGuidelinesUrl": "https://www.riverpublishers.com/download/journals_instructions/Guidelines%20for%20River%20Journals%20JCSandM.pdf",
+    "submissionUrl": "https://journals.riverpublishers.com/index.php/JCSANDM/about/submissions",
+    "issn": [
+      "2245-1439",
+      "2245-4578"
+    ],
+    "accessModel": "gold",
+    "apc": {
+      "amount": 1300,
+      "currency": "EUR",
+      "label": "Open-access APC",
+      "mandatory": true,
+      "conditions": "Current journal article-processing charge; taxes and publisher waivers or discounts may apply.",
+      "sourceUrl": "https://journals.riverpublishers.com/index.php/JCSANDM/charges",
+      "verifiedAt": "2026-08-26"
+    },
+    "submissionFee": null,
+    "otherCharges": null,
+    "waivers": null,
+    "timeline": {
+      "firstDecisionDays": null,
+      "reviewDays": null,
+      "submissionToAcceptanceDays": null,
+      "acceptanceToPublicationDays": null,
+      "basis": "not-published",
+      "measureType": "not-published",
+      "note": "No comparable official editorial-timing statistic was found in the reviewed public material.",
+      "sourceUrl": null,
+      "verifiedAt": "2026-08-26"
+    },
+    "publicationFrequency": "6 issues per year",
+    "peerReviewModel": "Single-blind peer review",
+    "articleTypes": [
+      "Research Article",
+      "Review Article",
+      "Case Study",
+      "Technical Note"
+    ],
+    "indexing": [
+      "Scopus",
+      "Ei Compendex",
+      "DBLP",
+      "DOAJ",
+      "Google Scholar",
+      "Crossref"
+    ],
+    "metrics": [
+      {
+        "name": "H-index",
+        "value": 21,
+        "year": 2025,
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=2245-1439&tip=iss&clean=0"
+      },
+      {
+        "name": "SJR",
+        "value": 0.305,
+        "year": 2025,
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=2245-1439&tip=iss&clean=0"
+      },
+      {
+        "name": "CiteScore",
+        "value": 2.9,
+        "year": 2024,
+        "sourceUrl": "https://journals.riverpublishers.com/index.php/JCSANDM/indexing-metrics"
+      }
+    ],
+    "rankings": [
+      {
+        "framework": "SJR",
+        "rank": "Q3",
+        "category": "Best listed security-related subject category",
+        "edition": "2025",
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=2245-1439&tip=iss&clean=0"
+      },
+      {
+        "framework": "Scopus",
+        "rank": "Q3",
+        "category": "Best listed CiteScore subject category",
+        "edition": "2024",
+        "sourceUrl": "https://journals.riverpublishers.com/index.php/JCSANDM/indexing-metrics"
+      }
+    ],
+    "acceptanceRate": null,
+    "dataCodePolicy": null,
+    "dataCodePolicyUrl": null,
+    "ethicsUrl": "https://journals.riverpublishers.com/index.php/JCSANDM/about/submissions",
+    "status": "active",
+    "caution": null,
+    "notes": "The publisher's pages differ in how they describe the review workflow, so only the common single-blind claim is retained. Verify any claimed external full-text platform directly before relying on it.",
+    "verifiedAt": "2026-08-26"
+  },
+  {
+    "id": "journal-jcsra",
+    "title": "Journal of Cyber Security and Risk Auditing",
+    "acronym": "JCSRA",
+    "publisher": "Smart Technologies Academic Press",
+    "society": null,
+    "summary": "Open-access journal on cybersecurity, governance, risk management and auditing.",
+    "scope": "Technical and organizational cybersecurity, data protection, risk auditing, compliance, governance and audit automation.",
+    "topics": [
+      "encryption",
+      "intrusion detection",
+      "malware",
+      "digital forensics",
+      "governance",
+      "risk",
+      "compliance",
+      "cloud auditing"
+    ],
+    "officialUrl": "https://www.jcsra.thestap.com/",
+    "authorGuidelinesUrl": "https://www.jcsra.thestap.com/author-guidelines",
+    "submissionUrl": "https://www.jcsra.thestap.com/author-guidelines",
+    "issn": [
+      "3079-5354"
+    ],
+    "accessModel": "gold",
+    "apc": {
+      "amount": 1650,
+      "currency": "USD",
+      "label": "Open-access APC",
+      "mandatory": true,
+      "conditions": "Charged for accepted articles after peer review; taxes are not included.",
+      "sourceUrl": "https://www.jcsra.thestap.com/article-charges",
+      "verifiedAt": "2026-08-26"
+    },
+    "submissionFee": null,
+    "otherCharges": null,
+    "waivers": null,
+    "timeline": {
+      "firstDecisionDays": null,
+      "reviewDays": 28,
+      "submissionToAcceptanceDays": null,
+      "acceptanceToPublicationDays": null,
+      "basis": "publisher-reported",
+      "measureType": "target",
+      "note": "The author guide states a four-week review target; this is not a guaranteed first-decision statistic.",
+      "sourceUrl": "https://www.jcsra.thestap.com/author-guidelines",
+      "verifiedAt": "2026-08-26"
+    },
+    "publicationFrequency": "Quarterly",
+    "peerReviewModel": "Double-blind; at least two independent external experts",
+    "articleTypes": [
+      "Original Research Article",
+      "Review Article"
+    ],
+    "indexing": [
+      "Scopus",
+      "DOAJ",
+      "SCImago",
+      "Crossref",
+      "Google Scholar",
+      "Portico"
+    ],
+    "metrics": [
+      {
+        "name": "CiteScore",
+        "value": 14.7,
+        "year": 2025,
+        "sourceUrl": "https://www.jcsra.thestap.com/article-charges"
+      },
+      {
+        "name": "H-index",
+        "value": 15,
+        "year": 2025,
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=3079-5354&tip=iss&clean=0"
+      },
+      {
+        "name": "SJR",
+        "value": 0.826,
+        "year": 2025,
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=3079-5354&tip=iss&clean=0"
+      }
+    ],
+    "rankings": [
+      {
+        "framework": "SJR",
+        "rank": "Q2",
+        "category": "Best listed security-related subject category",
+        "edition": "2025",
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=3079-5354&tip=iss&clean=0"
+      }
+    ],
+    "acceptanceRate": null,
+    "dataCodePolicy": null,
+    "dataCodePolicyUrl": null,
+    "ethicsUrl": "https://www.jcsra.thestap.com/ethics-policy",
+    "status": "active",
+    "caution": null,
+    "notes": "The current official APC conflicts with an older DOAJ no-fee record. The publisher-reported CiteScore should be rechecked directly in Scopus before submission; the independent SJR quartile remains displayed separately.",
+    "verifiedAt": "2026-08-26"
+  },
+  {
+    "id": "journal-jcst",
+    "title": "Journal of Cyber Security Technology",
+    "acronym": "JCST",
+    "publisher": "Taylor & Francis",
+    "society": null,
+    "summary": "Journal on technical cybersecurity and its interfaces with social and policy questions.",
+    "scope": "Computer, electronic, network, telecommunications and systems security, including interdisciplinary studies.",
+    "topics": [
+      "penetration testing",
+      "advanced persistent threats",
+      "malware",
+      "ransomware",
+      "cryptography",
+      "cloud security",
+      "IoT security",
+      "critical infrastructure"
+    ],
+    "officialUrl": "https://www.tandfonline.com/journals/tsec20",
+    "authorGuidelinesUrl": "https://www.tandfonline.com/action/authorSubmission?show=instructions&journalCode=tsec20",
+    "submissionUrl": "https://www.tandfonline.com/action/authorSubmission?show=instructions&journalCode=tsec20",
+    "issn": [
+      "2374-2917",
+      "2374-2925"
+    ],
+    "accessModel": "hybrid",
+    "apc": {
+      "amount": null,
+      "currency": null,
+      "label": "Optional open-access APC",
+      "mandatory": false,
+      "conditions": "Open access is optional through Open Select; the exact price is supplied by the publisher's APC Finder. Non-OA publication has no APC.",
+      "sourceUrl": "https://www.tandfonline.com/journals/tsec20/about-this-journal",
+      "verifiedAt": "2026-08-26"
+    },
+    "submissionFee": null,
+    "otherCharges": null,
+    "waivers": null,
+    "timeline": {
+      "firstDecisionDays": 3,
+      "reviewDays": 49,
+      "submissionToAcceptanceDays": null,
+      "acceptanceToPublicationDays": 13,
+      "basis": "publisher-reported",
+      "measureType": "median",
+      "note": "Publisher-reported timings; the 3-day first decision includes desk screening, while 49 days is the first post-review decision.",
+      "sourceUrl": "https://www.tandfonline.com/journals/tsec20/about-this-journal",
+      "verifiedAt": "2026-08-26"
+    },
+    "publicationFrequency": "4 issues per year",
+    "peerReviewModel": null,
+    "articleTypes": [
+      "Research Article",
+      "Review Article",
+      "Interdisciplinary Study",
+      "Thought-leadership Article"
+    ],
+    "indexing": [
+      "British Library",
+      "CLOCKSS",
+      "Crossref",
+      "EI Compendex",
+      "Google Scholar",
+      "LOCKSS",
+      "Portico",
+      "Scopus",
+      "Ulrich's"
+    ],
+    "metrics": [
+      {
+        "name": "H-index",
+        "value": 20,
+        "year": 2025,
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=2374-2917&tip=iss&clean=0"
+      },
+      {
+        "name": "SJR",
+        "value": 0.467,
+        "year": 2025,
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=2374-2917&tip=iss&clean=0"
+      },
+      {
+        "name": "CiteScore",
+        "value": 5.5,
+        "year": 2024,
+        "sourceUrl": "https://www.tandfonline.com/journals/tsec20/about-this-journal"
+      },
+      {
+        "name": "SJR",
+        "value": 0.558,
+        "year": 2024,
+        "sourceUrl": "https://www.tandfonline.com/journals/tsec20/about-this-journal"
+      },
+      {
+        "name": "SNIP",
+        "value": 1.318,
+        "year": 2024,
+        "sourceUrl": "https://www.tandfonline.com/journals/tsec20/about-this-journal"
+      }
+    ],
+    "rankings": [
+      {
+        "framework": "SJR",
+        "rank": "Q2",
+        "category": "Best listed security-related subject category",
+        "edition": "2025",
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=2374-2917&tip=iss&clean=0"
+      },
+      {
+        "framework": "Scopus",
+        "rank": "Q1",
+        "category": "Best listed CiteScore subject category",
+        "edition": "2024",
+        "sourceUrl": "https://www.tandfonline.com/journals/tsec20/about-this-journal"
+      }
+    ],
+    "acceptanceRate": "3% (publisher reported)",
+    "dataCodePolicy": null,
+    "dataCodePolicyUrl": null,
+    "ethicsUrl": "https://www.tandfonline.com/journals/tsec20/about-this-journal",
+    "status": "active",
+    "caution": null,
+    "notes": "Dated SJR values were imported from the supplied 2025 journal workbook. Publisher and registry metadata were checked on 2026-08-26; unavailable fields remain explicitly unknown.",
+    "verifiedAt": "2026-08-26"
+  },
+  {
     "id": "journal-jocyb",
     "title": "Journal of Cybersecurity",
     "acronym": "JoCyb",
@@ -1577,6 +4429,355 @@
     "verifiedAt": "2026-08-26"
   },
   {
+    "id": "journal-jcp",
+    "title": "Journal of Cybersecurity and Privacy",
+    "acronym": "JCP",
+    "publisher": "MDPI",
+    "society": null,
+    "summary": "Multidisciplinary open-access journal covering cybersecurity, privacy and digital forensics.",
+    "scope": "Information, computer and network security, cryptography, cyber-physical systems, privacy protection and digital forensics.",
+    "topics": [
+      "AI security",
+      "cloud security",
+      "IoT security",
+      "digital forensics",
+      "quantum security",
+      "network security",
+      "privacy",
+      "cryptography"
+    ],
+    "officialUrl": "https://www.mdpi.com/journal/jcp",
+    "authorGuidelinesUrl": "https://www.mdpi.com/journal/jcp/instructions",
+    "submissionUrl": "https://www.mdpi.com/journal/jcp/instructions",
+    "issn": [
+      "2624-800X"
+    ],
+    "accessModel": "gold",
+    "apc": {
+      "amount": 1200,
+      "currency": "CHF",
+      "label": "Open-access APC",
+      "mandatory": true,
+      "conditions": "Charged after acceptance; taxes may be added and IOAP or reviewer-voucher discounts may apply.",
+      "sourceUrl": "https://www.mdpi.com/journal/jcp/apc",
+      "verifiedAt": "2026-08-26"
+    },
+    "submissionFee": null,
+    "otherCharges": null,
+    "waivers": null,
+    "timeline": {
+      "firstDecisionDays": null,
+      "reviewDays": null,
+      "submissionToAcceptanceDays": null,
+      "acceptanceToPublicationDays": null,
+      "basis": "not-published",
+      "measureType": "not-published",
+      "note": "No comparable official editorial-timing statistic was found in the reviewed public material.",
+      "sourceUrl": null,
+      "verifiedAt": "2026-08-26"
+    },
+    "publicationFrequency": "Bimonthly",
+    "peerReviewModel": "Single-blind; at least two review reports",
+    "articleTypes": [
+      "Article",
+      "Review",
+      "Systematic Review",
+      "Communication",
+      "Viewpoint"
+    ],
+    "indexing": [
+      "Scopus",
+      "DOAJ",
+      "ESCI",
+      "Web of Science",
+      "DBLP",
+      "EBSCO",
+      "CLOCKSS"
+    ],
+    "metrics": [
+      {
+        "name": "CiteScore",
+        "value": 8.8,
+        "year": 2025,
+        "sourceUrl": "https://www.mdpi.com/journal/jcp"
+      },
+      {
+        "name": "H-index",
+        "value": 27,
+        "year": 2025,
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=2624-800X&tip=iss&clean=0"
+      },
+      {
+        "name": "Journal Impact Factor",
+        "value": 3.8,
+        "year": 2025,
+        "sourceUrl": "https://www.mdpi.com/journal/jcp"
+      },
+      {
+        "name": "SJR",
+        "value": 0.859,
+        "year": 2025,
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=2624-800X&tip=iss&clean=0"
+      }
+    ],
+    "rankings": [
+      {
+        "framework": "SJR",
+        "rank": "Q1",
+        "category": "Best listed security-related subject category",
+        "edition": "2025",
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=2624-800X&tip=iss&clean=0"
+      },
+      {
+        "framework": "JCR",
+        "rank": "Q2",
+        "category": "Computer Science, Information Systems",
+        "edition": "2025",
+        "sourceUrl": "https://www.mdpi.com/journal/jcp"
+      },
+      {
+        "framework": "Scopus",
+        "rank": "Q1",
+        "category": "Best listed CiteScore subject category",
+        "edition": "2025",
+        "sourceUrl": "https://www.mdpi.com/journal/jcp"
+      }
+    ],
+    "acceptanceRate": null,
+    "dataCodePolicy": "The author instructions cover publication ethics, research data and reproducibility expectations.",
+    "dataCodePolicyUrl": "https://www.mdpi.com/journal/jcp/instructions",
+    "ethicsUrl": "https://www.mdpi.com/journal/jcp/instructions",
+    "status": "active",
+    "caution": null,
+    "notes": "Dated SJR values were imported from the supplied 2025 journal workbook. Publisher and registry metadata were checked on 2026-08-26; unavailable fields remain explicitly unknown.",
+    "verifiedAt": "2026-08-26"
+  },
+  {
+    "id": "journal-jdpp",
+    "title": "Journal of Data Protection & Privacy",
+    "acronym": "JDPP",
+    "publisher": "Henry Stewart Publications",
+    "society": null,
+    "summary": "Professional and scholarly journal on data-protection law, privacy governance and operational compliance.",
+    "scope": "Applied legal, regulatory and management analysis for privacy, data protection, governance, cybersecurity and responsible data use.",
+    "topics": [
+      "data protection",
+      "privacy",
+      "GDPR",
+      "privacy operations",
+      "regulatory compliance",
+      "data governance",
+      "cybersecurity law",
+      "AI governance"
+    ],
+    "officialUrl": "https://www.henrystewartpublications.com/jdpp",
+    "authorGuidelinesUrl": "https://www.henrystewartpublications.com/jdpp/instructions",
+    "submissionUrl": "https://www.henrystewartpublications.com/jdpp/callforarticles",
+    "issn": [
+      "2398-1679",
+      "2398-1687"
+    ],
+    "accessModel": "subscription",
+    "apc": {
+      "amount": null,
+      "currency": null,
+      "label": "Journal-specific APC not published",
+      "mandatory": null,
+      "conditions": "No journal-specific publication charge is stated on the reviewed official submission page.",
+      "sourceUrl": null,
+      "verifiedAt": "2026-08-26"
+    },
+    "submissionFee": {
+      "amount": 0,
+      "currency": null,
+      "label": "No submission fee",
+      "mandatory": false,
+      "conditions": "No submission fee is stated on the official page.",
+      "sourceUrl": "https://www.henrystewartpublications.com/jdpp/instructions",
+      "verifiedAt": "2026-08-26"
+    },
+    "otherCharges": null,
+    "waivers": null,
+    "timeline": {
+      "firstDecisionDays": null,
+      "reviewDays": null,
+      "submissionToAcceptanceDays": null,
+      "acceptanceToPublicationDays": null,
+      "basis": "not-published",
+      "measureType": "not-published",
+      "note": "No comparable official editorial-timing statistic was found in the reviewed public material.",
+      "sourceUrl": null,
+      "verifiedAt": "2026-08-26"
+    },
+    "publicationFrequency": "4 issues per year",
+    "peerReviewModel": "Anonymous peer review",
+    "articleTypes": [
+      "Research Paper",
+      "Practice Paper",
+      "Case Study",
+      "Legal Analysis"
+    ],
+    "indexing": [
+      "EBSCO",
+      "ProQuest",
+      "Google Scholar"
+    ],
+    "metrics": [
+      {
+        "name": "H-index",
+        "value": 9,
+        "year": 2025,
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=2398-1679&tip=iss&clean=0"
+      },
+      {
+        "name": "SJR",
+        "value": 0.178,
+        "year": 2025,
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=2398-1679&tip=iss&clean=0"
+      }
+    ],
+    "rankings": [
+      {
+        "framework": "SJR",
+        "rank": "Q3",
+        "category": "Law",
+        "edition": "2025",
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=2398-1679&tip=iss&clean=0"
+      }
+    ],
+    "acceptanceRate": null,
+    "dataCodePolicy": null,
+    "dataCodePolicyUrl": null,
+    "ethicsUrl": "https://www.henrystewartpublications.com/jdpp/instructions",
+    "status": "active",
+    "caution": null,
+    "notes": "The title uses an ampersand and has separate print and online ISSNs; both are retained to improve discovery and deduplication.",
+    "verifiedAt": "2026-08-26",
+    "formerTitles": [
+      "Journal of Data Protection and Privacy"
+    ]
+  },
+  {
+    "id": "journal-jdmsc",
+    "title": "Journal of Discrete Mathematical Sciences and Cryptography",
+    "acronym": "JDMSC",
+    "publisher": "Taru Publications Pvt. Ltd.",
+    "society": null,
+    "summary": "Journal of discrete mathematics, cryptography and information security.",
+    "scope": "Theoretical and applied research in discrete structures, combinatorics, algebra and cryptography.",
+    "topics": [
+      "discrete mathematics",
+      "combinatorics",
+      "discrete structures",
+      "networks",
+      "applied algebra",
+      "cryptography",
+      "cryptanalysis",
+      "elliptic curves"
+    ],
+    "officialUrl": "https://tarupublications.com/journals/jdmsc",
+    "authorGuidelinesUrl": "https://tarupublications.com/journals/jdmsc/page/guidelines-for-author",
+    "submissionUrl": "https://tarupublications.com/journals/jdmsc/page/guidelines-for-author",
+    "issn": [
+      "0972-0529",
+      "2169-0065"
+    ],
+    "accessModel": "other",
+    "apc": {
+      "amount": 500,
+      "currency": "USD",
+      "label": "Optional open-access APC",
+      "mandatory": false,
+      "conditions": "The publisher describes a voluntary contribution: USD 500 for foreign authors or INR 15,000 for Indian authors, covering up to 12 printed pages; extra-page rates are not published.",
+      "sourceUrl": "https://tarupublications.com/journals/jdmsc/page/guidelines-for-author",
+      "verifiedAt": "2026-08-26"
+    },
+    "submissionFee": {
+      "amount": 0,
+      "currency": null,
+      "label": "No submission fee",
+      "mandatory": false,
+      "conditions": "No submission or review fee is stated.",
+      "sourceUrl": "https://tarupublications.com/journals/jdmsc/page/guidelines-for-author",
+      "verifiedAt": "2026-08-26"
+    },
+    "otherCharges": null,
+    "waivers": null,
+    "timeline": {
+      "firstDecisionDays": 150,
+      "reviewDays": null,
+      "submissionToAcceptanceDays": null,
+      "acceptanceToPublicationDays": null,
+      "basis": "publisher-reported",
+      "measureType": "target",
+      "note": "The official guide says editorial decisions normally take 4–6 months; 150 days is the midpoint of that stated range.",
+      "sourceUrl": "https://tarupublications.com/journals/jdmsc/page/guidelines-for-author",
+      "verifiedAt": "2026-08-26"
+    },
+    "publicationFrequency": "Monthly",
+    "peerReviewModel": "Single-blind; at least two independent anonymous expert reviewers",
+    "articleTypes": [
+      "Original Research Article",
+      "Survey Article",
+      "Dissertation Abstract",
+      "Book Review"
+    ],
+    "indexing": [
+      "Scopus",
+      "INSPEC",
+      "MathSciNet",
+      "zbMATH",
+      "Current Index to Statistics",
+      "EBSCO",
+      "ProQuest",
+      "CNKI"
+    ],
+    "metrics": [
+      {
+        "name": "CiteScore",
+        "value": 2.7,
+        "year": 2025,
+        "sourceUrl": "https://tarupublications.com/journals/jdmsc"
+      },
+      {
+        "name": "H-index",
+        "value": 35,
+        "year": 2025,
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=0972-0529&tip=iss&clean=0"
+      },
+      {
+        "name": "SJR",
+        "value": 0.308,
+        "year": 2025,
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=0972-0529&tip=iss&clean=0"
+      }
+    ],
+    "rankings": [
+      {
+        "framework": "SJR",
+        "rank": "Q3",
+        "category": "Mathematics",
+        "edition": "2025",
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=0972-0529&tip=iss&clean=0"
+      },
+      {
+        "framework": "Scopus",
+        "rank": "Q1",
+        "category": "Publisher-reported best CiteScore category",
+        "edition": "2025",
+        "sourceUrl": "https://tarupublications.com/journals/jdmsc"
+      }
+    ],
+    "acceptanceRate": null,
+    "dataCodePolicy": null,
+    "dataCodePolicyUrl": null,
+    "ethicsUrl": "https://tarupublications.com/journals/jdmsc/page/publication-ethics",
+    "status": "active",
+    "caution": null,
+    "notes": "The current publisher describes the charge as voluntary. Taylor & Francis hosts editions only through 2022 and should not be mistaken for the current publisher.",
+    "verifiedAt": "2026-08-26"
+  },
+  {
     "id": "journal-jisa",
     "title": "Journal of Information Security and Applications",
     "acronym": "JISA",
@@ -1652,6 +4853,440 @@
     "status": "active",
     "caution": null,
     "notes": null,
+    "verifiedAt": "2026-08-26"
+  },
+  {
+    "id": "journal-jissec",
+    "title": "Journal of Information Systems Security",
+    "acronym": "JISSec",
+    "publisher": "Information Institute",
+    "society": "IFIP TC 11 and AIS SIGSEC affiliates",
+    "summary": "Journal focused on information-systems security research, assurance and management.",
+    "scope": "Security of information systems across technical, organizational, behavioural, governance and risk dimensions.",
+    "topics": [
+      "information systems security",
+      "security management",
+      "risk",
+      "governance",
+      "access control",
+      "privacy",
+      "security economics",
+      "human factors"
+    ],
+    "officialUrl": "https://jissec.org/",
+    "authorGuidelinesUrl": "https://www.jissec.org/author-instructions",
+    "submissionUrl": "https://jprms.jissec.org/",
+    "issn": [
+      "1551-0123",
+      "1551-0808"
+    ],
+    "accessModel": "subscription",
+    "apc": {
+      "amount": null,
+      "currency": null,
+      "label": "Journal-specific APC not published",
+      "mandatory": null,
+      "conditions": "No current journal-specific APC is published on the reviewed official journal and submission pages.",
+      "sourceUrl": null,
+      "verifiedAt": "2026-08-26"
+    },
+    "submissionFee": null,
+    "otherCharges": null,
+    "waivers": null,
+    "timeline": {
+      "firstDecisionDays": null,
+      "reviewDays": null,
+      "submissionToAcceptanceDays": null,
+      "acceptanceToPublicationDays": null,
+      "basis": "not-published",
+      "measureType": "not-published",
+      "note": "No comparable official editorial-timing statistic was found in the reviewed public material.",
+      "sourceUrl": null,
+      "verifiedAt": "2026-08-26"
+    },
+    "publicationFrequency": "At least 2 issues per year",
+    "peerReviewModel": "Double-blind peer review",
+    "articleTypes": [
+      "Research Article",
+      "Review Article",
+      "Case Study"
+    ],
+    "indexing": [
+      "Scopus",
+      "EBSCO",
+      "ProQuest",
+      "Google Scholar"
+    ],
+    "metrics": [
+      {
+        "name": "H-index",
+        "value": 3,
+        "year": 2025,
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=1551-0123&tip=iss&clean=0"
+      },
+      {
+        "name": "SJR",
+        "value": 0.144,
+        "year": 2025,
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=1551-0123&tip=iss&clean=0"
+      },
+      {
+        "name": "H-index",
+        "value": 3,
+        "year": 2024,
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=21100821917&tip=sid&clean=0"
+      },
+      {
+        "name": "SJR",
+        "value": 0.129,
+        "year": 2024,
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=21100821917&tip=sid&clean=0"
+      }
+    ],
+    "rankings": [
+      {
+        "framework": "SJR",
+        "rank": "Q4",
+        "category": "Best listed security-related subject category",
+        "edition": "2025",
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=1551-0123&tip=iss&clean=0"
+      }
+    ],
+    "acceptanceRate": null,
+    "dataCodePolicy": null,
+    "dataCodePolicyUrl": null,
+    "ethicsUrl": "https://www.jissec.org/publication-ethics",
+    "status": "active",
+    "caution": null,
+    "notes": "No current official public APC, acceptance-rate or standardized editorial-timing statistic was found; these fields remain unknown.",
+    "verifiedAt": "2026-08-26"
+  },
+  {
+    "id": "journal-jisis",
+    "title": "Journal of Internet Services and Information Security",
+    "acronym": "JISIS",
+    "publisher": "Innovative Information Science & Technology Research Group",
+    "society": null,
+    "summary": "Open-access journal on Internet services and information security.",
+    "scope": "Secure protocols and architectures, identity, trust, privacy, networks and digital infrastructure.",
+    "topics": [
+      "security protocols",
+      "authentication",
+      "access control",
+      "identity management",
+      "privacy",
+      "trust",
+      "malware",
+      "digital forensics",
+      "cloud security",
+      "SCADA"
+    ],
+    "officialUrl": "https://jisis.org/",
+    "authorGuidelinesUrl": "https://jisis.org/submission-preparation-checklist/",
+    "submissionUrl": "https://jisis.org/submission/",
+    "issn": [
+      "2182-2069",
+      "2182-2077"
+    ],
+    "accessModel": "gold",
+    "apc": {
+      "amount": 1500,
+      "currency": "USD",
+      "label": "Open-access APC",
+      "mandatory": true,
+      "conditions": "Payable after acceptance; the current official checklist states no submission, page or colour fee.",
+      "sourceUrl": "https://jisis.org/submission-preparation-checklist/",
+      "verifiedAt": "2026-08-26"
+    },
+    "submissionFee": {
+      "amount": 0,
+      "currency": null,
+      "label": "No submission fee",
+      "mandatory": false,
+      "conditions": "No submission fee is stated on the official page.",
+      "sourceUrl": "https://jisis.org/submission-preparation-checklist/",
+      "verifiedAt": "2026-08-26"
+    },
+    "otherCharges": null,
+    "waivers": null,
+    "timeline": {
+      "firstDecisionDays": null,
+      "reviewDays": null,
+      "submissionToAcceptanceDays": null,
+      "acceptanceToPublicationDays": null,
+      "basis": "not-published",
+      "measureType": "not-published",
+      "note": "No comparable official editorial-timing statistic was found in the reviewed public material.",
+      "sourceUrl": null,
+      "verifiedAt": "2026-08-26"
+    },
+    "publicationFrequency": "Quarterly",
+    "peerReviewModel": null,
+    "articleTypes": [
+      "Regular Paper",
+      "Short Paper",
+      "Tutorial",
+      "Book Review",
+      "Survey"
+    ],
+    "indexing": [
+      "DOAJ"
+    ],
+    "metrics": [
+      {
+        "name": "H-index",
+        "value": 24,
+        "year": 2025,
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=2182-2069&tip=iss&clean=0"
+      },
+      {
+        "name": "SJR",
+        "value": 0.319,
+        "year": 2025,
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=2182-2069&tip=iss&clean=0"
+      }
+    ],
+    "rankings": [
+      {
+        "framework": "SJR",
+        "rank": "Q3",
+        "category": "Best listed security-related subject category",
+        "edition": "2025",
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=2182-2069&tip=iss&clean=0"
+      }
+    ],
+    "acceptanceRate": null,
+    "dataCodePolicy": null,
+    "dataCodePolicyUrl": null,
+    "ethicsUrl": "https://jisis.org/publishing-ethics/",
+    "status": "caution",
+    "caution": "Policy-consistency caution: current official pages conflict on single- versus double-blind review and licence wording, while older DOAJ metadata reports a lower APC. The journal also warns authors about fraudulent call-for-paper emails. Confirm the current process before submission or payment.",
+    "notes": "Dated SJR values were imported from the supplied 2025 journal workbook. Publisher and registry metadata were checked on 2026-08-26; unavailable fields remain explicitly unknown.",
+    "verifiedAt": "2026-08-26"
+  },
+  {
+    "id": "journal-jmc",
+    "title": "Journal of Mathematical Cryptology",
+    "acronym": "JMC",
+    "publisher": "De Gruyter Brill",
+    "society": null,
+    "summary": "Open-access journal for mathematical research in cryptology and information security.",
+    "scope": "Mathematical foundations and methods for cryptography, cryptanalysis, coding, protocols and related security problems.",
+    "topics": [
+      "mathematical cryptography",
+      "cryptanalysis",
+      "number theory",
+      "algebraic cryptography",
+      "coding theory",
+      "post-quantum cryptography",
+      "protocols"
+    ],
+    "officialUrl": "https://www.degruyterbrill.com/journal/key/jmc/html",
+    "authorGuidelinesUrl": "https://www.degruyter.com/publication/journal_key/JMC/downloadAsset/JMC_Instruction%20for%20Authors.pdf",
+    "submissionUrl": "https://www.degruyterbrill.com/journal/key/jmc/html#submission",
+    "issn": [
+      "1862-2976",
+      "1862-2984"
+    ],
+    "accessModel": "gold",
+    "apc": {
+      "amount": 1050,
+      "currency": "EUR",
+      "label": "Open-access APC",
+      "mandatory": true,
+      "conditions": "Current journal APC; taxes and institutional agreements may alter the payable amount.",
+      "sourceUrl": "https://www.degruyterbrill.com/publication/journal_key/JMC/downloadAsset/JMC_Article%20Processing%20Charges.pdf",
+      "verifiedAt": "2026-08-26"
+    },
+    "submissionFee": {
+      "amount": 0,
+      "currency": null,
+      "label": "No submission fee",
+      "mandatory": false,
+      "conditions": "No submission fee is stated on the official page.",
+      "sourceUrl": "https://www.degruyterbrill.com/journal/key/jmc/html",
+      "verifiedAt": "2026-08-26"
+    },
+    "otherCharges": null,
+    "waivers": null,
+    "timeline": {
+      "firstDecisionDays": null,
+      "reviewDays": null,
+      "submissionToAcceptanceDays": null,
+      "acceptanceToPublicationDays": null,
+      "basis": "not-published",
+      "measureType": "not-published",
+      "note": "No comparable official editorial-timing statistic was found in the reviewed public material.",
+      "sourceUrl": null,
+      "verifiedAt": "2026-08-26"
+    },
+    "publicationFrequency": "Continuous publication",
+    "peerReviewModel": "Single-blind; normally two referees",
+    "articleTypes": [
+      "Research Article",
+      "Review Article"
+    ],
+    "indexing": [
+      "Scopus",
+      "SCIE",
+      "MathSciNet",
+      "zbMATH",
+      "DBLP",
+      "DOAJ",
+      "SCImago"
+    ],
+    "metrics": [
+      {
+        "name": "H-index",
+        "value": 22,
+        "year": 2025,
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=1862-2976&tip=iss&clean=0"
+      },
+      {
+        "name": "SJR",
+        "value": 0.253,
+        "year": 2025,
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=1862-2976&tip=iss&clean=0"
+      },
+      {
+        "name": "CiteScore",
+        "value": 2.3,
+        "year": 2024,
+        "sourceUrl": "https://www.degruyterbrill.com/journal/key/jmc/html"
+      },
+      {
+        "name": "Journal Impact Factor",
+        "value": 0.8,
+        "year": 2024,
+        "sourceUrl": "https://www.degruyterbrill.com/journal/key/jmc/html"
+      },
+      {
+        "name": "SJR",
+        "value": 0.338,
+        "year": 2024,
+        "sourceUrl": "https://www.degruyterbrill.com/journal/key/jmc/html"
+      },
+      {
+        "name": "SNIP",
+        "value": 1.145,
+        "year": 2024,
+        "sourceUrl": "https://www.degruyterbrill.com/journal/key/jmc/html"
+      }
+    ],
+    "rankings": [
+      {
+        "framework": "SJR",
+        "rank": "Q3",
+        "category": "Best listed security-related subject category",
+        "edition": "2025",
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=1862-2976&tip=iss&clean=0"
+      }
+    ],
+    "acceptanceRate": null,
+    "dataCodePolicy": null,
+    "dataCodePolicyUrl": null,
+    "ethicsUrl": "https://www.degruyterbrill.com/publication/journal_key/JMC/downloadAsset/JMC_Publication%20Ethics.pdf",
+    "status": "active",
+    "caution": null,
+    "notes": "The journal has moved to the De Gruyter Brill platform; legacy De Gruyter links may redirect or fail.",
+    "verifiedAt": "2026-08-26"
+  },
+  {
+    "id": "journal-jpc",
+    "title": "Journal of Privacy and Confidentiality",
+    "acronym": "JPC",
+    "publisher": "Society for Privacy and Confidentiality Research",
+    "society": "Society for Privacy and Confidentiality Research",
+    "summary": "Multidisciplinary journal on confidentiality, disclosure limitation and data protection.",
+    "scope": "Statistical, computational, cryptographic, legal and social methods for confidentiality and privacy.",
+    "topics": [
+      "statistical disclosure limitation",
+      "official statistics",
+      "privacy-preserving data mining",
+      "cryptographic privacy",
+      "privacy law",
+      "health data",
+      "survey confidentiality"
+    ],
+    "officialUrl": "https://journalprivacyconfidentiality.org/index.php/jpc",
+    "authorGuidelinesUrl": "https://journalprivacyconfidentiality.org/index.php/jpc/about/submissions",
+    "submissionUrl": "https://journalprivacyconfidentiality.org/index.php/jpc/about/submissions",
+    "issn": [
+      "2575-8527"
+    ],
+    "accessModel": "gold",
+    "apc": {
+      "amount": 500,
+      "currency": "USD",
+      "label": "Open-access APC",
+      "mandatory": true,
+      "conditions": "Publication fee for each accepted manuscript, effective for submissions from 1 April 2025.",
+      "sourceUrl": "https://journalprivacyconfidentiality.org/index.php/jpc/about/submissions",
+      "verifiedAt": "2026-08-26"
+    },
+    "submissionFee": {
+      "amount": 0,
+      "currency": null,
+      "label": "No submission fee",
+      "mandatory": false,
+      "conditions": "No submission fee is stated on the official page.",
+      "sourceUrl": "https://journalprivacyconfidentiality.org/index.php/jpc/about/submissions",
+      "verifiedAt": "2026-08-26"
+    },
+    "otherCharges": null,
+    "waivers": null,
+    "timeline": {
+      "firstDecisionDays": null,
+      "reviewDays": 90,
+      "submissionToAcceptanceDays": null,
+      "acceptanceToPublicationDays": null,
+      "basis": "publisher-reported",
+      "measureType": "target",
+      "note": "Reviewer target is three months; this is not a guaranteed first decision.",
+      "sourceUrl": "https://journalprivacyconfidentiality.org/index.php/jpc/reviewer-guidelines",
+      "verifiedAt": "2026-08-26"
+    },
+    "publicationFrequency": "Target of 3 publications per year, plus possible special issues",
+    "peerReviewModel": "Single-blind; at least two expert opinions; single-review-cycle policy",
+    "articleTypes": [
+      "Article",
+      "Perspective",
+      "Conference Issue"
+    ],
+    "indexing": [
+      "DOAJ",
+      "CLOCKSS"
+    ],
+    "metrics": [
+      {
+        "name": "H-index",
+        "value": 14,
+        "year": 2025,
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=2575-8527&tip=iss&clean=0"
+      },
+      {
+        "name": "SJR",
+        "value": 0.327,
+        "year": 2025,
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=2575-8527&tip=iss&clean=0"
+      }
+    ],
+    "rankings": [
+      {
+        "framework": "SJR",
+        "rank": "Q3",
+        "category": "Best listed security-related subject category",
+        "edition": "2025",
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=2575-8527&tip=iss&clean=0"
+      }
+    ],
+    "acceptanceRate": null,
+    "dataCodePolicy": "The journal publishes a specific code and data availability policy.",
+    "dataCodePolicyUrl": "https://journalprivacyconfidentiality.org/index.php/jpc/codedataavailabilitypolicy",
+    "ethicsUrl": "https://journalprivacyconfidentiality.org/index.php/jpc/policies",
+    "status": "active",
+    "caution": null,
+    "notes": "The current official USD 500 fee and society ownership supersede older DOAJ metadata that still reports no APC and the previous publisher.",
     "verifiedAt": "2026-08-26"
   },
   {
@@ -1756,6 +5391,119 @@
       "2510-523X",
       "1687-4161"
     ]
+  },
+  {
+    "id": "journal-mjc",
+    "title": "Mesopotamian Journal of CyberSecurity",
+    "acronym": "MJCS",
+    "publisher": "Mesopotamian Academic Press",
+    "society": null,
+    "summary": "Iraqi international open-access journal on cybersecurity, information assurance and digital forensics.",
+    "scope": "Protection of digital systems, cyber defence, cryptography, privacy, AI-assisted security and offensive or defensive practice.",
+    "topics": [
+      "network security",
+      "system security",
+      "cryptography",
+      "data privacy",
+      "ethical hacking",
+      "threat intelligence",
+      "AI security",
+      "digital forensics"
+    ],
+    "officialUrl": "https://map.researchcommons.org/mjcs/",
+    "authorGuidelinesUrl": "https://map.researchcommons.org/mjcs/author_guidelines.html",
+    "submissionUrl": "https://map.researchcommons.org/mjcs/author_guidelines.html",
+    "issn": [
+      "2958-6542"
+    ],
+    "accessModel": "diamond",
+    "apc": {
+      "amount": 0,
+      "currency": "USD",
+      "label": "No mandatory APC",
+      "mandatory": false,
+      "conditions": "The current author instructions state no APC for submissions received from 1 January 2026.",
+      "sourceUrl": "https://map.researchcommons.org/mjcs/author_guidelines.html",
+      "verifiedAt": "2026-08-26"
+    },
+    "submissionFee": null,
+    "otherCharges": null,
+    "waivers": null,
+    "timeline": {
+      "firstDecisionDays": 30,
+      "reviewDays": null,
+      "submissionToAcceptanceDays": null,
+      "acceptanceToPublicationDays": 25,
+      "basis": "publisher-reported",
+      "measureType": "target",
+      "note": "Official ranges: 25–35 days to first decision and 20–30 days from acceptance to publication.",
+      "sourceUrl": "https://map.researchcommons.org/mjcs/about.html",
+      "verifiedAt": "2026-08-26"
+    },
+    "publicationFrequency": "One continuously published issue per year",
+    "peerReviewModel": "Double-blind; at least two independent experts",
+    "articleTypes": [
+      "Original Research Article",
+      "Short Communication",
+      "Review Article",
+      "Mini Review"
+    ],
+    "indexing": [
+      "Scopus coverage discontinued after January 2026",
+      "Crossref",
+      "Google Scholar",
+      "CLOCKSS",
+      "Portico"
+    ],
+    "metrics": [
+      {
+        "name": "H-index",
+        "value": 18,
+        "year": 2025,
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=2958-6542&tip=iss&clean=0"
+      },
+      {
+        "name": "SJR",
+        "value": 0.642,
+        "year": 2025,
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=2958-6542&tip=iss&clean=0"
+      },
+      {
+        "name": "CiteScore",
+        "value": 7.7,
+        "year": 2024,
+        "sourceUrl": "https://map.researchcommons.org/mjcs/about.html"
+      },
+      {
+        "name": "SJR",
+        "value": 0.758,
+        "year": 2024,
+        "sourceUrl": "https://map.researchcommons.org/mjcs/about.html"
+      },
+      {
+        "name": "SNIP",
+        "value": 1.486,
+        "year": 2024,
+        "sourceUrl": "https://map.researchcommons.org/mjcs/about.html"
+      }
+    ],
+    "rankings": [
+      {
+        "framework": "SJR",
+        "rank": "Q2",
+        "category": "Best listed security-related subject category",
+        "edition": "2025",
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=2958-6542&tip=iss&clean=0"
+      }
+    ],
+    "acceptanceRate": null,
+    "dataCodePolicy": "The author guide addresses data, code and supplementary-material availability.",
+    "dataCodePolicyUrl": "https://map.researchcommons.org/mjcs/author_guidelines.html",
+    "ethicsUrl": "https://map.researchcommons.org/mjcs/about.html",
+    "status": "caution",
+    "caution": "Indexing caution: the official site says Scopus coverage was discontinued after January 2026. The current author instructions state a zero APC, while another official page still refers to a charge. Verify eligibility and fees before submission.",
+    "notes": "Dated SJR values were imported from the supplied 2025 journal workbook. Publisher and registry metadata were checked on 2026-08-26; unavailable fields remain explicitly unknown.",
+    "verifiedAt": "2026-08-26"
   },
   {
     "id": "journal-popets",
@@ -1890,6 +5638,235 @@
     "status": "caution",
     "caution": "Critical integrity and indexing warning: Web of Science delisted the journal and Scopus/SCImago shows coverage discontinued in 2023 after extensive publication-process manipulation concerns. Verify institutional eligibility and current indexing before submission.",
     "notes": "Published within the Wiley Forward Series. Current editorial activity does not override the indexing and integrity caution.",
+    "verifiedAt": "2026-08-26"
+  },
+  {
+    "id": "journal-isecure",
+    "title": "The ISC International Journal of Information Security (ISeCure)",
+    "acronym": "ISeCure",
+    "publisher": "Iranian Society of Cryptology",
+    "society": "Iranian Society of Cryptology",
+    "summary": "Open-access journal of the Iranian Society of Cryptology on information security and cryptology.",
+    "scope": "Research on cryptography, information security, secure systems, privacy and related theoretical or applied topics.",
+    "topics": [
+      "cryptography",
+      "information security",
+      "network security",
+      "privacy",
+      "secure systems",
+      "cryptanalysis",
+      "cybersecurity"
+    ],
+    "officialUrl": "https://www.isecure-journal.com/",
+    "authorGuidelinesUrl": "https://www.isecure-journal.com/journal/authors.note",
+    "submissionUrl": "https://www.isecure-journal.com/author",
+    "issn": [
+      "2008-2045",
+      "2008-3076"
+    ],
+    "accessModel": "diamond",
+    "apc": {
+      "amount": 0,
+      "currency": "USD",
+      "label": "No mandatory APC",
+      "mandatory": false,
+      "conditions": "The journal currently states that it charges neither submission nor publication fees.",
+      "sourceUrl": "https://www.isecure-journal.com/journal/process?ethics",
+      "verifiedAt": "2026-08-26"
+    },
+    "submissionFee": {
+      "amount": 0,
+      "currency": null,
+      "label": "No submission fee",
+      "mandatory": false,
+      "conditions": "No submission fee is stated on the official page.",
+      "sourceUrl": "https://www.isecure-journal.com/journal/process?ethics",
+      "verifiedAt": "2026-08-26"
+    },
+    "otherCharges": null,
+    "waivers": null,
+    "timeline": {
+      "firstDecisionDays": 8,
+      "reviewDays": null,
+      "submissionToAcceptanceDays": null,
+      "acceptanceToPublicationDays": null,
+      "basis": "publisher-reported",
+      "measureType": "target",
+      "note": "The site reports an eight-day average to first decision; the schema stores it as a publisher target because the calculation cohort is not documented.",
+      "sourceUrl": "https://www.isecure-journal.com/",
+      "verifiedAt": "2026-08-26"
+    },
+    "publicationFrequency": "2 issues per year",
+    "peerReviewModel": "Peer-review model is described inconsistently as single- and double-blind on different official pages",
+    "articleTypes": [
+      "Research Article",
+      "Review Article"
+    ],
+    "indexing": [
+      "Scopus",
+      "ISC",
+      "Crossref",
+      "Google Scholar"
+    ],
+    "metrics": [
+      {
+        "name": "CiteScore",
+        "value": 1.1,
+        "year": 2025,
+        "sourceUrl": "https://www.isecure-journal.com/"
+      },
+      {
+        "name": "H-index",
+        "value": 8,
+        "year": 2025,
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=2008-2045&tip=iss&clean=0"
+      },
+      {
+        "name": "SJR",
+        "value": 0.186,
+        "year": 2025,
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=2008-2045&tip=iss&clean=0"
+      },
+      {
+        "name": "H-index",
+        "value": 7,
+        "year": 2024,
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=21100855241&tip=sid&clean=0"
+      },
+      {
+        "name": "SJR",
+        "value": 0.158,
+        "year": 2024,
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=21100855241&tip=sid&clean=0"
+      },
+      {
+        "name": "Journal Impact Factor",
+        "value": 0.8,
+        "year": 2023,
+        "sourceUrl": "https://www.isecure-journal.com/"
+      }
+    ],
+    "rankings": [
+      {
+        "framework": "SJR",
+        "rank": "Q4",
+        "category": "Best listed security-related subject category",
+        "edition": "2025",
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=2008-2045&tip=iss&clean=0"
+      }
+    ],
+    "acceptanceRate": "14% (journal reported; reference year not displayed)",
+    "dataCodePolicy": null,
+    "dataCodePolicyUrl": null,
+    "ethicsUrl": "https://www.isecure-journal.com/journal/process?ethics",
+    "status": "caution",
+    "caution": "Metadata-consistency caution: official pages conflict on the peer-review model, acceptance statistics and publication frequency. The site also claims DOAJ coverage, but no current DOAJ record was located. Verify indexing directly before submission.",
+    "notes": "Dated SJR values were imported from the supplied 2025 journal workbook. Publisher and registry metadata were checked on 2026-08-26; unavailable fields remain explicitly unknown.",
+    "verifiedAt": "2026-08-26",
+    "formerTitles": [
+      "ISeCure"
+    ]
+  },
+  {
+    "id": "journal-tdp",
+    "title": "Transactions on Data Privacy",
+    "acronym": "TDP",
+    "publisher": "Associacio Catalana d'Intel·ligencia Artificial",
+    "society": "Associacio Catalana d'Intel·ligencia Artificial",
+    "summary": "Diamond open-access journal on data privacy technologies, models and applications.",
+    "scope": "Algorithms, systems, regulation and applications for preserving privacy in data collection, analysis and release.",
+    "topics": [
+      "data privacy",
+      "privacy-preserving computation",
+      "statistical disclosure control",
+      "anonymization",
+      "differential privacy",
+      "cryptographic protocols",
+      "data protection"
+    ],
+    "officialUrl": "https://www.tdp.cat/?llengua=en",
+    "authorGuidelinesUrl": "https://www.tdp.cat/forAuthors.php",
+    "submissionUrl": "https://www.tdp.cat/forAuthors.php",
+    "issn": [
+      "1888-5063",
+      "2013-1631"
+    ],
+    "accessModel": "diamond",
+    "apc": {
+      "amount": 0,
+      "currency": "EUR",
+      "label": "No mandatory APC",
+      "mandatory": false,
+      "conditions": "The journal states that authors and readers are not charged.",
+      "sourceUrl": "https://www.tdp.cat/forAuthors.php",
+      "verifiedAt": "2026-08-26"
+    },
+    "submissionFee": {
+      "amount": 0,
+      "currency": null,
+      "label": "No submission fee",
+      "mandatory": false,
+      "conditions": "No submission fee is stated on the official page.",
+      "sourceUrl": "https://www.tdp.cat/forAuthors.php",
+      "verifiedAt": "2026-08-26"
+    },
+    "otherCharges": null,
+    "waivers": null,
+    "timeline": {
+      "firstDecisionDays": null,
+      "reviewDays": 105,
+      "submissionToAcceptanceDays": null,
+      "acceptanceToPublicationDays": null,
+      "basis": "publisher-reported",
+      "measureType": "target",
+      "note": "The journal targets a three-to-four-month review cycle; 105 days is the midpoint, not a guaranteed decision time.",
+      "sourceUrl": "https://www.tdp.cat/forAuthors.php",
+      "verifiedAt": "2026-08-26"
+    },
+    "publicationFrequency": "3 issues per year",
+    "peerReviewModel": "Single-blind peer review",
+    "articleTypes": [
+      "Research Article",
+      "Survey Article",
+      "Application Article"
+    ],
+    "indexing": [
+      "Scopus",
+      "DOAJ",
+      "DBLP",
+      "EBSCO",
+      "Google Scholar"
+    ],
+    "metrics": [
+      {
+        "name": "H-index",
+        "value": 31,
+        "year": 2025,
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=1888-5063&tip=iss&clean=0"
+      },
+      {
+        "name": "SJR",
+        "value": 0.227,
+        "year": 2025,
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=1888-5063&tip=iss&clean=0"
+      }
+    ],
+    "rankings": [
+      {
+        "framework": "SJR",
+        "rank": "Q4",
+        "category": "Best listed security-related subject category",
+        "edition": "2025",
+        "sourceUrl": "https://www.scimagojr.com/journalsearch.php?q=1888-5063&tip=iss&clean=0"
+      }
+    ],
+    "acceptanceRate": null,
+    "dataCodePolicy": "Authors are encouraged to provide enough methodological detail and supporting material for reproducibility.",
+    "dataCodePolicyUrl": "https://www.tdp.cat/forAuthors.php",
+    "ethicsUrl": "https://www.tdp.cat/forAuthors.php",
+    "status": "active",
+    "caution": null,
+    "notes": "Dated SJR values were imported from the supplied 2025 journal workbook. Publisher and registry metadata were checked on 2026-08-26; unavailable fields remain explicitly unknown.",
     "verifiedAt": "2026-08-26"
   }
 ]

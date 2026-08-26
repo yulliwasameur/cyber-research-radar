@@ -1,7 +1,7 @@
 export type JournalAccessModel = 'diamond' | 'gold' | 'hybrid' | 'subscription' | 'other';
 
 export interface JournalMetric {
-  name: 'Journal Impact Factor' | 'CiteScore' | 'SJR' | 'SNIP' | 'Other';
+  name: 'Journal Impact Factor' | 'CiteScore' | 'SJR' | 'SNIP' | 'H-index' | 'Other';
   value: number;
   year: number;
   sourceUrl: string;

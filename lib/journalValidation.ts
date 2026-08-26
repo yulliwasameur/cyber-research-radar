@@ -2,7 +2,7 @@ import type { Journal } from './journalTypes';
 
 const ACCESS_MODELS = new Set(['diamond', 'gold', 'hybrid', 'subscription', 'other']);
 const STATUSES = new Set(['active', 'caution']);
-const METRICS = new Set(['Journal Impact Factor', 'CiteScore', 'SJR', 'SNIP', 'Other']);
+const METRICS = new Set(['Journal Impact Factor', 'CiteScore', 'SJR', 'SNIP', 'H-index', 'Other']);
 const FRAMEWORKS = new Set(['JCR', 'SJR', 'Scopus', 'CCF']);
 const RANKS = new Set(['Q1', 'Q2', 'Q3', 'Q4', 'A', 'B', 'C', 'Indexed']);
 const TIMELINE_BASES = new Set(['publisher-reported', 'journal-reported', 'not-published']);

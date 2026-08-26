@@ -38,6 +38,14 @@ function timelineLabel(journal: Journal) {
   return `${days} days${qualifier ? ` · ${qualifier}` : ''}`;
 }
 
+function timelineSummaryLabel(journal: Journal) {
+  if (journal.timeline.firstDecisionDays != null) return timelineLabel(journal);
+  if (journal.timeline.reviewDays != null) return `${journal.timeline.reviewDays} days · review ${journal.timeline.measureType === 'target' ? 'target' : 'timing'}`;
+  if (journal.timeline.submissionToAcceptanceDays != null) return `${journal.timeline.submissionToAcceptanceDays} days · to acceptance`;
+  if (journal.timeline.acceptanceToPublicationDays != null) return `${journal.timeline.acceptanceToPublicationDays} days · acceptance to publication`;
+  return 'Not published';
+}
+
 function compareValue(journal: Journal, field: 'quartile' | 'ccf' | 'scope' | 'topics' | 'publisher' | 'access' | 'apc' | 'decision' | 'metrics') {
   if (field === 'quartile') return [...new Set(quartiles(journal).map((entry) => entry.rank))].join(' / ') || 'Not listed';
   if (field === 'ccf') return ccfRank(journal)?.rank || 'Not listed';
@@ -46,7 +54,7 @@ function compareValue(journal: Journal, field: 'quartile' | 'ccf' | 'scope' | 't
   if (field === 'publisher') return journal.publisher;
   if (field === 'access') return ACCESS_LABELS[journal.accessModel];
   if (field === 'apc') return chargeLabel(journal);
-  if (field === 'decision') return timelineLabel(journal);
+  if (field === 'decision') return timelineSummaryLabel(journal);
   return journal.metrics.map((entry) => `${entry.name}: ${entry.value} (${entry.year})`).join(' · ') || 'Not published';
 }
 
@@ -58,7 +66,7 @@ export default function JournalExplorer({ journals }: { journals: Journal[] }) {
   const [ccf, setCcf] = useState<'all' | 'A' | 'B' | 'C' | 'unranked'>('all');
   const [cost, setCost] = useState<'all' | 'no-mandatory' | '2000' | '3000' | 'unknown'>('all');
   const [decision, setDecision] = useState<'all' | '30' | '60' | '90' | 'unknown'>('all');
-  const [sortBy, setSortBy] = useState<'title' | 'decision' | 'apc' | 'jif' | 'citescore'>('title');
+  const [sortBy, setSortBy] = useState<'title' | 'decision' | 'apc' | 'jif' | 'citescore' | 'sjr' | 'hindex'>('title');
   const [activeOnly, setActiveOnly] = useState(false);
   const [selectedId, setSelectedId] = useState<string | null>(journals[0]?.id || null);
   const [comparison, setComparison] = useState<string[]>([]);
@@ -90,6 +98,8 @@ export default function JournalExplorer({ journals }: { journals: Journal[] }) {
       if (sortBy === 'apc') return (a.apc.amount ?? Number.POSITIVE_INFINITY) - (b.apc.amount ?? Number.POSITIVE_INFINITY);
       if (sortBy === 'jif') return (metric(b, 'Journal Impact Factor')?.value ?? -1) - (metric(a, 'Journal Impact Factor')?.value ?? -1);
       if (sortBy === 'citescore') return (metric(b, 'CiteScore')?.value ?? -1) - (metric(a, 'CiteScore')?.value ?? -1);
+      if (sortBy === 'sjr') return (metric(b, 'SJR')?.value ?? -1) - (metric(a, 'SJR')?.value ?? -1);
+      if (sortBy === 'hindex') return (metric(b, 'H-index')?.value ?? -1) - (metric(a, 'H-index')?.value ?? -1);
       return a.title.localeCompare(b.title);
     });
   }, [access, activeOnly, ccf, cost, decision, journals, publisher, query, rank, sortBy]);
@@ -108,7 +118,7 @@ export default function JournalExplorer({ journals }: { journals: Journal[] }) {
         <p>Compare scientific scope, publisher, access model, APC, editorial timing and dated bibliometric signals. Unknown values stay unknown until an official source publishes them.</p>
       </div>
 
-      <div className="journal-warning"><strong>Decision aid, not a universal league table.</strong><span>Scope fit comes first. Metrics keep their framework and year; response times are labelled as medians, targets or scheduled cycles because they are not directly equivalent.</span></div>
+      <div className="journal-warning"><strong>Decision aid, not a universal league table.</strong><span>The directory covers the active cybersecurity, privacy, cryptography and digital-forensics titles identified in the 2025 SJR sweep. Discontinued titles are excluded from submission targeting; identity or indexing cautions remain visible. Metrics keep their framework and year.</span></div>
 
       <div className="filter-deck journal-filters" aria-label="Journal filters">
         <label className="wide-filter"><span>Journal, topic or scope</span><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="e.g. post-quantum, forensics, privacy" /></label>
@@ -118,19 +128,19 @@ export default function JournalExplorer({ journals }: { journals: Journal[] }) {
         <label><span>CCF journal rank</span><select value={ccf} onChange={(event) => setCcf(event.target.value as typeof ccf)}><option value="all">All CCF ranks</option><option value="A">A</option><option value="B">B</option><option value="C">C</option><option value="unranked">Not listed</option></select></label>
         <label><span>Publication cost</span><select value={cost} onChange={(event) => setCost(event.target.value as typeof cost)}><option value="all">Any cost</option><option value="no-mandatory">No mandatory APC</option><option value="2000">APC up to USD 2,000</option><option value="3000">APC up to USD 3,000</option><option value="unknown">Not published</option></select></label>
         <label><span>First decision</span><select value={decision} onChange={(event) => setDecision(event.target.value as typeof decision)}><option value="all">Any timeline</option><option value="30">Within 30 days</option><option value="60">Within 60 days</option><option value="90">Within 90 days</option><option value="unknown">Not published</option></select></label>
-        <label><span>Sort</span><select value={sortBy} onChange={(event) => setSortBy(event.target.value as typeof sortBy)}><option value="title">Journal title</option><option value="decision">Fastest stated response</option><option value="apc">Lowest stated APC</option><option value="jif">Highest JIF</option><option value="citescore">Highest CiteScore</option></select></label>
+        <label><span>Sort</span><select value={sortBy} onChange={(event) => setSortBy(event.target.value as typeof sortBy)}><option value="title">Journal title</option><option value="decision">Fastest stated response</option><option value="apc">Lowest stated APC</option><option value="jif">Highest JIF</option><option value="citescore">Highest CiteScore</option><option value="sjr">Highest SJR</option><option value="hindex">Highest H-index</option></select></label>
         <label className="check-filter"><input type="checkbox" checked={activeOnly} onChange={(event) => setActiveOnly(event.target.checked)} /><span>Hide caution records</span></label>
       </div>
 
       <div className="result-bar">
-        <p role="status" aria-live="polite"><strong>{visible.length}</strong> journals · <span>{visible.filter((journal) => journal.apc.amount != null).length} with sourced APC data</span> · <span>{visible.filter((journal) => journal.timeline.firstDecisionDays != null).length} with published timing</span></p>
+        <p role="status" aria-live="polite"><strong>{visible.length}</strong> journals · <span>{visible.filter((journal) => journal.status === 'active').length} active</span> · <span>{visible.filter((journal) => journal.apc.amount != null).length} with sourced APC data</span> · <span>{visible.filter((journal) => journal.metrics.length > 0).length} with dated metrics</span> · <span>{visible.filter((journal) => Object.entries(journal.timeline).some(([key, value]) => key.endsWith('Days') && value != null)).length} with published timing</span></p>
         <button type="button" onClick={reset}>Reset filters</button>
       </div>
 
       {comparedJournals.length > 0 && (
         <div className="comparison-panel" aria-label="Journal comparison">
           <div className="comparison-head"><div><span>Target shortlist</span><strong>Compare up to three journals</strong></div><button type="button" onClick={() => setComparison([])}>Clear comparison</button></div>
-          <div className="comparison-scroll"><table className="comparison-table"><caption>Side-by-side journal targeting evidence</caption><thead><tr><th scope="col">Criterion</th>{comparedJournals.map((journal) => <th scope="col" key={journal.id}>{journal.acronym || journal.title}</th>)}</tr></thead><tbody>{(['scope', 'topics', 'publisher', 'quartile', 'ccf', 'access', 'apc', 'decision', 'metrics'] as const).map((field) => <tr key={field}><th scope="row">{field === 'apc' ? 'Publication cost' : field === 'decision' ? 'Stated response' : field === 'ccf' ? 'CCF rank' : field[0].toUpperCase() + field.slice(1)}</th>{comparedJournals.map((journal) => <td key={`${field}-${journal.id}`}>{compareValue(journal, field)}</td>)}</tr>)}</tbody></table></div>
+          <div className="comparison-scroll"><table className="comparison-table"><caption>Side-by-side journal targeting evidence</caption><thead><tr><th scope="col">Criterion</th>{comparedJournals.map((journal) => <th scope="col" key={journal.id}>{journal.acronym || journal.title}</th>)}</tr></thead><tbody>{(['scope', 'topics', 'publisher', 'quartile', 'ccf', 'access', 'apc', 'decision', 'metrics'] as const).map((field) => <tr key={field}><th scope="row">{field === 'apc' ? 'Publication cost' : field === 'decision' ? 'Stated timing' : field === 'ccf' ? 'CCF rank' : field[0].toUpperCase() + field.slice(1)}</th>{comparedJournals.map((journal) => <td key={`${field}-${journal.id}`}>{compareValue(journal, field)}</td>)}</tr>)}</tbody></table></div>
         </div>
       )}
 
@@ -141,6 +151,7 @@ export default function JournalExplorer({ journals }: { journals: Journal[] }) {
             const journalCcf = ccfRank(journal);
             const jif = metric(journal, 'Journal Impact Factor');
             const citeScore = metric(journal, 'CiteScore');
+            const sjr = metric(journal, 'SJR');
             const isCompared = comparison.includes(journal.id);
             return (
               <article className={`journal-card${activeJournal?.id === journal.id ? ' selected-journal' : ''}`} key={journal.id}>
@@ -148,7 +159,7 @@ export default function JournalExplorer({ journals }: { journals: Journal[] }) {
                 <div className="journal-title-row"><div><h3>{journal.title}</h3><p>{[journal.acronym, journal.publisher, journal.society].filter(Boolean).join(' · ')}</p></div><div className="journal-rank-stack">{journalCcf && <a href={journalCcf.sourceUrl} target="_blank" rel="noreferrer"><strong>{journalCcf.rank}</strong><small>CCF</small></a>}{journalQuartiles.length > 0 && <a href={journalQuartiles[0].sourceUrl} target="_blank" rel="noreferrer"><strong>{[...new Set(journalQuartiles.map((entry) => entry.rank))].join('/')}</strong><small>quartile</small></a>}{!journalCcf && !journalQuartiles.length && <span className="journal-unranked">N/L<small>not listed</small></span>}</div></div>
                 <p className="journal-summary">{journal.summary}</p>
                 <div className="topic-row">{journal.topics.slice(0, 4).map((topic) => <span key={topic}>{topic}</span>)}</div>
-                <div className="journal-signals"><div><small>APC / publication</small><strong>{chargeLabel(journal)}</strong></div><div><small>Stated response</small><strong>{timelineLabel(journal)}</strong></div><div><small>Dated metrics</small><strong>{jif ? `JIF ${jif.value} (${jif.year})` : citeScore ? `CiteScore ${citeScore.value} (${citeScore.year})` : 'Not published'}</strong></div></div>
+                <div className="journal-signals"><div><small>APC / publication</small><strong>{chargeLabel(journal)}</strong></div><div><small>Stated timing</small><strong>{timelineSummaryLabel(journal)}</strong></div><div><small>Dated metrics</small><strong>{jif ? `JIF ${jif.value} (${jif.year})` : citeScore ? `CiteScore ${citeScore.value} (${citeScore.year})` : sjr ? `SJR ${sjr.value} (${sjr.year})` : 'Not published'}</strong></div></div>
                 <div className="journal-card-actions"><button type="button" onClick={() => setSelectedId(journal.id)}>Full journal record</button><button type="button" className={isCompared ? 'is-compared' : ''} disabled={!isCompared && comparison.length >= 3} onClick={() => toggleCompare(journal.id)}>{isCompared ? 'Remove from comparison' : 'Compare'}</button><a href={journal.authorGuidelinesUrl || journal.officialUrl} target="_blank" rel="noreferrer">Author guide ↗</a></div>
               </article>
             );
@@ -166,6 +177,7 @@ export default function JournalExplorer({ journals }: { journals: Journal[] }) {
             <section><h4>Editorial timing</h4><dl><div><dt>Stated first response</dt><dd>{timelineLabel(activeJournal)}</dd></div><div><dt>Timing basis</dt><dd>{activeJournal.timeline.measureType === 'scheduled-cycle' ? 'Scheduled review cycle' : activeJournal.timeline.measureType === 'median' ? 'Reported median' : activeJournal.timeline.measureType === 'target' ? 'Editorial target' : 'Not published'}</dd></div><div><dt>Decision after review</dt><dd>{activeJournal.timeline.reviewDays == null ? 'Not published separately' : `${activeJournal.timeline.reviewDays} days`}</dd></div><div><dt>Submission → acceptance</dt><dd>{activeJournal.timeline.submissionToAcceptanceDays == null ? 'Not published' : `${activeJournal.timeline.submissionToAcceptanceDays} days`}</dd></div><div><dt>Acceptance → publication</dt><dd>{activeJournal.timeline.acceptanceToPublicationDays == null ? 'Not published' : `${activeJournal.timeline.acceptanceToPublicationDays} days`}</dd></div></dl><p className="evidence-note">{activeJournal.timeline.note}</p>{activeJournal.timeline.sourceUrl && <a className="source-link" href={activeJournal.timeline.sourceUrl} target="_blank" rel="noreferrer">Official timing evidence ↗</a>}</section>
             <section><h4>Editorial profile</h4><dl><div><dt>ISSN</dt><dd>{activeJournal.issn.join(' · ') || 'Not published'}</dd></div>{activeJournal.formerTitles?.length ? <div><dt>Former title</dt><dd>{activeJournal.formerTitles.join(' · ')}</dd></div> : null}{activeJournal.formerIssns?.length ? <div><dt>Former ISSN</dt><dd>{activeJournal.formerIssns.join(' · ')}</dd></div> : null}<div><dt>Frequency</dt><dd>{activeJournal.publicationFrequency || 'Not published'}</dd></div><div><dt>Peer review</dt><dd>{activeJournal.peerReviewModel || 'Not published'}</dd></div><div><dt>Article types</dt><dd>{activeJournal.articleTypes.join(', ') || 'See author guide'}</dd></div><div><dt>Indexing</dt><dd>{activeJournal.indexing.join(', ') || 'Not independently confirmed'}</dd></div><div><dt>Acceptance rate</dt><dd>{activeJournal.acceptanceRate || 'Not officially published'}</dd></div></dl></section>
             <section><h4>Policies and official links</h4><p>{activeJournal.dataCodePolicy || 'No specific data or code policy was found in the reviewed public material.'}</p><div className="journal-links"><a href={activeJournal.officialUrl} target="_blank" rel="noreferrer">Journal homepage ↗</a>{activeJournal.authorGuidelinesUrl && <a href={activeJournal.authorGuidelinesUrl} target="_blank" rel="noreferrer">Author instructions ↗</a>}{activeJournal.submissionUrl && <a href={activeJournal.submissionUrl} target="_blank" rel="noreferrer">Submission information ↗</a>}{activeJournal.dataCodePolicyUrl && <a href={activeJournal.dataCodePolicyUrl} target="_blank" rel="noreferrer">Data/code evidence ↗</a>}{activeJournal.ethicsUrl && <a href={activeJournal.ethicsUrl} target="_blank" rel="noreferrer">Ethics policy ↗</a>}</div></section>
+            {activeJournal.notes && <section><h4>Editorial notes</h4><p>{activeJournal.notes}</p></section>}
           </>}
         </aside>
       </div>

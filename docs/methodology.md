@@ -35,6 +35,8 @@ The journal directory is designed to support a targeting decision, not to name a
 - data, code, reproducibility and publication-ethics policies;
 - a caution status for discontinued, delisted or otherwise high-risk titles.
 
+The cybersecurity, privacy, cryptography and digital-forensics coverage is reconciled against a 2025 SJR sweep, then enriched from official publisher or society pages and identity registries such as ISSN/Crossref. Titles whose publication has ceased are retained in the research audit but are not offered as current submission targets. An active journal can still carry a caution when its indexing has been discontinued or when a look-alike website creates an identity risk.
+
 Publisher timeline statistics can include desk rejections and are not promises for an individual manuscript. The interface labels a response value as a reported median, an editorial target or a scheduled review cycle so these signals are not presented as equivalent. Prices can change by submission date, article type, tax status and institutional agreement. Missing values are shown as “not published”; they are never estimated.
 
 The journal CCF signals use the seventh edition of the CCF recommended international conference and journal directory, formally released on 31 March 2026. CCF ranks remain separate from JCR and SJR quartiles.
