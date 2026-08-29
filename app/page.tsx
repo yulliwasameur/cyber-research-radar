@@ -106,6 +106,8 @@ export default async function Home() {
         <nav aria-label="Primary navigation">
           <a href="#opportunities">Events</a>
           <a href="#journals">Journals</a>
+          <a href="#ai-security">AI security</a>
+          <a href="#short-contribution">Short contribution</a>
           <a href="#methodology">Method</a>
           <a href="#expertise">Scope</a>
           <a href="https://github.com/yulliwasameur/cyber-research-radar" target="_blank" rel="noreferrer">Contribute ↗</a>
@@ -155,6 +157,46 @@ export default async function Home() {
       </section>
 
       <ResearchHub opportunities={opportunities} journals={journals} />
+
+      <section className="method-section" id="ai-security">
+        <div className="method-intro">
+          <p className="eyebrow">Matched to your AI-security work</p>
+          <h2>Where to publish on AI, LLM &amp; agentic security.</h2>
+          <p>Open special issues and on-theme venues for LLM security, agentic AI, prompt injection and zero-trust for agents. Deadlines checked Aug 2026 — confirm on the official page before submitting.</p>
+          <a href="https://www.computer.org/publications/author-resources/calls-for-papers" target="_blank" rel="noreferrer">All IEEE-CS calls for papers ↗</a>
+        </div>
+        <div className="framework-list">
+          <a href="https://www.computer.org/digital-library/magazines/ic/cfp-future-systems-llm-agents" target="_blank" rel="noreferrer"><span>01</span><div><strong>IEEE Internet Computing — Future Internet Systems with LLMs &amp; Agents</strong><p>Agent security, identity &amp; authentication for tools and APIs, prompt injection, adversarial robustness. Magazine — short &amp; fast.</p></div><b>15 Sep 2026 ↗</b></a>
+          <a href="https://www.computer.org/digital-library/journals/tsc/cfp-language-models-ecosystems-design" target="_blank" rel="noreferrer"><span>02</span><div><strong>IEEE Trans. Services Computing — LLMs in Service-Oriented Ecosystems</strong><p>LLMs and agents across service ecosystems; agent-in-services and API-security angles.</p></div><b>31 Oct 2026 ↗</b></a>
+          <a href="https://www.computer.org/digital-library/magazines/sp/cfp-real-world-security-impact" target="_blank" rel="noreferrer"><span>03</span><div><strong>IEEE Security &amp; Privacy — Real-World Security: Impact Beyond the Publications</strong><p>Deployed, measurable security impact. Magazine — good for a systems and measurement framing.</p></div><b>1 Nov 2026 ↗</b></a>
+          <a href="https://www.computer.org/digital-library/journals/tq/cfp-safety-alignment-responsibility-language" target="_blank" rel="noreferrer"><span>04</span><div><strong>IEEE TDSC — Safety, Alignment &amp; Responsibility of LLMs</strong><p>Hallucination, prompt injection, jailbreaks, privacy leakage, trustworthy deployment.</p></div><b>31 Dec 2026 ↗</b></a>
+          <a href="https://www.computer.org/digital-library/magazines/cg/cfp-visualization-secure-ai-cyber-systems" target="_blank" rel="noreferrer"><span>05</span><div><strong>IEEE Computer Graphics &amp; Applications — Visualization for Secure AI &amp; Cyber Systems</strong><p>LLM security incl. prompt-injection detection and jailbreak-pattern analysis, with a visualization angle.</p></div><b>4 Jan 2027 ↗</b></a>
+          <a href="https://www.computer.org/digital-library/journals/tq/cfp-trust-privacy-security-agentic-systems" target="_blank" rel="noreferrer"><span>06</span><div><strong>IEEE TDSC — Trust, Privacy &amp; Security in Intelligent and Agentic Systems</strong><p>Tool-use isolation &amp; least-privilege, agent identity and delegated access control, RAG security, adversarial ML. Best topical fit for your zero-trust-for-agents work.</p></div><b>15 Jan 2027 ↗</b></a>
+        </div>
+        <div className="method-intro"><p>On-theme workshops &amp; conferences (short-paper tracks):</p></div>
+        <div className="framework-list">
+          <a href="https://sites.google.com/view/agent-sec-2026/" target="_blank" rel="noreferrer"><span>01</span><div><strong>AGENT-SEC 2026</strong><p>Workshop on the security of AI agents.</p></div><b>2026 ↗</b></a>
+          <a href="https://aisec.cc/" target="_blank" rel="noreferrer"><span>02</span><div><strong>ACM AISec 2026</strong><p>Flagship workshop on AI &amp; security, co-located with ACM CCS.</p></div><b>@ CCS ↗</b></a>
+          <a href="https://gaiss.info/call-for-papers" target="_blank" rel="noreferrer"><span>03</span><div><strong>IEEE GAISS 2026</strong><p>Generative AI for secure systems.</p></div><b>2026 ↗</b></a>
+          <a href="https://tps.ieee-cs.org/2026/call-for-papers/" target="_blank" rel="noreferrer"><span>04</span><div><strong>IEEE TPS 2026</strong><p>Trust, privacy and security in intelligent systems.</p></div><b>2026 ↗</b></a>
+          <a href="https://sites.google.com/view/secai2026/call-for-papers" target="_blank" rel="noreferrer"><span>05</span><div><strong>SECAI 2026</strong><p>Security &amp; AI, ESORICS-affiliated.</p></div><b>2026 ↗</b></a>
+        </div>
+      </section>
+
+      <section className="method-section" id="short-contribution">
+        <div className="method-intro">
+          <p className="eyebrow">Letters &amp; rapid short-paper venues</p>
+          <h2>Place a short contribution, fast.</h2>
+          <p>Journals that accept letters and short papers — the quickest route to a citable result, in the same short format as your IEEE Networking Letters paper. Rolling submission.</p>
+        </div>
+        <div className="framework-list">
+          <a href="https://www.comsoc.org/publications/journals/ieee-lnet/call-papers" target="_blank" rel="noreferrer"><span>01</span><div><strong>IEEE Networking Letters</strong><p>Your current venue. Network &amp; system security and ML-for-networking; up to 4 pp free route.</p></div><b>Rolling</b></a>
+          <a href="https://www.computer.org/csdl/journal/lc" target="_blank" rel="noreferrer"><span>02</span><div><strong>IEEE Letters of the Computer Society</strong><p>General computer-science letters, fast review — a home for a crisp AI-security result without a networking wrapper.</p></div><b>Rolling</b></a>
+          <a href="https://dl.acm.org/journal/ailet" target="_blank" rel="noreferrer"><span>03</span><div><strong>ACM AI-Let (AI Letters)</strong><p>New ACM rapid-publication AI letters. Open access, no charges through 2028; frame via responsible / emerging AI.</p></div><b>Rolling</b></a>
+          <a href="https://www.comsoc.org/publications/journals/ieee-communications-letters" target="_blank" rel="noreferrer"><span>04</span><div><strong>IEEE Communications Letters</strong><p>High-throughput comms letters; a fit when the security result rides on a communications or ML-for-comms mechanism.</p></div><b>Rolling</b></a>
+          <a href="https://cis.ieee.org/publications/ieee-computational-intelligence-letters" target="_blank" rel="noreferrer"><span>05</span><div><strong>IEEE Computational Intelligence Letters</strong><p>Short CI/ML venue — best when the core is a learning or optimisation method with a security application.</p></div><b>Rolling</b></a>
+        </div>
+      </section>
 
       <section className="method-section" id="methodology">
         <div className="method-intro">
