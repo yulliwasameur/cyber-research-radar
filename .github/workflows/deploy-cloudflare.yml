@@ -6,8 +6,8 @@ name: Deploy to Cloudflare Workers
 # "AI security" and "Short contribution" tabs.
 #
 # One-time setup (repo Settings -> Secrets and variables -> Actions):
-#   - CLOUDFLARE_API_TOKEN   (a token with the "Edit Cloudflare Workers" template)
-#   - CLOUDFLARE_ACCOUNT_ID  (your Cloudflare account ID)
+#   - CLOUDFLARE_API_TOKEN   (required; token with the "Edit Cloudflare Workers" template)
+#   - CLOUDFLARE_ACCOUNT_ID  (optional; only needed if the token can see several accounts)
 # Until CLOUDFLARE_API_TOKEN is set, the job still runs and verifies the
 # build, but skips the deploy with a warning instead of failing.
 
@@ -54,7 +54,9 @@ jobs:
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: |
           if [ -z "$CLOUDFLARE_API_TOKEN" ]; then
-            echo "::warning::CLOUDFLARE_API_TOKEN is not set — build verified, deploy skipped. Add CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID under Settings -> Secrets and variables -> Actions, then re-run this workflow."
+            echo "::warning::CLOUDFLARE_API_TOKEN is not set — build verified, deploy skipped. Add the CLOUDFLARE_API_TOKEN secret under Settings -> Secrets and variables -> Actions, then re-run this workflow."
             exit 0
           fi
+          # Account ID is optional: wrangler auto-detects it for a single-account token.
+          [ -z "$CLOUDFLARE_ACCOUNT_ID" ] && unset CLOUDFLARE_ACCOUNT_ID
           pnpm exec wrangler deploy --config dist/server/wrangler.json
