@@ -1,0 +1,98 @@
+name: Publish to GitHub Pages
+
+# Builds the vinext / React Server Components app, prerenders the single route
+# to a static snapshot (the full RSC hydration payload is inlined, so the page
+# renders and stays interactive without a server), and publishes it to GitHub
+# Pages. No credentials or secrets required — it uses the built-in token.
+#
+# Result: https://<owner>.github.io/<repo>/  (auto-updates on every push to main).
+# Pages is enabled automatically on the first run (configure-pages enablement).
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+env:
+  # A project Pages site is served under /<repo>/, so the static assets must be
+  # built with that base path. vite.config.ts reads PAGES_BASE.
+  PAGES_BASE: /${{ github.event.repository.name }}/
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v4
+
+      - name: Set up pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 11.19.0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Build the static bundle
+        run: pnpm build
+
+      - name: Prerender the page to a static snapshot
+        run: |
+          pnpm exec vinext start --port 8799 &
+          server_pid=$!
+          # Wait until the production server answers.
+          ready=""
+          for _ in $(seq 1 40); do
+            if curl -fsS -o /dev/null "http://127.0.0.1:8799/"; then ready=1; echo "server ready"; break; fi
+            sleep 1
+          done
+          if [ -z "$ready" ]; then echo "server did not start"; cat /dev/null; kill "$server_pid" 2>/dev/null || true; exit 1; fi
+          mkdir -p _site
+          cp -a dist/client/. _site/
+          curl -fsS "http://127.0.0.1:8799/" -o _site/index.html
+          kill "$server_pid" 2>/dev/null || true
+          # Serve the same app for unknown paths (SPA-style fallback).
+          cp _site/index.html _site/404.html
+          # Sanity check: the new tabs must be present in the snapshot.
+          if grep -q 'short-contribution' _site/index.html; then
+            echo "Snapshot OK — tabs present ($(wc -c < _site/index.html) bytes)."
+          else
+            echo "Prerender failed: tabs missing from snapshot."; exit 1
+          fi
+
+      - name: Configure GitHub Pages (auto-enable)
+        uses: actions/configure-pages@v5
+        with:
+          enablement: true
+
+      - name: Upload the Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
