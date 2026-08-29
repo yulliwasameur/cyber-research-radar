@@ -1,0 +1,52 @@
+{
+  "format": "cyberresearch-radar-import-snapshot-v1",
+  "createdAt": "2026-08-29T10:00:00Z",
+  "source": "Three IEEE Publication Recommender legacy XLS exports supplied by Yulliwas Ameur",
+  "assets": {
+    "data/recommender_events.json": {
+      "parts": [
+        "recommender_events.json.xz.b64"
+      ],
+      "bytes": 428096,
+      "sha256": "35daec205c059c3e23138072c020ff3693f907f5c46b21701f41294eb65e190c",
+      "compressedBytes": 29920,
+      "encoding": "base64+lzma"
+    },
+    "data/recommender_journals.json": {
+      "parts": [
+        "recommender_journals.json.xz.b64"
+      ],
+      "bytes": 478595,
+      "sha256": "4af5397960f7436d0c2616e02fabbdec07ce0def2d036b7b2c768c08e9a71be4",
+      "compressedBytes": 11940,
+      "encoding": "base64+lzma"
+    },
+    "data/recommender_event_candidates.csv": {
+      "parts": [
+        "recommender_event_candidates.csv.xz.b64"
+      ],
+      "bytes": 293861,
+      "sha256": "3553d4a41dc7d22bf19317777ad84fdd80ef6f4e67c21a1100ee3b648e619558",
+      "compressedBytes": 50736,
+      "encoding": "base64+lzma"
+    },
+    "data/recommender_journal_candidates.csv": {
+      "parts": [
+        "recommender_journal_candidates.csv.xz.b64"
+      ],
+      "bytes": 68347,
+      "sha256": "2012aaeadaf04112704815caa94ddd3f78b6896de55abb6980f27088d392812d",
+      "compressedBytes": 7532,
+      "encoding": "base64+lzma"
+    },
+    "data/recommender_import_report.json": {
+      "parts": [
+        "recommender_import_report.json.xz.b64"
+      ],
+      "bytes": 2804,
+      "sha256": "1a02350489d5ee41120ff6a7420cd66a5353e04921c00f615c0ce477b5adcfa3",
+      "compressedBytes": 1172,
+      "encoding": "base64+lzma"
+    }
+  }
+}
