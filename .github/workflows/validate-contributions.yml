@@ -33,6 +33,7 @@ jobs:
       - name: Validate opportunity data
         run: |
           python scripts/refresh_opportunities.py --offline
+          python scripts/refresh_publication_recommender.py --offline
           python scripts/refresh_journals.py --offline
 
       - name: Type-check
