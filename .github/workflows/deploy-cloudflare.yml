@@ -1,0 +1,60 @@
+name: Deploy to Cloudflare Workers
+
+# Rebuilds the vinext / React Server Components app and deploys it to
+# Cloudflare Workers on every push to main (and on the weekly data refresh),
+# so the live portal always reflects the repository — including the
+# "AI security" and "Short contribution" tabs.
+#
+# One-time setup (repo Settings -> Secrets and variables -> Actions):
+#   - CLOUDFLARE_API_TOKEN   (a token with the "Edit Cloudflare Workers" template)
+#   - CLOUDFLARE_ACCOUNT_ID  (your Cloudflare account ID)
+# Until CLOUDFLARE_API_TOKEN is set, the job still runs and verifies the
+# build, but skips the deploy with a warning instead of failing.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: cloudflare-deploy-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v4
+
+      - name: Set up pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 11.19.0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Build the Cloudflare Worker bundle
+        run: pnpm build
+
+      - name: Deploy to Cloudflare Workers
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          if [ -z "$CLOUDFLARE_API_TOKEN" ]; then
+            echo "::warning::CLOUDFLARE_API_TOKEN is not set — build verified, deploy skipped. Add CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID under Settings -> Secrets and variables -> Actions, then re-run this workflow."
+            exit 0
+          fi
+          pnpm exec wrangler deploy --config dist/server/wrangler.json
