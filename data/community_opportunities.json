@@ -1,0 +1,45 @@
+[
+  {
+    "id": "calm-27",
+    "title": "4th International Workshop on Causality, Agents and Large Models",
+    "acronym": "CALM-27",
+    "type": "workshop",
+    "summary": "International workshop at ANT 2027 on causal reasoning, agentic AI, explainable AI, large language models and adaptive multi-agent systems, with attention to transparency, accountability and human-agent collaboration.",
+    "topics": [
+      "agentic AI",
+      "large language models",
+      "causal reasoning",
+      "explainable AI",
+      "multi-agent systems",
+      "responsible AI",
+      "human-agent collaboration"
+    ],
+    "deadline": "2026-11-27T23:59:59-12:00",
+    "deadlineLabel": "Paper submission deadline",
+    "deadlineTimezone": "AoE (UTC-12)",
+    "eventStart": "2027-04-13",
+    "eventEnd": "2027-04-15",
+    "city": "Delft",
+    "country": "Netherlands",
+    "countryCode": "NL",
+    "continent": "Europe",
+    "latitude": 52.0116,
+    "longitude": 4.3571,
+    "mode": "onsite",
+    "officialUrl": "https://www.ciad-lab.fr/calm-27/",
+    "cfpUrl": "https://www.ciad-lab.fr/calm-27/",
+    "evidenceUrl": "https://www.ciad-lab.fr/calm-27/",
+    "rankings": [],
+    "indexedIn": [
+      "Elsevier Procedia Computer Science",
+      "Scopus",
+      "Conference Proceedings Citation Index",
+      "Engineering Village / EI Compendex",
+      "DBLP"
+    ],
+    "status": "verified",
+    "verifiedAt": "2026-08-31",
+    "featured": true,
+    "notes": "Six pages maximum including figures, tables and references, using the Elsevier Procedia Computer Science template. Review by 2–3 programme-committee members. Notification: 10 January 2027; camera-ready: 20 January 2027. Accepted papers are scheduled for oral presentation and at least one author must register and attend. EasyChair submission: https://easychair.org/conferences/?conf=calm27. CALM-27 does not inherit any ranking assigned to the host ANT conference."
+  }
+]

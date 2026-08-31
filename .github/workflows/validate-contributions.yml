@@ -34,6 +34,7 @@ jobs:
         run: |
           python scripts/refresh_opportunities.py --offline
           python scripts/refresh_publication_recommender.py --offline
+          python scripts/refresh_community_opportunities.py --offline
           python scripts/refresh_journals.py --offline
 
       - name: Type-check

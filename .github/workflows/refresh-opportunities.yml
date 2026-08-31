@@ -32,6 +32,7 @@ jobs:
         run: |
           python scripts/refresh_opportunities.py
           python scripts/refresh_publication_recommender.py
+          python scripts/refresh_community_opportunities.py
           python scripts/refresh_journals.py
 
       - name: Commit the Monday refresh
